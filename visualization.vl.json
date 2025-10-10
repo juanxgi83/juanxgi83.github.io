@@ -4,9 +4,9 @@
     "url": "https://raw.githubusercontent.com/juanxgi83/juanxgi83.github.io/refs/heads/main/series-091025.csv"
   },
   "mark": "line",
-  "title":{
-    "text":"UK Output per hour worked",
-    "subtitle":"Index 2022 = 100 - Source: ONS"
+  "title": {
+    "text": "UK Output per hour worked",
+    "subtitle": "Index 2022 = 100 - Source: ONS"
   },
   "encoding": {
     "x": {"field": "date", "type": "temporal"},
