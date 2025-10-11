@@ -4,7 +4,7 @@ title: My Portfolio
 ---
 
 <!-- Link to your stylesheet -->
-<link rel="stylesheet" href="{{ '/assets/example3.css' | relative_url }}">
+<link rel="stylesheet" type="text/css" href="Example3.css">
 
 <!-- Vega + Vega-Lite + Vega-Embed scripts -->
 <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
@@ -99,3 +99,4 @@ title: My Portfolio
   vegaEmbed('#Location4', figure_4_spec);
   vegaEmbed('#Location5', figure_5_spec);
 </script>
+
