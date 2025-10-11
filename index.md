@@ -22,9 +22,8 @@ title: My Portfolio
 </h1>
 
 <p style="margin-top: 0px; color: darkblue">
-  <a href="{{ '/assets/JXGI-CV-09-2025.pdf' | relative_url }}">CV</a> |
-  <a href="https://www.linkedin.com/in/juan-xavier-gomez-illingworth">LinkedIn</a> |
-  <a href="https://github.com/YOUR_GITHUB">GitHub</a>
+  <a href="JXGI CV 09-2025.pdf">CV</a> | <a href="https://www.linkedin.com/in/juan-xavier-gomez-illingworth">LinkedIn</a> | <a
+            href="https://www.github.com/juanxgi83">GitHub</a>
 </p>
 
 <h3 class="small">
@@ -99,4 +98,5 @@ title: My Portfolio
   vegaEmbed('#Location4', figure_4_spec);
   vegaEmbed('#Location5', figure_5_spec);
 </script>
+
 
