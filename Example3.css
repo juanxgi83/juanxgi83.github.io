@@ -19,16 +19,22 @@ body { /* We can style any HTML element by using its name - here we're styling t
 
 .header {
   display: flex;
-  align-items: center;
-  justify-content: space-between; /* pushes name left, photo right */
+  align-items: center;       /* vertically align text + photo */
+  justify-content: space-between;
+  margin-bottom: 20px;       /* space below header */
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;    /* stack name above links */
 }
 
 .profile-pic {
-  width: 80px;        /* adjust size as you like */
-  height: 80px;
-  border-radius: 50%; /* makes it circular */
-  object-fit: cover;  /* ensures the image fills the circle */
-  margin-left: 20px;  /* space between name and photo */
+  width: 90px;               /* adjust size as needed */
+  height: 90px;
+  border-radius: 50%;        /* makes it circular */
+  object-fit: cover;         /* ensures image fills circle */
+  margin-left: 20px;         /* space between text and photo */
 }
 
 /* Links */
