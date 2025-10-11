@@ -1,6 +1,5 @@
 ---
 layout: default
-title: My Portfolio
 ---
 
 <!-- Link to your stylesheet -->
@@ -98,6 +97,7 @@ title: My Portfolio
   vegaEmbed('#Location4', figure_4_spec);
   vegaEmbed('#Location5', figure_5_spec);
 </script>
+
 
 
 
