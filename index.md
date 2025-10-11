@@ -86,11 +86,11 @@ title: My Portfolio
 </section>
 
 <script>
-  let figure_1_spec = "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/2/s2_chart2.json";
+  let figure_1_spec = "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/2/s2_chart2.json"; 
   let figure_2_spec = "https://raw.githubusercontent.com/EconomicsObservatory/datavis/refs/heads/main/newsletters/2025-06-06-fixing-britain-how-can-left-behind-regions-catch-up/visualisation/fig2_local-authority-pay.json";
-  let figure_3_spec = "{{ '/assets/fig1_reciprocal-tariffs.json' | relative_url }}";
-  let figure_4_spec = "{{ '/assets/visualization.vl.json' | relative_url }}";
-  let figure_5_spec = "{{ '/assets/visualization-1.vl.json' | relative_url }}";
+  let figure_3_spec = "fig1_reciprocal-tariffs.json";
+  let figure_4_spec = "visualization.vl.json";
+  let figure_5_spec = "visualization.vl (1).json";
 
   vegaEmbed('#Location1', figure_1_spec);
   vegaEmbed('#Location2', figure_2_spec);
@@ -98,5 +98,6 @@ title: My Portfolio
   vegaEmbed('#Location4', figure_4_spec);
   vegaEmbed('#Location5', figure_5_spec);
 </script>
+
 
 
