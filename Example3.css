@@ -17,6 +17,17 @@ body { /* We can style any HTML element by using its name - here we're styling t
   padding-top: 60px;
 }
 
+/* Links */
+/* We want the links to be a little more visible  and a different color */
+a {
+  color: #065f46;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 nav {
   background-color: #333;
   padding: 10px;
@@ -72,17 +83,6 @@ p {
 
 section {
   margin-bottom: 2.5em;  /* We want a little more space between sections */
-}
-
-/* Links */
-/* We want the links to be a little more visible  and a different color */
-a {
-  color: #065f46;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
 }
   
 /* Images */
