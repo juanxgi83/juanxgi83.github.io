@@ -17,6 +17,20 @@ body { /* We can style any HTML element by using its name - here we're styling t
   padding-top: 60px;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* pushes name left, photo right */
+}
+
+.profile-pic {
+  width: 80px;        /* adjust size as you like */
+  height: 80px;
+  border-radius: 50%; /* makes it circular */
+  object-fit: cover;  /* ensures the image fills the circle */
+  margin-left: 20px;  /* space between name and photo */
+}
+
 /* Links */
 /* We want the links to be a little more visible  and a different color */
 a {
