@@ -1,0 +1,16 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/juanxgi83/juanxgi83.github.io/refs/heads/main/series-091025.csv"
+  },
+  "mark": "line",
+  "title": {
+    "text": "UK Output per hour worked",
+    "subtitle": "Index 2022 = 100 - Source: ONS"
+  },
+  "encoding": {
+    "x": {"field": "date", "type": "temporal"},
+    "y": {"field": "value", "type": "quantitative"}
+  },
+  "config": {}
+}
