@@ -4,3 +4,5 @@ theme: minimal
 plugins:
   - jekyll-feed # RSS
   - jekyll-seo-tag # metadata SEO
+  - jekyll-remote-theme
+remote_theme: pages-themes/cayman@v0.2.0
