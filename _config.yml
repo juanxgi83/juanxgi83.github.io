@@ -1,6 +1,6 @@
 title: Juan Xavier Gomez Illingworth
 description: Demo Pages
-theme: minimal
+theme: minima
 plugins:
   - jekyll-feed # RSS
   - jekyll-seo-tag # metadata SEO
