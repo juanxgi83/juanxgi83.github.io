@@ -53,7 +53,6 @@ nav {
   padding: 10px;
   position: sticky;  /* key property */
   top: 0;            /* stick when it reaches the top */
-  width: 100%;   /* span full width */
   z-index: 1000;     /* keep it above other content */
 }
 
