@@ -219,17 +219,17 @@ h3 {
 
 .small {
   font-style: italic;
-  font-size: 1.25em;
+  font-size: 0.50em;
   color: #333;
-  text-align: center;
+  text-align: right;
   margin-bottom: 4px;
 }
 
 h4 {
   font-style: italic;
-  font-size: 1.25em;
+  font-size: 0.50em;
   color: #333;
-  text-align: center;
+  text-align: right;
   margin-top: 4px;
   margin-bottom: 24px;
   font-weight: 600;
