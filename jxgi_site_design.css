@@ -135,6 +135,49 @@ nav ul li ul.dropdown li ul.dropdown {
   left: 100%; /* fly out to the right */
 }
 
+nav ul li ul.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%; 
+  left: 0;
+  background-color: #333;   /* darkest gray for first level */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  min-width: 180px;
+  border-radius: 4px;
+}
+
+nav ul li ul.dropdown li a {
+  display: block;
+  padding: 10px;
+  color: white;
+  font-weight: normal;
+}
+
+nav ul li ul.dropdown li a:hover {
+  background-color: #444;
+}
+
+/* Show dropdown on hover */
+nav ul li:hover > ul.dropdown {
+  display: block;
+}
+
+/* Second-level submenu (lighter gray) */
+nav ul li ul.dropdown li ul.dropdown {
+  top: 0;
+  left: 100%;
+  background-color: #555;   /* lighter than #333 */
+}
+
+/* Third-level submenu (even lighter gray) */
+nav ul li ul.dropdown li ul.dropdown li ul.dropdown {
+  top: 0;
+  left: 100%;
+  background-color: #777;   /* lighter still */
+}
+
 @media (max-width: 600px) {
   nav ul {
     flex-direction: column;
