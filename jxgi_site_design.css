@@ -220,6 +220,9 @@ h3 {
 .small {
   font-size: 1.25em;
   color: #333;
+  margin-left: 10px;
+  margin-right: 10px;
+  align: center;
 }
 
 /* Paragraph */
