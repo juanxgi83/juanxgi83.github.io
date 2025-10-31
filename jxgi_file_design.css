@@ -1,0 +1,139 @@
+/* Global Styles */
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #2c3e50;
+  line-height: 1.7;
+  background-color: #f9fafb;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 80px 20px 40px 20px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #1e3a8a;
+}
+
+.header-text p {
+  margin: 5px 0 0;
+  color: #374151;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #1e3a8a;
+}
+
+/* Navigation */
+nav {
+  background-color: #1e3a8a;
+  padding: 12px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-radius: 6px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 25px;
+}
+
+nav ul li a {
+  color: #f9fafb;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s, background-color 0.2s;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+nav ul li a:hover {
+  background-color: #2563eb;
+  color: #fff;
+}
+
+/* Headings */
+h2 {
+  font-size: 1.8em;
+  color: #111827;
+}
+
+h3.small {
+  font-size: 1.2em;
+  color: #374151;
+  font-weight: 400;
+}
+
+/* Sections as Cards */
+section {
+  background: #fff;
+  padding: 20px;
+  margin: 25px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+section:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+/* Grid Layout for Charts + Descriptions */
+section {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 900px) {
+  section {
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 1em;
+  font-weight: 300;
+  color: #374151;
+}
+
+/* Links */
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
