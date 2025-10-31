@@ -204,16 +204,16 @@ h1, h4, h5, h6 {
 
 h2 {
   color: #333;
-  margin-top: 12px;
+  margin-top: 8px;
   margin-bottom: 16px;
   font-weight: 600;
 }
 
 h3 {
-  font-size: 1.25em;
+  font-size: 0.75em;
   color: #A4A2A2;
   margin-top: 24px;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   font-weight: 600;
 }
 
