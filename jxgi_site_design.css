@@ -80,17 +80,6 @@ nav ul li {
   margin-right: 20px;
 }
 
-@media (max-width: 600px) {
-  nav ul {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  nav ul li {
-    margin: 10px 0;
-  }
-}
-
 nav ul li a {
   color: white;
   padding: 8px 12px;
@@ -101,6 +90,60 @@ nav ul li a {
 
 nav ul li a:hover {
   text-decoration: underline;
+}
+
+nav ul li {
+  position: relative;
+}
+
+nav ul li ul.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%; /* below parent */
+  left: 0;
+  background-color: #333;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  min-width: 180px;
+  border-radius: 4px;
+}
+
+nav ul li ul.dropdown li {
+  width: 100%;
+}
+
+nav ul li ul.dropdown li a {
+  display: block;
+  padding: 10px;
+  color: white;
+  font-weight: normal;
+}
+
+nav ul li ul.dropdown li a:hover {
+  background-color: #444;
+}
+
+/* Show dropdown on hover */
+nav ul li:hover > ul.dropdown {
+  display: block;
+}
+
+/* Style for deeper submenus */
+nav ul li ul.dropdown li ul.dropdown {
+  top: 0;
+  left: 100%; /* fly out to the right */
+}
+
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
 }
 
 /* Headings */
