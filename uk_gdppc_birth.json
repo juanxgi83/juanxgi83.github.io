@@ -1,0 +1,91 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "title": {
+    "text": "United Kingdom — Fertility rate and GDP per capita",
+    "subtitle": "Source: World Bank (indicator data)"
+  },
+  "layer": [
+    {
+      "mark": {"type": "line", "tooltip": true},
+      "data": {
+        "url": "https://api.worldbank.org/v2/country/GBR/indicator/SP.DYN.TFRT.IN?format=json&per_page=1000",
+        "format": {"property": "[1]"}
+      },
+      "transform": [
+        {"calculate": "'Fertility rate (births per woman)'", "as": "series"}
+      ],
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal",
+          "timeUnit": "year",
+          "title": "",
+          "axis": {"grid": false}
+        },
+        "y": {
+          "field": "value",
+          "type": "quantitative",
+          "title": "Fertility rate (births per woman)",
+          "axis": {"titleAngle": 270, "orient": "left"}
+        },
+        "color": {
+          "field": "series",
+          "type": "nominal",
+          "title": "Legend",
+          "legend": {"orient": "bottom"}
+        },
+        "tooltip": [
+          {
+            "field": "date",
+            "type": "temporal",
+            "timeUnit": "year",
+            "title": "Year"
+          },
+          {"field": "value", "type": "quantitative", "title": "Value"},
+          {"field": "series", "type": "nominal", "title": "Series"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "line", "tooltip": true},
+      "data": {
+        "url": "https://api.worldbank.org/v2/country/GBR/indicator/NY.GDP.PCAP.CD?format=json&per_page=1000",
+        "format": {"property": "[1]"}
+      },
+      "transform": [
+        {"calculate": "'GDP per capita (current US$)'", "as": "series"}
+      ],
+      "encoding": {
+        "x": {"field": "date", "type": "temporal", "timeUnit": "year"},
+        "y": {
+          "field": "value",
+          "type": "quantitative",
+          "title": "GDP per capita (current US$)",
+          "axis": {"titleAngle": 90, "orient": "right"}
+        },
+        "color": {
+          "field": "series",
+          "type": "nominal",
+          "title": "Legend",
+          "legend": {"orient": "bottom"}
+        },
+        "tooltip": [
+          {
+            "field": "date",
+            "type": "temporal",
+            "timeUnit": "year",
+            "title": "Year"
+          },
+          {"field": "value", "type": "quantitative", "title": "Value (US$)"},
+          {"field": "series", "type": "nominal", "title": "Series"}
+        ]
+      }
+    }
+  ],
+  "resolve": {
+    "scale": {"y": "independent"},
+    "axis": {"y": "independent"},
+    "legend": {"color": "shared"}
+  },
+  "config": {}
+}
