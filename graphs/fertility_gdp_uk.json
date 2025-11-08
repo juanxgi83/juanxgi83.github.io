@@ -44,12 +44,12 @@
     {
       "mark": {"type": "line", "tooltip": true},
       "data": {
-        "url": "https://api.worldbank.org/v2/country/GBR/indicator/NY.GDP.PCAP.CD?format=json&per_page=1000",
+        "url": "https://api.worldbank.org/v2/country/GBR/indicator/NY.GDP.PCAP.CN?source=2&format=json&per_page=1000",
         "format": {"property": "[1]"}
       },
       "transform": [
         {"calculate": "datum.value / 10000", "as": "value_scaled"},
-        {"calculate": "'GDP per capita (current US$)'", "as": "series"}
+        {"calculate": "'GDP per capita (current GBP)'", "as": "series"}
       ],
       "encoding": {
         "x": {"field": "date", "type": "temporal", "timeUnit": "year"},
