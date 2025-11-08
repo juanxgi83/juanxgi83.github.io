@@ -56,7 +56,7 @@
         "y": {
           "field": "value_scaled",
           "type": "quantitative",
-          "title": "GDP per capita (current US$)",
+          "title": "GDP per capita (current GBP)",
           "axis": {
             "titleAngle": 90,
             "orient": "right",
