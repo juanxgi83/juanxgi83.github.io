@@ -6,7 +6,7 @@
   },
   "layer": [
     {
-      "mark": {"type": "line", "tooltip": true},
+      "mark": {"type": "line", "tooltip": true, "color": "#4169E1"},
       "data": {
         "url": "https://api.worldbank.org/v2/country/GBR/indicator/SP.DYN.TFRT.IN?format=json&per_page=1000",
         "format": {"property": "[1]"}
