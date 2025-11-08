@@ -26,8 +26,7 @@
           "field": "value",
           "type": "quantitative",
           "title": "Fertility rate (births per woman)",
-          "axis": {"titleAngle": 270, "orient": "left"},
-          "scale": {"domain": [0, 6]}
+          "axis": {"titleAngle": 270, "orient": "left"}
         },
         "color": {
           "field": "series",
@@ -36,12 +35,7 @@
           "legend": {"orient": "right", "direction": "vertical", "padding": 8}
         },
         "tooltip": [
-          {
-            "field": "date",
-            "type": "temporal",
-            "timeUnit": "year",
-            "title": "Year"
-          },
+          {"field": "date", "type": "temporal", "timeUnit": "year", "title": "Year"},
           {"field": "value", "type": "quantitative", "title": "Value"},
           {"field": "series", "type": "nominal", "title": "Series"}
         ]
@@ -54,45 +48,33 @@
         "format": {"property": "[1]"}
       },
       "transform": [
+        {"calculate": "datum.value / 10000", "as": "value_scaled"},
         {"calculate": "'GDP per capita (current US$)'", "as": "series"}
       ],
       "encoding": {
         "x": {"field": "date", "type": "temporal", "timeUnit": "year"},
         "y": {
-          "field": "value",
+          "field": "value_scaled",
           "type": "quantitative",
           "title": "GDP per capita (current US$)",
-          "axis": {"titleAngle": 90, "orient": "right"},
-          "scale": {"domain": [0, 60000]}
+          "axis": {
+            "titleAngle": 90,
+            "orient": "right",
+            "labelExpr": "format(datum.value * 10000, ',')"
+          }
         },
-        "color": {
-          "field": "series",
-          "type": "nominal",
-          "title": "Legend",
-          "legend": null
-        },
+        "color": {"field": "series", "type": "nominal", "legend": null},
         "tooltip": [
-          {
-            "field": "date",
-            "type": "temporal",
-            "timeUnit": "year",
-            "title": "Year"
-          },
-          {
-            "field": "value",
-            "type": "quantitative",
-            "title": "Value (US$)",
-            "format": ",.2f"
-          },
+          {"field": "date", "type": "temporal", "timeUnit": "year", "title": "Year"},
+          {"field": "value", "type": "quantitative", "title": "Value (US$)", "format": ",.2f"},
           {"field": "series", "type": "nominal", "title": "Series"}
         ]
       }
     }
   ],
   "resolve": {
-    "scale": {"y": "independent"},
+    "scale": {"y": "shared"},
     "axis": {"y": "independent"},
     "legend": {"color": "shared"}
-  },
-  "config": {}
+  }
 }
