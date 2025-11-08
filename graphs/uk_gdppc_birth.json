@@ -63,6 +63,12 @@
           "title": "GDP per capita (current US$)",
           "axis": {"titleAngle": 90, "orient": "right"}
         },
+        "config": {
+          "legend": {
+            "orient": "bottom",
+            "layout": {"bottom": {"anchor": "middle"}}
+          }
+        },
         "color": {
           "field": "series",
           "type": "nominal",
