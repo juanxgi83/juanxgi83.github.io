@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
   "title": {
     "text": "Fertility Rate Vs. GDP per Capita in the UK",
-    "subtitle": "Source: World Bank | Series: SP.DYN.TFRT.IN & NY.GDP.PCAP.CD"
+    "subtitle": "Source: World Bank | Series: SP.DYN.TFRT.IN & NY.GDP.PCAP.CN"
   },
   "layer": [
     {
