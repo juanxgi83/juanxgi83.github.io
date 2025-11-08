@@ -44,7 +44,7 @@
     {
       "mark": {"type": "line", "tooltip": true},
       "data": {
-        "url": "https://api.worldbank.org/v2/country/GBR/indicator/NY.GDP.PCAP.CN?format=json&per_page=1000",
+        "url": "https://api.worldbank.org/v2/country/GBR/indicator/NY.GDP.PCAP.CD?format=json&per_page=1000",
         "format": {"property": "[1]"}
       },
       "transform": [
