@@ -190,7 +190,7 @@ nav ul li ul.dropdown li ul.dropdown li ul.dropdown {
 }
 
 /* Headings */
-h1, h5, h6 {
+h1, h6 {
   color: #333;
   margin-top: 24px;
   margin-bottom: 16px;
@@ -231,6 +231,15 @@ h4 {
   color: #333;
   margin-top: 4px;
   margin-bottom: 24px;
+  font-weight: normal;
+}
+
+h5 {
+  font-style: italic;
+  font-size: 0.85em;
+  color: #333;
+  margin-top: 4px;
+  margin-bottom: 16px;
   font-weight: normal;
 }
 
