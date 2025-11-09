@@ -1,0 +1,77 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "title": {
+    "text": "Unemployment Rate in the UK Vs. in Other Countries",
+    "subtitle": "Source: World Bank | Series: SL.UEM.TOTL.ZS | Click on a line to isolate"
+  },
+  "data": {
+    "url": "https://api.worldbank.org/v2/country/GBR;EU;USA;KOR/indicator/SL.UEM.TOTL.ZS?format=json&per_page=3000",
+    "format": {"property": "[1]"}
+  },
+  "transform": [
+    {
+      "calculate": "datum.country && datum.country.value ? datum.country.value : datum.country",
+      "as": "country_name"
+    },
+    {
+      "filter": "datum.value != null && datum.date != null && datum.country_name != null"
+    }
+  ],
+  "params": [
+    {
+      "name": "selector",
+      "select": {
+        "type": "point",
+        "fields": ["country_name"],
+        "on": "click",
+        "toggle": true
+      }
+    }
+  ],
+  "mark": {"type": "line", "tooltip": true},
+  "encoding": {
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "timeUnit": "year",
+      "title": "",
+      "axis": {"grid": false}
+    },
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "title": "Unemployment rate (%)",
+      "axis": {"titleAngle": 270}
+    },
+    "color": {
+      "field": "country_name",
+      "type": "nominal",
+      "title": "Country",
+      "legend": {"orient": "right", "direction": "vertical"},
+      "scale": {
+        "domain": [
+          "United Kingdom",
+          "European Union",
+          "United States",
+          "Korea, Rep."
+        ],
+        "range": ["#4169E1", "#e41a1c", "#FFA500", "#984ea3"]
+      }
+    },
+    "opacity": {
+      "condition": {"param": "selector", "empty": true, "value": 1},
+      "value": 0.15
+    },
+    "tooltip": [
+      {"field": "country_name", "type": "nominal", "title": "Country"},
+      {
+        "field": "date",
+        "type": "temporal",
+        "timeUnit": "year",
+        "title": "Year"
+      },
+      {"field": "value", "type": "quantitative", "title": "Unemployment (%)"}
+    ]
+  },
+  "config": {}
+}
