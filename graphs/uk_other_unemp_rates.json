@@ -4,6 +4,12 @@
     "text": "Unemployment Rate in the UK Vs. in Other Countries",
     "subtitle": "Source: World Bank | Series: SL.UEM.TOTL.ZS | Click on a line to isolate"
   },
+  "height": "container",
+  "width": "container",
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
   "data": {
     "url": "https://api.worldbank.org/v2/country/GBR;EU;USA;KOR/indicator/SL.UEM.TOTL.ZS?format=json&per_page=3000",
     "format": {"property": "[1]"}
