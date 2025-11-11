@@ -9,8 +9,8 @@
     "color": "#000000",
     "subtitleColor": "#000000"
   },
-  "height": "auto",
-  "width": "auto",
+  "height": "container",
+  "width": "container",
   "autosize": {
     "type": "fit",
     "contains": "padding"
