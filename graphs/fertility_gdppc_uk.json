@@ -4,12 +4,6 @@
     "text": "Fertility Rate Vs. GDP per Capita in the UK",
     "subtitle": "Source: World Bank | Series: SP.DYN.TFRT.IN & NY.GDP.PCAP.CN"
   },
-  "height": "container",
-  "width": "container",
-  "autosize": {
-    "type": "fit",
-    "contains": "padding"
-  },
   "layer": [
     {
       "mark": {"type": "line", "tooltip": true, "color": "#4169E1"},
