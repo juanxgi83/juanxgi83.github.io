@@ -234,11 +234,26 @@
         
         function openChartModal(chartSpec) {
             modal.classList.add('active');
+            
+            // Adjust chart size based on screen width
+            let chartWidth = 900;
+            let chartHeight = 600;
+            
+            if (window.innerWidth <= 600) {
+                // Mobile phones
+                chartWidth = window.innerWidth * 0.9;
+                chartHeight = window.innerHeight * 0.6;
+            } else if (window.innerWidth <= 900) {
+                // Tablets
+                chartWidth = window.innerWidth * 0.85;
+                chartHeight = window.innerHeight * 0.7;
+            }
+            
             const largeEmbedOpt = {
                 actions: true,
                 renderer: "canvas",
-                width: 900,
-                height: 600
+                width: chartWidth,
+                height: chartHeight
             };
             vegaEmbed('#modalChart', chartSpec, largeEmbedOpt);
         }
