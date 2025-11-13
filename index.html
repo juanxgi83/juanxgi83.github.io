@@ -185,13 +185,18 @@
         let figure_6_spec = "shiller_pe_ratio_chart (1).json";
         let figure_7_spec = "TFR_live_chart.json";
         
-        vegaEmbed('#Location1', figure_1_spec); 
-        vegaEmbed('#Location2', figure_2_spec);
-        vegaEmbed('#Location3', figure_3_spec);
-        vegaEmbed('#Location4', figure_4_spec);
-        vegaEmbed('#Location5', figure_5_spec);
-        vegaEmbed('#Location6', figure_6_spec);
-        vegaEmbed('#Location7', figure_7_spec);
+        // Responsive chart configuration for uniform display
+        let embedOpt = {
+            renderer: "canvas"
+        };
+        
+        vegaEmbed('#Location1', figure_1_spec, embedOpt); 
+        vegaEmbed('#Location2', figure_2_spec, embedOpt);
+        vegaEmbed('#Location3', figure_3_spec, embedOpt);
+        vegaEmbed('#Location4', figure_4_spec, embedOpt);
+        vegaEmbed('#Location5', figure_5_spec, embedOpt);
+        vegaEmbed('#Location6', figure_6_spec, embedOpt);
+        vegaEmbed('#Location7', figure_7_spec, embedOpt);
         
     </script>
 

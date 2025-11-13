@@ -262,6 +262,54 @@ section {
     flex: 1;
   }
 }
+
+/* Chart styling for uniform display */
+figure {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Vega-Lite chart containers */
+figure > div {
+  width: 100% !important;
+  max-width: 100%;
+}
+
+/* Chart canvas elements */
+figure canvas,
+figure svg {
+  max-width: 100%;
+  height: auto !important;
+}
+
+/* Responsive chart sizing */
+@media (min-width: 900px) {
+  figure {
+    max-width: 650px;  /* Standard chart width on laptop */
+  }
+}
+
+@media (max-width: 899px) {
+  figure {
+    max-width: 100%;   /* Full width on tablets */
+  }
+}
+
+@media (max-width: 600px) {
+  figure {
+    max-width: 100%;   /* Full width on mobile */
+  }
+  
+  /* Ensure charts don't overflow on mobile */
+  figure > div > div {
+    overflow-x: auto;
+  }
+}
   
 /* Images */
 img {
