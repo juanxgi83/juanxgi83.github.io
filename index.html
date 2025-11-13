@@ -253,7 +253,8 @@
                 actions: true,
                 renderer: "canvas",
                 width: chartWidth,
-                height: chartHeight
+                height: chartHeight,
+                tooltip: {offsetX: 5, offsetY: 5}
             };
             vegaEmbed('#modalChart', chartSpec, largeEmbedOpt);
         }

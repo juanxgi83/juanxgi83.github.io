@@ -321,8 +321,14 @@ figure {
   border-radius: 8px;
   max-width: 95%;
   max-height: 95%;
-  overflow: auto;
+  overflow: visible;
   position: relative;
+}
+
+/* Ensure tooltips show above modal */
+#vg-tooltip-element {
+  z-index: 10001 !important;
+  position: fixed !important;
 }
 
 .chart-modal .close-btn {
