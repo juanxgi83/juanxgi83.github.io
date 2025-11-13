@@ -175,6 +175,14 @@
     
     </div>
     
+    <!-- Modal for zoomed chart -->
+    <div id="chartModal" class="chart-modal">
+        <span class="close-btn">&times;</span>
+        <div class="chart-modal-content">
+            <div id="modalChart"></div>
+        </div>
+    </div>
+    
     <script>
 
         let figure_1_spec = "graphs/fertility_gdppc_uk.json";                                                                                                                   
@@ -186,16 +194,66 @@
         let figure_7_spec = "TFR_live_chart.json";
         
         let embedOpt = {
+            actions: false,
             renderer: "canvas"
         };
         
-        vegaEmbed('#Location1', figure_1_spec, embedOpt); 
-        vegaEmbed('#Location2', figure_2_spec, embedOpt);
-        vegaEmbed('#Location3', figure_3_spec, embedOpt);
-        vegaEmbed('#Location4', figure_4_spec, embedOpt);
-        vegaEmbed('#Location5', figure_5_spec, embedOpt);
-        vegaEmbed('#Location6', figure_6_spec, embedOpt);
-        vegaEmbed('#Location7', figure_7_spec, embedOpt);
+        // Chart zoom functionality
+        const chartSpecs = {
+            'Location1': figure_1_spec,
+            'Location2': figure_2_spec,
+            'Location3': figure_3_spec,
+            'Location4': figure_4_spec,
+            'Location5': figure_5_spec,
+            'Location6': figure_6_spec,
+            'Location7': figure_7_spec
+        };
+        
+        // Function to add zoom button to a figure
+        function addZoomButton(locationId, chartSpec) {
+            const figure = document.getElementById(locationId);
+            if (figure) {
+                const zoomBtn = document.createElement('button');
+                zoomBtn.className = 'zoom-btn';
+                zoomBtn.innerHTML = '🔍 Zoom';
+                zoomBtn.onclick = () => openChartModal(chartSpec);
+                figure.appendChild(zoomBtn);
+            }
+        }
+        
+        vegaEmbed('#Location1', figure_1_spec, embedOpt).then(() => addZoomButton('Location1', figure_1_spec)); 
+        vegaEmbed('#Location2', figure_2_spec, embedOpt).then(() => addZoomButton('Location2', figure_2_spec));
+        vegaEmbed('#Location3', figure_3_spec, embedOpt).then(() => addZoomButton('Location3', figure_3_spec));
+        vegaEmbed('#Location4', figure_4_spec, embedOpt).then(() => addZoomButton('Location4', figure_4_spec));
+        vegaEmbed('#Location5', figure_5_spec, embedOpt).then(() => addZoomButton('Location5', figure_5_spec));
+        vegaEmbed('#Location6', figure_6_spec, embedOpt).then(() => addZoomButton('Location6', figure_6_spec));
+        vegaEmbed('#Location7', figure_7_spec, embedOpt).then(() => addZoomButton('Location7', figure_7_spec));
+        
+        const modal = document.getElementById('chartModal');
+        const closeBtn = document.querySelector('.close-btn');
+        
+        function openChartModal(chartSpec) {
+            modal.classList.add('active');
+            const largeEmbedOpt = {
+                actions: true,
+                renderer: "canvas",
+                width: 900,
+                height: 600
+            };
+            vegaEmbed('#modalChart', chartSpec, largeEmbedOpt);
+        }
+        
+        closeBtn.onclick = function() {
+            modal.classList.remove('active');
+            document.getElementById('modalChart').innerHTML = '';
+        }
+        
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.classList.remove('active');
+                document.getElementById('modalChart').innerHTML = '';
+            }
+        }
         
     </script>
 
