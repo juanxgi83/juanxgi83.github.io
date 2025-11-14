@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "USA Weekly wage",
+    "text": "USA Weekly Wage",
     "anchor": "start",
     "subtitle": "Weekly real earnings | Source: FRED through ECO API",
     "fontSize": "14",
