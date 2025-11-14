@@ -331,6 +331,39 @@ figure {
   position: fixed !important;
 }
 
+/* Hover image container */
+.hover-image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.hover-image-container .hover-image {
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  border: 2px solid #333;
+  background: white;
+  padding: 5px;
+  max-width: 400px;
+}
+
+.hover-image-container:hover .hover-image {
+  display: block;
+}
+
+.hover-trigger {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  color: #065f46;
+  font-weight: 500;
+}
+
 .chart-modal .close-btn {
   position: absolute;
   top: 15px;
