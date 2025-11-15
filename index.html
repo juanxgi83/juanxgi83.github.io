@@ -107,7 +107,7 @@
                     As a first example, we're using a basic chart from our repo.
                 </p>
             </div>
-            <figure id="Location6"></figure> 
+            <figure id="Location5"></figure> 
         </section>
 
     </div>
@@ -189,7 +189,7 @@
         let figure_2_spec = "graphs/uk_other_unemp_rates.json";
         let figure_3_spec = "graphs/usa_productivity.json";
         let figure_4_spec = "graphs/usa_weekly_wages.json";
-        let figure_5_spec = "visualization.vl (1).json";
+        let figure_5_spec = "graphs/eu_co2_targets.html";
         let figure_6_spec = "shiller_pe_ratio_chart (1).json";
         let figure_7_spec = "TFR_live_chart.json";
         
@@ -221,42 +221,70 @@
             }
         }
         
-        vegaEmbed('#Location1', figure_1_spec, embedOpt).then(() => addZoomButton('Location1', figure_1_spec)); 
-        vegaEmbed('#Location2', figure_2_spec, embedOpt).then(() => addZoomButton('Location2', figure_2_spec));
-        vegaEmbed('#Location3', figure_3_spec, embedOpt).then(() => addZoomButton('Location3', figure_3_spec));
-        vegaEmbed('#Location4', figure_4_spec, embedOpt).then(() => addZoomButton('Location4', figure_4_spec));
-        vegaEmbed('#Location5', figure_5_spec, embedOpt).then(() => addZoomButton('Location5', figure_5_spec));
-        vegaEmbed('#Location6', figure_6_spec, embedOpt).then(() => addZoomButton('Location6', figure_6_spec));
-        vegaEmbed('#Location7', figure_7_spec, embedOpt).then(() => addZoomButton('Location7', figure_7_spec));
+        // Function to load chart (handles both JSON and HTML files)
+        function loadChart(locationId, chartSpec) {
+            const figure = document.getElementById(locationId);
+            if (chartSpec.endsWith('.html')) {
+                // For HTML files (like Plotly), use iframe
+                const iframe = document.createElement('iframe');
+                iframe.src = chartSpec;
+                iframe.style.width = '100%';
+                iframe.style.height = '500px';
+                iframe.style.border = 'none';
+                figure.appendChild(iframe);
+                addZoomButton(locationId, chartSpec);
+            } else {
+                // For JSON files (Vega-Lite), use vegaEmbed
+                vegaEmbed('#' + locationId, chartSpec, embedOpt).then(() => addZoomButton(locationId, chartSpec));
+            }
+        }
+        
+        loadChart('Location1', figure_1_spec);
+        loadChart('Location2', figure_2_spec);
+        loadChart('Location3', figure_3_spec);
+        loadChart('Location4', figure_4_spec);
+        loadChart('Location5', figure_5_spec);
+        loadChart('Location6', figure_6_spec);
+        loadChart('Location7', figure_7_spec);
         
         const modal = document.getElementById('chartModal');
         const closeBtn = document.querySelector('.close-btn');
         
         function openChartModal(chartSpec) {
             modal.classList.add('active');
+            const modalChart = document.getElementById('modalChart');
             
-            // Adjust chart size based on screen width
+            // Calculate responsive dimensions for both chart types
             let chartWidth = 900;
             let chartHeight = 600;
             
             if (window.innerWidth <= 600) {
-                // Mobile phones
                 chartWidth = window.innerWidth * 0.9;
                 chartHeight = window.innerHeight * 0.6;
             } else if (window.innerWidth <= 900) {
-                // Tablets
                 chartWidth = window.innerWidth * 0.85;
                 chartHeight = window.innerHeight * 0.7;
             }
             
-            const largeEmbedOpt = {
-                actions: true,
-                renderer: "canvas",
-                width: chartWidth,
-                height: chartHeight,
-                tooltip: {offsetX: 5, offsetY: 5}
-            };
-            vegaEmbed('#modalChart', chartSpec, largeEmbedOpt);
+            if (chartSpec.endsWith('.html')) {
+                // For HTML files, use iframe with responsive sizing
+                const iframe = document.createElement('iframe');
+                iframe.src = chartSpec;
+                iframe.style.width = chartWidth + 'px';
+                iframe.style.height = chartHeight + 'px';
+                iframe.style.border = 'none';
+                modalChart.appendChild(iframe);
+            } else {
+                // For JSON files, use vegaEmbed with responsive sizing
+                const largeEmbedOpt = {
+                    actions: true,
+                    renderer: "canvas",
+                    width: chartWidth,
+                    height: chartHeight,
+                    tooltip: {offsetX: 5, offsetY: 5}
+                };
+                vegaEmbed('#modalChart', chartSpec, largeEmbedOpt);
+            }
         }
         
         closeBtn.onclick = function() {
