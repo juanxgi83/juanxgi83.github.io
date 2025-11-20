@@ -2,7 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
   "title": {
     "text": "Unemployment Rate in the UK Vs. in Other Countries",
-    "subtitle": "Source: World Bank | Series: SL.UEM.TOTL.ZS | Click on a line to isolate"
+    "subtitle": "Source: World Bank | Series: SL.UEM.TOTL.ZS | Click on a line to isolate",
+    "anchor": "start"
   },
   "data": {
     "url": "https://api.worldbank.org/v2/country/GBR;EU;USA;KOR/indicator/SL.UEM.TOTL.ZS?format=json&per_page=3000",
