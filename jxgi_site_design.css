@@ -73,7 +73,6 @@ nav {
   position: sticky;  /* key property */
   top: 0;            /* stick when it reaches the top */
   z-index: 1000;     /* keep it above other content */
-  overflow: hidden;  /* Prevent items from extending beyond nav */
 }
 
 .menu-toggle {
@@ -206,9 +205,9 @@ nav ul li ul.dropdown li ul.dropdown li ul.dropdown {
     position: absolute;
     top: 100%;
     left: 0;
+    right: 0;
     background-color: #333;
     padding: 0;
-    max-width: 100%;
     box-sizing: border-box;
   }
   
@@ -219,16 +218,18 @@ nav ul li ul.dropdown li ul.dropdown li ul.dropdown {
   nav ul li {
     width: 100%;
     margin: 0;
-    max-width: 100%;
     box-sizing: border-box;
   }
   
   nav ul li a {
     display: block;
     width: 100%;
+    max-width: 100%;
     padding: 12px 20px;
     border-bottom: 1px solid #444;
     box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   
   nav ul li ul.dropdown {
