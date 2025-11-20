@@ -32,7 +32,10 @@
           "field": "series",
           "type": "nominal",
           "title": "Legend",
-          "scale": {"range": ["#4169E1"]},
+          "scale": {
+            "domain": ["Fertility rate (births per woman)", "GDP per capita (current GBP)"],
+            "range": ["#4169E1", "#FF7F0E"]
+          },
           "legend": {"orient": "right", "direction": "vertical", "padding": 8}
         },
         "tooltip": [
@@ -74,7 +77,7 @@
     }
   ],
   "resolve": {
-    "scale": {"y": "shared"},
+    "scale": {"y": "shared", "color": "shared"},
     "axis": {"y": "independent"},
     "legend": {"color": "shared"}
   }
