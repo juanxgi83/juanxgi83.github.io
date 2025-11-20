@@ -6,7 +6,7 @@
   },
   "layer": [
     {
-      "mark": {"type": "line", "tooltip": true, "color": "#4169E1"},
+      "mark": {"type": "line", "tooltip": true},
       "data": {
         "url": "https://api.worldbank.org/v2/country/GBR/indicator/SP.DYN.TFRT.IN?format=json&per_page=1000",
         "format": {"property": "[1]"}
@@ -32,6 +32,7 @@
           "field": "series",
           "type": "nominal",
           "title": "Legend",
+          "scale": {"range": ["#4169E1"]},
           "legend": {"orient": "right", "direction": "vertical", "padding": 8}
         },
         "tooltip": [
