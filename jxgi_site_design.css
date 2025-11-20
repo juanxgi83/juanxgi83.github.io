@@ -246,10 +246,11 @@ nav ul li ul.dropdown li ul.dropdown li ul.dropdown {
   }
   
   nav ul li.active > ul.dropdown {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
   
-  /* Make dropdowns toggleable on mobile */
+  /* Make parent items with dropdowns tappable */
   nav ul li > a {
     position: relative;
   }

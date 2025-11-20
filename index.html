@@ -310,10 +310,32 @@
             navMenu.classList.toggle('active');
         }
         
-        // Close menu when clicking a link on mobile
+        // Handle dropdown toggles on mobile
+        if (window.innerWidth <= 768) {
+            document.querySelectorAll('nav li > a').forEach(link => {
+                const parentLi = link.parentElement;
+                const dropdown = parentLi.querySelector('ul.dropdown');
+                
+                if (dropdown) {
+                    link.addEventListener('click', function(e) {
+                        // Only prevent default if there's a dropdown
+                        if (!link.getAttribute('href').startsWith('#') || link.getAttribute('href') === '#schoolwork' || link.getAttribute('href') === '#pp434' || link.getAttribute('href') === '#coding') {
+                            e.preventDefault();
+                            parentLi.classList.toggle('active');
+                        }
+                    });
+                }
+            });
+        }
+        
+        // Close menu when clicking a final destination link on mobile
         document.querySelectorAll('nav a').forEach(link => {
             link.addEventListener('click', function() {
-                if (window.innerWidth <= 768) {
+                const parentLi = link.parentElement;
+                const dropdown = parentLi.querySelector('ul.dropdown');
+                
+                // Only close menu if it's a final link (no dropdown)
+                if (!dropdown && window.innerWidth <= 768) {
                     navMenu.classList.remove('active');
                 }
             });
