@@ -15,6 +15,12 @@ body { /* We can style any HTML element by using its name - here we're styling t
   margin:0 auto;
   max-width: 100%;
   padding: 20px;
+  /* Add scroll padding to account for sticky navigation */
+  scroll-padding-top: 80px;
+}
+
+html {
+  scroll-padding-top: 80px;
 }
 
 .header {
@@ -67,6 +73,14 @@ nav {
   position: sticky;  /* key property */
   top: 0;            /* stick when it reaches the top */
   z-index: 1000;     /* keep it above other content */
+}
+
+.menu-toggle {
+  display: none;
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+  padding: 5px 10px;
 }
 
 nav ul {
@@ -178,14 +192,83 @@ nav ul li ul.dropdown li ul.dropdown li ul.dropdown {
   background-color: #777;   /* lighter still */
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+  
   nav ul {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    padding: 0;
+  }
+  
+  nav ul.active {
+    display: flex;
+  }
+  
+  nav ul li {
+    width: 100%;
+    margin: 0;
+  }
+  
+  nav ul li a {
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    border-bottom: 1px solid #444;
+  }
+  
+  nav ul li ul.dropdown {
+    position: static;
+    display: none;
+    width: 100%;
+    background-color: #444;
+  }
+  
+  nav ul li ul.dropdown li ul.dropdown {
+    background-color: #555;
+  }
+  
+  nav ul li ul.dropdown li ul.dropdown li ul.dropdown {
+    background-color: #666;
+  }
+  
+  /* Show dropdowns on click/tap for mobile */
+  nav ul li:hover > ul.dropdown {
+    display: none;
+  }
+  
+  nav ul li.active > ul.dropdown {
+    display: block;
+  }
+  
+  /* Make dropdowns toggleable on mobile */
+  nav ul li > a {
+    position: relative;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
 
-  nav ul li {
-    margin: 10px 0;
+  .profile-pic {
+    margin: 15px 0 0 0; /* space above image */
+  }
+  
+  /* Ensure charts don't overflow on mobile */
+  figure > div > div {
+    overflow-x: auto;
   }
 }
 
