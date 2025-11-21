@@ -281,23 +281,39 @@
             }
             
             if (chartSpec.endsWith('.html')) {
-                // For HTML files, use iframe with responsive sizing
+                // For HTML files, create a wrapper div to control sizing
+                const wrapper = document.createElement('div');
+                wrapper.style.width = chartWidth + 'px';
+                wrapper.style.height = chartHeight + 'px';
+                wrapper.style.position = 'relative';
+                
                 const iframe = document.createElement('iframe');
                 iframe.src = chartSpec;
-                iframe.style.width = chartWidth + 'px';
-                iframe.style.height = chartHeight + 'px';
+                iframe.style.width = '100%';
+                iframe.style.height = '100%';
                 iframe.style.border = 'none';
-                modalChart.appendChild(iframe);
+                iframe.style.display = 'block';
+                
+                wrapper.appendChild(iframe);
+                modalChart.appendChild(wrapper);
             } else {
-                // For JSON files, use vegaEmbed with responsive sizing
+                // For JSON files, use vegaEmbed with autosize
                 const largeEmbedOpt = {
                     actions: true,
                     renderer: "canvas",
-                    width: chartWidth,
-                    height: chartHeight,
                     tooltip: {offsetX: 5, offsetY: 5}
                 };
-                vegaEmbed('#modalChart', chartSpec, largeEmbedOpt);
+                
+                // Load and modify the spec to use container dimensions
+                fetch(chartSpec)
+                    .then(response => response.json())
+                    .then(spec => {
+                        spec.width = 'container';
+                        spec.height = 'container';
+                        modalChart.style.width = chartWidth + 'px';
+                        modalChart.style.height = chartHeight + 'px';
+                        vegaEmbed('#modalChart', spec, largeEmbedOpt);
+                    });
             }
         }
         
