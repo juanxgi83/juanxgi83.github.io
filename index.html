@@ -268,7 +268,7 @@
             modal.classList.add('active');
             const modalChart = document.getElementById('modalChart');
             
-            // Calculate responsive dimensions for both chart types
+            // Calculate responsive dimensions
             let chartWidth = 900;
             let chartHeight = 600;
             
@@ -280,39 +280,30 @@
                 chartHeight = window.innerHeight * 0.7;
             }
             
+            // Set container dimensions
+            modalChart.style.width = chartWidth + 'px';
+            modalChart.style.height = chartHeight + 'px';
+            
             if (chartSpec.endsWith('.html')) {
-                // For HTML files, create a wrapper div to control sizing
-                const wrapper = document.createElement('div');
-                wrapper.style.width = chartWidth + 'px';
-                wrapper.style.height = chartHeight + 'px';
-                wrapper.style.position = 'relative';
-                
+                // For HTML files (Plotly with responsive config)
                 const iframe = document.createElement('iframe');
                 iframe.src = chartSpec;
                 iframe.style.width = '100%';
                 iframe.style.height = '100%';
                 iframe.style.border = 'none';
-                iframe.style.display = 'block';
-                
-                wrapper.appendChild(iframe);
-                modalChart.appendChild(wrapper);
+                modalChart.appendChild(iframe);
             } else {
-                // For JSON files, use vegaEmbed with autosize
-                const largeEmbedOpt = {
-                    actions: true,
-                    renderer: "canvas",
-                    tooltip: {offsetX: 5, offsetY: 5}
-                };
-                
-                // Load and modify the spec to use container dimensions
+                // For JSON files (Vega-Lite)
                 fetch(chartSpec)
                     .then(response => response.json())
                     .then(spec => {
                         spec.width = 'container';
                         spec.height = 'container';
-                        modalChart.style.width = chartWidth + 'px';
-                        modalChart.style.height = chartHeight + 'px';
-                        vegaEmbed('#modalChart', spec, largeEmbedOpt);
+                        vegaEmbed('#modalChart', spec, {
+                            actions: true,
+                            renderer: "canvas",
+                            tooltip: {offsetX: 5, offsetY: 5}
+                        });
                     });
             }
         }
