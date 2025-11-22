@@ -263,22 +263,35 @@
 
         // Detect if embedded in small iframe and apply zoom
         function checkAndApplyZoom() {
-            // Check if we're in an iframe that's smaller than our content
             const isInIframe = window.self !== window.top;
             const containerHeight = window.innerHeight;
-            
-            // Apply zoom only if embedded in a small container (height < 600px)
+            const containerWidth = window.innerWidth;
             const iframes = document.querySelectorAll('.page iframe');
-            if (isInIframe && containerHeight < 600) {
-                iframes.forEach(iframe => {
-                    iframe.style.zoom = '0.70';
-                });
-            } else {
-                // Remove zoom for modal view
-                iframes.forEach(iframe => {
-                    iframe.style.zoom = '1.0';
-                });
+            
+            // Determine appropriate zoom level
+            let zoomLevel = '1.0';
+            
+            // Check if it's an actual mobile device (not just narrow iframe)
+            const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+            
+            // Mobile devices - apply aggressive zoom
+            if (isMobile && containerWidth < 768) {
+                zoomLevel = '0.50';
             }
+            // Embedded in small iframe on desktop (height < 600px)
+            else if (isInIframe && containerHeight < 600) {
+                zoomLevel = '0.70';
+            }
+            // Modal or full-size view on desktop
+            else {
+                zoomLevel = '1.0';
+            }
+            
+            console.log(`Width: ${containerWidth}, Height: ${containerHeight}, IsInIframe: ${isInIframe}, IsMobile: ${isMobile}, Zoom: ${zoomLevel}`);
+            
+            iframes.forEach(iframe => {
+                iframe.style.zoom = zoomLevel;
+            });
         }
 
         // Initialize
