@@ -243,8 +243,9 @@
                 const iframe = document.createElement('iframe');
                 iframe.src = chartSpec;
                 iframe.style.width = '100%';
-                iframe.style.height = '500px';
+                iframe.style.height = '600px';
                 iframe.style.border = 'none';
+                iframe.style.minHeight = '400px';
                 figure.appendChild(iframe);
                 addZoomButton(locationId, chartSpec);
             } else {
