@@ -94,6 +94,17 @@
             <figure id="Location7"></figure> 
         </section>
 
+        <section>
+            <div class="chart-description">
+                <h5>Week 4: TFR API Live Chart</h5>
+                <p> 
+                    We've organised the page into sections, with each section containing a chart, title and a description. Here, we can describe the chart and give some context.
+                    As a first example, we're using a basic chart from our repo.
+                </p>
+            </div>
+            <figure id="Location8"></figure> 
+        </section>
+
     </div>
         
     <div id="cc3">
@@ -206,7 +217,8 @@
         let figure_5_spec = "graphs/eu_co2_targets.html";
         let figure_6_spec = "graphs/eu_co2_sources_lines.html";
         let figure_7_spec = "graphs/ice_arrests_flipbook.html";
-        
+        let figure_8_spec = "graphs/ice_arrests_by_status_flipbook.html";
+
         let embedOpt = {
             actions: false,
             renderer: "canvas"
@@ -220,7 +232,8 @@
             'Location4': figure_4_spec,
             'Location5': figure_5_spec,
             'Location6': figure_6_spec,
-            'Location7': figure_7_spec
+            'Location7': figure_7_spec,
+            'Location8': figure_8_spec
         };
         
         // Function to add zoom button to a figure
@@ -261,6 +274,7 @@
         loadChart('Location5', figure_5_spec);
         loadChart('Location6', figure_6_spec);
         loadChart('Location7', figure_7_spec);
+        loadChart('Location8', figure_8_spec);
         
         const modal = document.getElementById('chartModal');
         const closeBtn = document.querySelector('.close-btn');
