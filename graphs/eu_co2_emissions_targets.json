@@ -1,0 +1,1111 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "config": {
+    "axis": {
+      "labelFontSize": 12,
+      "titleFontSize": 13
+    },
+    "legend": {
+      "labelFontSize": 12,
+      "titleFontSize": 13
+    },
+    "title": {
+      "fontSize": 16,
+      "subtitleFontSize": 12
+    }
+  },
+  "hconcat": [
+    {
+      "width": 800,
+      "height": 500,
+      "title": {
+        "text": "EU-27 CO2 Emissions and Targets",
+        "subtitle": "Historical data (1999-2024) with trendline projection to 2050",
+        "anchor": "start"
+      },
+      "resolve": {
+        "scale": {
+          "x": "shared",
+          "y": "shared"
+        }
+      },
+      "layer": [
+        {
+          "data": {
+            "values": [
+              {
+                "period_start": 1999,
+                "period_end": 2004,
+                "period_label": "1999-2004",
+                "pct_change": 4.296913953022345,
+                "color": "rgb(255, 0, 0)",
+                "min_co2": 0,
+                "max_co2": 4000
+              },
+              {
+                "period_start": 2004,
+                "period_end": 2009,
+                "period_label": "2004-2009",
+                "pct_change": -11.029576922826081,
+                "color": "rgb(255, 63, 0)",
+                "min_co2": 0,
+                "max_co2": 4000
+              },
+              {
+                "period_start": 2009,
+                "period_end": 2014,
+                "period_label": "2009-2014",
+                "pct_change": -8.756723662792139,
+                "color": "rgb(255, 127, 0)",
+                "min_co2": 0,
+                "max_co2": 4000
+              },
+              {
+                "period_start": 2014,
+                "period_end": 2019,
+                "period_label": "2014-2019",
+                "pct_change": -4.406654167981556,
+                "color": "rgb(255, 191, 0)",
+                "min_co2": 0,
+                "max_co2": 4000
+              },
+              {
+                "period_start": 2019,
+                "period_end": 2024,
+                "period_label": "2019-2024",
+                "pct_change": -16.48163761468507,
+                "color": "rgb(255, 255, 0)",
+                "min_co2": 0,
+                "max_co2": 4000
+              }
+            ]
+          },
+          "mark": {
+            "type": "rect",
+            "opacity": 0.4
+          },
+          "encoding": {
+            "x": {
+              "field": "period_start",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  1999,
+                  2055
+                ],
+                "nice": false
+              }
+            },
+            "x2": {
+              "field": "period_end"
+            },
+            "y": {
+              "field": "min_co2",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  0,
+                  4000
+                ]
+              }
+            },
+            "y2": {
+              "field": "max_co2"
+            },
+            "color": {
+              "field": "color",
+              "type": "nominal",
+              "scale": null,
+              "legend": null
+            },
+            "tooltip": [
+              {
+                "field": "period_label",
+                "type": "nominal",
+                "title": "Period"
+              },
+              {
+                "field": "pct_change",
+                "type": "quantitative",
+                "title": "Change (%)",
+                "format": ".2f"
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "values": [
+              {
+                "x": 2001.5,
+                "y": 400,
+                "label": "1999-2004"
+              },
+              {
+                "x": 2006.5,
+                "y": 400,
+                "label": "2004-2009"
+              },
+              {
+                "x": 2011.5,
+                "y": 400,
+                "label": "2009-2014"
+              },
+              {
+                "x": 2016.5,
+                "y": 400,
+                "label": "2014-2019"
+              },
+              {
+                "x": 2021.5,
+                "y": 400,
+                "label": "2019-2024"
+              }
+            ]
+          },
+          "mark": {
+            "type": "text",
+            "angle": 270,
+            "fontSize": 12,
+            "baseline": "middle"
+          },
+          "encoding": {
+            "x": {
+              "field": "x",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "y",
+              "type": "quantitative"
+            },
+            "text": {
+              "field": "label",
+              "type": "nominal"
+            }
+          }
+        },
+        {
+          "data": {
+            "values": [
+              {
+                "x": 2001.5,
+                "y": 900,
+                "pct": "+4.3%",
+                "pct_change": 4.296913953022345
+              },
+              {
+                "x": 2006.5,
+                "y": 900,
+                "pct": "-11.0%",
+                "pct_change": -11.029576922826081
+              },
+              {
+                "x": 2011.5,
+                "y": 900,
+                "pct": "-8.8%",
+                "pct_change": -8.756723662792139
+              },
+              {
+                "x": 2016.5,
+                "y": 900,
+                "pct": "-4.4%",
+                "pct_change": -4.406654167981556
+              },
+              {
+                "x": 2021.5,
+                "y": 900,
+                "pct": "-16.5%",
+                "pct_change": -16.48163761468507
+              }
+            ]
+          },
+          "mark": {
+            "type": "text",
+            "angle": 270,
+            "fontSize": 13,
+            "fontWeight": "bold",
+            "baseline": "middle"
+          },
+          "encoding": {
+            "x": {
+              "field": "x",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "y",
+              "type": "quantitative"
+            },
+            "text": {
+              "field": "pct",
+              "type": "nominal"
+            },
+            "color": {
+              "condition": {
+                "test": "datum.pct_change < 0",
+                "value": "green"
+              },
+              "value": "red"
+            }
+          }
+        },
+        {
+          "data": {
+            "values": [
+              {
+                "year": 1999,
+                "co2": 3589.16064453125
+              },
+              {
+                "year": 2000,
+                "co2": 3600.416015625
+              },
+              {
+                "year": 2001,
+                "co2": 3657.10009765625
+              },
+              {
+                "year": 2002,
+                "co2": 3657.391357421875
+              },
+              {
+                "year": 2003,
+                "co2": 3736.35888671875
+              },
+              {
+                "year": 2004,
+                "co2": 3743.3837890625
+              },
+              {
+                "year": 2005,
+                "co2": 3734.8916015625
+              },
+              {
+                "year": 2006,
+                "co2": 3752.004638671875
+              },
+              {
+                "year": 2007,
+                "co2": 3701.867431640625
+              },
+              {
+                "year": 2008,
+                "co2": 3625.825927734375
+              },
+              {
+                "year": 2009,
+                "co2": 3330.50439453125
+              },
+              {
+                "year": 2010,
+                "co2": 3424.32666015625
+              },
+              {
+                "year": 2011,
+                "co2": 3327.05859375
+              },
+              {
+                "year": 2012,
+                "co2": 3258.6162109375
+              },
+              {
+                "year": 2013,
+                "co2": 3176.52880859375
+              },
+              {
+                "year": 2014,
+                "co2": 3038.861328125
+              },
+              {
+                "year": 2015,
+                "co2": 3094.906494140625
+              },
+              {
+                "year": 2016,
+                "co2": 3094.515380859375
+              },
+              {
+                "year": 2017,
+                "co2": 3118.4599609375
+              },
+              {
+                "year": 2018,
+                "co2": 3049.48388671875
+              },
+              {
+                "year": 2019,
+                "co2": 2904.94921875
+              },
+              {
+                "year": 2020,
+                "co2": 2627.05126953125
+              },
+              {
+                "year": 2021,
+                "co2": 2801.468994140625
+              },
+              {
+                "year": 2022,
+                "co2": 2736.94580078125
+              },
+              {
+                "year": 2023,
+                "co2": 2484.99658203125
+              },
+              {
+                "year": 2024,
+                "co2": 2426.166015625
+              }
+            ]
+          },
+          "mark": {
+            "type": "line",
+            "point": {
+              "filled": true,
+              "size": 50,
+              "color": "black"
+            },
+            "color": "black",
+            "strokeWidth": 2
+          },
+          "encoding": {
+            "x": {
+              "field": "year",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  1999,
+                  2055
+                ],
+                "nice": false
+              },
+              "axis": {
+                "title": null,
+                "format": "d",
+                "tickCount": 12,
+                "labelAngle": 0,
+                "grid": true
+              }
+            },
+            "y": {
+              "field": "co2",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  0,
+                  4000
+                ]
+              },
+              "axis": {
+                "title": "CO2 Emissions (Million Tonnes)",
+                "grid": true
+              }
+            },
+            "tooltip": [
+              {
+                "field": "year",
+                "type": "quantitative",
+                "title": "Year",
+                "format": "d"
+              },
+              {
+                "field": "co2",
+                "type": "quantitative",
+                "title": "CO2 Emissions (Mt)",
+                "format": ".2f"
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "values": [
+              {
+                "year": 2004,
+                "co2_trend": 3807.2756072865886
+              },
+              {
+                "year": 2005,
+                "co2_trend": 3742.99001316879
+              },
+              {
+                "year": 2006,
+                "co2_trend": 3678.7044190509914
+              },
+              {
+                "year": 2007,
+                "co2_trend": 3614.418824933193
+              },
+              {
+                "year": 2008,
+                "co2_trend": 3550.133230815394
+              },
+              {
+                "year": 2009,
+                "co2_trend": 3485.84763669761
+              },
+              {
+                "year": 2010,
+                "co2_trend": 3421.5620425798115
+              },
+              {
+                "year": 2011,
+                "co2_trend": 3357.276448462013
+              },
+              {
+                "year": 2012,
+                "co2_trend": 3292.9908543442143
+              },
+              {
+                "year": 2013,
+                "co2_trend": 3228.7052602264157
+              },
+              {
+                "year": 2014,
+                "co2_trend": 3164.419666108617
+              },
+              {
+                "year": 2015,
+                "co2_trend": 3100.134071990833
+              },
+              {
+                "year": 2016,
+                "co2_trend": 3035.8484778730344
+              },
+              {
+                "year": 2017,
+                "co2_trend": 2971.562883755236
+              },
+              {
+                "year": 2018,
+                "co2_trend": 2907.277289637437
+              },
+              {
+                "year": 2019,
+                "co2_trend": 2842.9916955196386
+              },
+              {
+                "year": 2020,
+                "co2_trend": 2778.70610140184
+              },
+              {
+                "year": 2021,
+                "co2_trend": 2714.420507284056
+              },
+              {
+                "year": 2022,
+                "co2_trend": 2650.1349131662573
+              },
+              {
+                "year": 2023,
+                "co2_trend": 2585.8493190484587
+              },
+              {
+                "year": 2024,
+                "co2_trend": 2521.56372493066
+              },
+              {
+                "year": 2025,
+                "co2_trend": 2457.2781308128615
+              },
+              {
+                "year": 2026,
+                "co2_trend": 2392.992536695063
+              },
+              {
+                "year": 2027,
+                "co2_trend": 2328.706942577279
+              },
+              {
+                "year": 2028,
+                "co2_trend": 2264.42134845948
+              },
+              {
+                "year": 2029,
+                "co2_trend": 2200.1357543416816
+              },
+              {
+                "year": 2030,
+                "co2_trend": 2135.850160223883
+              },
+              {
+                "year": 2031,
+                "co2_trend": 2071.5645661060844
+              },
+              {
+                "year": 2032,
+                "co2_trend": 2007.2789719882858
+              },
+              {
+                "year": 2033,
+                "co2_trend": 1942.9933778705017
+              },
+              {
+                "year": 2034,
+                "co2_trend": 1878.707783752703
+              },
+              {
+                "year": 2035,
+                "co2_trend": 1814.4221896349045
+              },
+              {
+                "year": 2036,
+                "co2_trend": 1750.136595517106
+              },
+              {
+                "year": 2037,
+                "co2_trend": 1685.8510013993073
+              },
+              {
+                "year": 2038,
+                "co2_trend": 1621.5654072815087
+              },
+              {
+                "year": 2039,
+                "co2_trend": 1557.27981316371
+              },
+              {
+                "year": 2040,
+                "co2_trend": 1492.9942190459114
+              },
+              {
+                "year": 2041,
+                "co2_trend": 1428.7086249281128
+              },
+              {
+                "year": 2042,
+                "co2_trend": 1364.4230308103433
+              },
+              {
+                "year": 2043,
+                "co2_trend": 1300.1374366925447
+              },
+              {
+                "year": 2044,
+                "co2_trend": 1235.8518425747461
+              },
+              {
+                "year": 2045,
+                "co2_trend": 1171.5662484569475
+              },
+              {
+                "year": 2046,
+                "co2_trend": 1107.280654339149
+              },
+              {
+                "year": 2047,
+                "co2_trend": 1042.9950602213503
+              },
+              {
+                "year": 2048,
+                "co2_trend": 978.7094661035517
+              },
+              {
+                "year": 2049,
+                "co2_trend": 914.4238719857531
+              },
+              {
+                "year": 2050,
+                "co2_trend": 850.1382778679545
+              }
+            ]
+          },
+          "mark": {
+            "type": "line",
+            "strokeDash": [
+              5,
+              5
+            ],
+            "color": "black",
+            "opacity": 0.4,
+            "strokeWidth": 2
+          },
+          "encoding": {
+            "x": {
+              "field": "year",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "co2_trend",
+              "type": "quantitative"
+            },
+            "tooltip": [
+              {
+                "field": "year",
+                "type": "quantitative",
+                "title": "Year",
+                "format": "d"
+              },
+              {
+                "field": "co2_trend",
+                "type": "quantitative",
+                "title": "Projected CO2 (Mt)",
+                "format": ".2f"
+              }
+            ]
+          }
+        },
+        {
+          "data": {
+            "values": [
+              {
+                "year": 2030,
+                "co2_target": 1914.75,
+                "target_label": "2030 Target"
+              },
+              {
+                "year": 2050,
+                "co2_target": 0.0,
+                "target_label": "2050 Target"
+              }
+            ]
+          },
+          "mark": {
+            "type": "point",
+            "shape": "cross",
+            "size": 200,
+            "filled": true
+          },
+          "encoding": {
+            "x": {
+              "field": "year",
+              "type": "quantitative"
+            },
+            "y": {
+              "field": "co2_target",
+              "type": "quantitative"
+            },
+            "color": {
+              "condition": {
+                "test": "datum.year == 2030",
+                "value": "gold"
+              },
+              "value": "green"
+            },
+            "tooltip": [
+              {
+                "field": "target_label",
+                "type": "nominal",
+                "title": "Target"
+              },
+              {
+                "field": "year",
+                "type": "quantitative",
+                "title": "Year",
+                "format": "d"
+              },
+              {
+                "field": "co2_target",
+                "type": "quantitative",
+                "title": "Target CO2 (Mt)",
+                "format": ".2f"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "width": 180,
+      "height": 500,
+      "view": {
+        "stroke": null
+      },
+      "layer": [
+        {
+          "data": {
+            "values": [
+              {
+                "x": 10,
+                "y": 450,
+                "label": "Legend"
+              }
+            ]
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "fontSize": 15,
+            "fontWeight": "bold"
+          },
+          "encoding": {
+            "x": {
+              "field": "x",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  0,
+                  180
+                ]
+              },
+              "axis": null
+            },
+            "y": {
+              "field": "y",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  0,
+                  500
+                ]
+              },
+              "axis": null
+            },
+            "text": {
+              "field": "label",
+              "type": "nominal"
+            }
+          }
+        },
+        {
+          "data": {
+            "values": [
+              {
+                "x1": 10,
+                "x2": 40,
+                "y": 428
+              }
+            ]
+          },
+          "mark": {
+            "type": "rule",
+            "color": "black",
+            "strokeWidth": 2
+          },
+          "encoding": {
+            "x": {
+              "field": "x1",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  0,
+                  180
+                ]
+              },
+              "axis": null
+            },
+            "x2": {
+              "field": "x2"
+            },
+            "y": {
+              "field": "y",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  0,
+                  500
+                ]
+              },
+              "axis": null
+            }
+          }
+        },
+        {
+          "data": {
+            "values": [
+              {
+                "x": 45,
+                "y": 428,
+                "label": "Historical Data"
+              }
+            ]
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "fontSize": 12
+          },
+          "encoding": {
+            "x": {
+              "field": "x",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  0,
+                  180
+                ]
+              },
+              "axis": null
+            },
+            "y": {
+              "field": "y",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  0,
+                  500
+                ]
+              },
+              "axis": null
+            },
+            "text": {
+              "field": "label",
+              "type": "nominal"
+            }
+          }
+        },
+        {
+          "data": {
+            "values": [
+              {
+                "x1": 10,
+                "x2": 40,
+                "y": 406
+              }
+            ]
+          },
+          "mark": {
+            "type": "rule",
+            "color": "black",
+            "strokeWidth": 2,
+            "strokeDash": [
+              5,
+              5
+            ],
+            "opacity": 0.4
+          },
+          "encoding": {
+            "x": {
+              "field": "x1",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  0,
+                  180
+                ]
+              },
+              "axis": null
+            },
+            "x2": {
+              "field": "x2"
+            },
+            "y": {
+              "field": "y",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  0,
+                  500
+                ]
+              },
+              "axis": null
+            }
+          }
+        },
+        {
+          "data": {
+            "values": [
+              {
+                "x": 45,
+                "y": 406,
+                "label": "Trendline (2004-2024)"
+              }
+            ]
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "fontSize": 12
+          },
+          "encoding": {
+            "x": {
+              "field": "x",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  0,
+                  180
+                ]
+              },
+              "axis": null
+            },
+            "y": {
+              "field": "y",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  0,
+                  500
+                ]
+              },
+              "axis": null
+            },
+            "text": {
+              "field": "label",
+              "type": "nominal"
+            }
+          }
+        },
+        {
+          "data": {
+            "values": [
+              {
+                "x": 25,
+                "y": 384
+              }
+            ]
+          },
+          "mark": {
+            "type": "point",
+            "shape": "cross",
+            "color": "gold",
+            "size": 150,
+            "filled": true
+          },
+          "encoding": {
+            "x": {
+              "field": "x",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  0,
+                  180
+                ]
+              },
+              "axis": null
+            },
+            "y": {
+              "field": "y",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  0,
+                  500
+                ]
+              },
+              "axis": null
+            }
+          }
+        },
+        {
+          "data": {
+            "values": [
+              {
+                "x": 45,
+                "y": 384,
+                "label": "2030 Target"
+              }
+            ]
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "fontSize": 12
+          },
+          "encoding": {
+            "x": {
+              "field": "x",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  0,
+                  180
+                ]
+              },
+              "axis": null
+            },
+            "y": {
+              "field": "y",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  0,
+                  500
+                ]
+              },
+              "axis": null
+            },
+            "text": {
+              "field": "label",
+              "type": "nominal"
+            }
+          }
+        },
+        {
+          "data": {
+            "values": [
+              {
+                "x": 25,
+                "y": 362
+              }
+            ]
+          },
+          "mark": {
+            "type": "point",
+            "shape": "cross",
+            "color": "green",
+            "size": 150,
+            "filled": true
+          },
+          "encoding": {
+            "x": {
+              "field": "x",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  0,
+                  180
+                ]
+              },
+              "axis": null
+            },
+            "y": {
+              "field": "y",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  0,
+                  500
+                ]
+              },
+              "axis": null
+            }
+          }
+        },
+        {
+          "data": {
+            "values": [
+              {
+                "x": 45,
+                "y": 362,
+                "label": "2050 Target"
+              }
+            ]
+          },
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "fontSize": 12
+          },
+          "encoding": {
+            "x": {
+              "field": "x",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  0,
+                  180
+                ]
+              },
+              "axis": null
+            },
+            "y": {
+              "field": "y",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  0,
+                  500
+                ]
+              },
+              "axis": null
+            },
+            "text": {
+              "field": "label",
+              "type": "nominal"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

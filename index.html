@@ -214,14 +214,14 @@
         let figure_2_spec = "graphs/uk_other_unemp_rates.json";
         let figure_3_spec = "graphs/usa_productivity.json";
         let figure_4_spec = "graphs/usa_weekly_wages.json";
-        let figure_5_spec = "graphs/eu_co2_targets.html";
+        let figure_5_spec = "graphs/eu_co2_emissions_targets.json";
         let figure_6_spec = "graphs/eu_co2_sources_lines.html";
         let figure_7_spec = "graphs/ice_arrests_flipbook.html";
         let figure_8_spec = "graphs/ice_arrests_by_status_flipbook.html";
 
         let embedOpt = {
             actions: false,
-            renderer: "canvas"
+            renderer: "svg"
         };
         
         // Chart zoom functionality
@@ -298,6 +298,7 @@
             // Set container dimensions
             modalChart.style.width = chartWidth + 'px';
             modalChart.style.height = chartHeight + 'px';
+            modalChart.style.overflow = 'auto'; // Allow scrolling if needed
             
             if (chartSpec.endsWith('.html')) {
                 // For HTML files (Plotly with responsive config)
@@ -312,13 +313,29 @@
                 fetch(chartSpec)
                     .then(response => response.json())
                     .then(spec => {
-                        spec.width = 'container';
-                        spec.height = 'container';
-                        vegaEmbed('#modalChart', spec, {
-                            actions: true,
-                            renderer: "canvas",
-                            tooltip: {offsetX: 5, offsetY: 5}
-                        });
+                        // Check if it's an hconcat spec (like the CO2 emissions chart)
+                        if (spec.hconcat && spec.hconcat.length > 0) {
+                            // For hconcat specs, calculate width for main chart
+                            const legendWidth = spec.hconcat[1] ? (spec.hconcat[1].width || 180) : 0;
+                            const availableWidth = chartWidth - legendWidth - 40; // 40px for spacing/padding
+                            
+                            // Set specific width for the main chart panel
+                            spec.hconcat[0].width = Math.max(500, availableWidth);
+                            
+                            // Embed without container sizing
+                            vegaEmbed('#modalChart', spec, {
+                                actions: true,
+                                renderer: "svg"
+                            });
+                        } else {
+                            // For regular specs, use container sizing
+                            spec.width = 'container';
+                            spec.height = 'container';
+                            vegaEmbed('#modalChart', spec, {
+                                actions: true,
+                                renderer: "svg"
+                            });
+                        }
                     });
             }
         }
