@@ -328,9 +328,8 @@
                                 renderer: "svg"
                             });
                         } else {
-                            // For regular specs, use container sizing
-                            spec.width = 'container';
-                            spec.height = 'container';
+                            // For regular specs with fixed dimensions, keep them
+                            // No need to override width/height - just embed as-is
                             vegaEmbed('#modalChart', spec, {
                                 actions: true,
                                 renderer: "svg"
