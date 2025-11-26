@@ -1,20 +1,25 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "config": {
+    "axis": {
+      "labelFontSize": 12,
+      "titleFontSize": 13
+    },
+    "legend": {
+      "labelFontSize": 12,
+      "titleFontSize": 13
+    },
+    "title": {
+      "fontSize": 16,
+      "subtitleFontSize": 12
+    }
+  },
   "width": 800,
   "height": 500,
   "title": {
     "text": "USA Productivity Index Over Time",
-    "anchor": "start",
     "subtitle": "Output per hour | Source: FRED through ECO API",
-    "fontSize": "14",
-    "subtitleFontSize": "12",
-    "color": "#000000",
-    "subtitleColor": "#000000"
-  },
-  "background": "#ffffff",
-  "view": {
-    "fill": "#ffffff",
-    "strokeOpacity": 0
+    "anchor": "start"
   },
   "data": {
     "url": "https://api.economicsobservatory.com/usa/prod?vega",
@@ -25,26 +30,30 @@
   "mark": {
     "type": "line",
     "color": "#f4134d",
-    "strokeWidth": "2"
+    "strokeWidth": 2,
+    "tooltip": true,
+    "point": {
+      "filled": true,
+      "size": 100,
+      "opacity": 0
+    }
   },
   "encoding": {
     "x": {
       "field": "date",
       "type": "temporal",
-      "axis": {
-        "title": "",
-        "titleColor": "#122B39",
-        "grid": false
-      }
+      "title": "",
+      "axis": {"grid": false}
     },
     "y": {
       "field": "value",
       "type": "quantitative",
-      "axis": {
-        "title": "Productivity Index (2012=100)",
-        "titleColor": "#122B39",
-        "grid": false
-      }
-    }
+      "title": "Productivity Index (2012=100)",
+      "axis": {"titleAngle": 270}
+    },
+    "tooltip": [
+      {"field": "date", "type": "temporal", "title": "Date"},
+      {"field": "value", "type": "quantitative", "title": "Index Value", "format": ".2f"}
+    ]
   }
 }

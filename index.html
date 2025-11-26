@@ -272,8 +272,9 @@
                 fetch(chartSpec)
                     .then(response => response.json())
                     .then(spec => {
-                        // Get container width
-                        const containerWidth = figure.offsetWidth || 650;
+                        // Force layout calculation and get container width
+                        figure.style.minHeight = '400px';
+                        const containerWidth = figure.getBoundingClientRect().width || figure.offsetWidth || window.innerWidth - 40;
                         const maxWidth = Math.min(containerWidth, 800);
                         
                         // Adjust spec based on type
@@ -325,6 +326,32 @@
         loadChart('Location6', figure_6_spec);
         loadChart('Location7', figure_7_spec);
         loadChart('Location8', figure_8_spec);
+        
+        // Handle window resize and orientation changes
+        let resizeTimeout;
+        window.addEventListener('resize', function() {
+            clearTimeout(resizeTimeout);
+            resizeTimeout = setTimeout(function() {
+                // Reload all charts on resize/orientation change
+                document.getElementById('Location1').innerHTML = '';
+                document.getElementById('Location2').innerHTML = '';
+                document.getElementById('Location3').innerHTML = '';
+                document.getElementById('Location4').innerHTML = '';
+                document.getElementById('Location5').innerHTML = '';
+                document.getElementById('Location6').innerHTML = '';
+                document.getElementById('Location7').innerHTML = '';
+                document.getElementById('Location8').innerHTML = '';
+                
+                loadChart('Location1', figure_1_spec);
+                loadChart('Location2', figure_2_spec);
+                loadChart('Location3', figure_3_spec);
+                loadChart('Location4', figure_4_spec);
+                loadChart('Location5', figure_5_spec);
+                loadChart('Location6', figure_6_spec);
+                loadChart('Location7', figure_7_spec);
+                loadChart('Location8', figure_8_spec);
+            }, 300);
+        });
         
         const modal = document.getElementById('chartModal');
         const closeBtn = document.querySelector('.close-btn');

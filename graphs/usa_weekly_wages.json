@@ -1,20 +1,25 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "config": {
+    "axis": {
+      "labelFontSize": 12,
+      "titleFontSize": 13
+    },
+    "legend": {
+      "labelFontSize": 12,
+      "titleFontSize": 13
+    },
+    "title": {
+      "fontSize": 16,
+      "subtitleFontSize": 12
+    }
+  },
   "width": 800,
   "height": 500,
   "title": {
     "text": "USA Weekly Wage",
-    "anchor": "start",
     "subtitle": "Weekly real earnings | Source: FRED through ECO API",
-    "fontSize": "14",
-    "subtitleFontSize": "12",
-    "color": "#000000",
-    "subtitleColor": "#000000"
-  },
-  "background": "#ffffff",
-  "view": {
-    "fill": "#ffffff",
-    "strokeOpacity": 0
+    "anchor": "start"
   },
   "data": {
     "url": "https://api.economicsobservatory.com/usa/wage?vega",
@@ -25,26 +30,30 @@
   "mark": {
     "type": "line",
     "color": "#4169e1",
-    "strokeWidth": "2"
+    "strokeWidth": 2,
+    "tooltip": true,
+    "point": {
+      "filled": true,
+      "size": 100,
+      "opacity": 0
+    }
   },
   "encoding": {
     "x": {
       "field": "date",
       "type": "temporal",
-      "axis": {
-        "title": "",
-        "titleColor": "#122B39",
-        "grid": false
-      }
+      "title": "",
+      "axis": {"grid": false}
     },
     "y": {
       "field": "value",
       "type": "quantitative",
-      "axis": {
-        "title": "Dollars (1982-84 CPI Adj.)",
-        "titleColor": "#122B39",
-        "grid": false
-      }
-    }
+      "title": "Dollars (1982-84 CPI Adj.)",
+      "axis": {"titleAngle": 270}
+    },
+    "tooltip": [
+      {"field": "date", "type": "temporal", "title": "Date"},
+      {"field": "value", "type": "quantitative", "title": "Weekly Wage ($)", "format": ".2f"}
+    ]
   }
 }
