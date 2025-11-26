@@ -1,15 +1,39 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
-  "width": 800,
-  "height": 500,
-  "title": {
-    "text": "Fertility Rate Vs. GDP per Capita in the UK",
-    "subtitle": "Source: World Bank | Series: SP.DYN.TFRT.IN & NY.GDP.PCAP.CN",
-    "anchor": "start"
+  "config": {
+    "axis": {
+      "labelFontSize": 12,
+      "titleFontSize": 13
+    },
+    "legend": {
+      "labelFontSize": 12,
+      "titleFontSize": 13
+    },
+    "title": {
+      "fontSize": 16,
+      "subtitleFontSize": 12
+    }
   },
-  "layer": [
+  "hconcat": [
     {
-      "mark": {"type": "line", "tooltip": true},
+      "width": 800,
+      "height": 500,
+      "title": {
+        "text": "Fertility Rate Vs. GDP per Capita in the UK",
+        "subtitle": "Source: World Bank | Series: SP.DYN.TFRT.IN & NY.GDP.PCAP.CN",
+        "anchor": "start"
+      },
+      "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "tooltip": true,
+        "point": {
+          "filled": true,
+          "size": 100,
+          "opacity": 0
+        }
+      },
       "data": {
         "url": "https://api.worldbank.org/v2/country/GBR/indicator/SP.DYN.TFRT.IN?format=json&per_page=1000",
         "format": {"property": "[1]"}
@@ -34,12 +58,11 @@
         "color": {
           "field": "series",
           "type": "nominal",
-          "title": "Legend",
           "scale": {
             "domain": ["Fertility rate (births per woman)", "GDP per capita (current GBP)"],
             "range": ["#4169E1", "#FF7F0E"]
           },
-          "legend": {"orient": "right", "direction": "vertical", "padding": 8}
+          "legend": null
         },
         "tooltip": [
           {"field": "date", "type": "temporal", "timeUnit": "year", "title": "Year"},
@@ -49,7 +72,15 @@
       }
     },
     {
-      "mark": {"type": "line", "tooltip": true},
+      "mark": {
+        "type": "line",
+        "tooltip": true,
+        "point": {
+          "filled": true,
+          "size": 100,
+          "opacity": 0
+        }
+      },
       "data": {
         "url": "https://api.worldbank.org/v2/country/GBR/indicator/NY.GDP.PCAP.CN?source=2&format=json&per_page=1000",
         "format": {"property": "[1]"}
@@ -63,11 +94,11 @@
         "y": {
           "field": "value_scaled",
           "type": "quantitative",
-          "title": "GDP per capita (current GBP)",
           "axis": {
             "titleAngle": 90,
             "orient": "right",
-            "labelExpr": "format(datum.value * 10000, ',')"
+            "labelExpr": "format(datum.value * 10000, ',')",
+            "title": "GDP per capita (current GBP)"
           }
         },
         "color": {"field": "series", "type": "nominal", "legend": null},
@@ -80,8 +111,61 @@
     }
   ],
   "resolve": {
-    "scale": {"y": "shared", "color": "shared"},
-    "axis": {"y": "independent"},
-    "legend": {"color": "shared"}
+    "scale": {"y": "shared"},
+    "axis": {"y": "independent"}
   }
+},
+{
+  "width": 180,
+  "height": 500,
+  "view": {"stroke": null},
+  "layer": [
+    {
+      "data": {"values": [{"x": 10, "y": 480, "label": "Legend"}]},
+      "mark": {"type": "text", "align": "left", "fontSize": 15, "fontWeight": "bold"},
+      "encoding": {
+        "x": {"field": "x", "type": "quantitative", "scale": {"domain": [0, 180]}, "axis": null},
+        "y": {"field": "y", "type": "quantitative", "scale": {"domain": [0, 500]}, "axis": null},
+        "text": {"field": "label", "type": "nominal"}
+      }
+    },
+    {
+      "data": {"values": [{"x1": 10, "x2": 40, "y": 458}]},
+      "mark": {"type": "rule", "color": "#4169E1", "strokeWidth": 2},
+      "encoding": {
+        "x": {"field": "x1", "type": "quantitative", "scale": {"domain": [0, 180]}, "axis": null},
+        "x2": {"field": "x2"},
+        "y": {"field": "y", "type": "quantitative", "scale": {"domain": [0, 500]}, "axis": null}
+      }
+    },
+    {
+      "data": {"values": [{"x": 45, "y": 458, "label": "Fertility rate"}]},
+      "mark": {"type": "text", "align": "left", "fontSize": 12},
+      "encoding": {
+        "x": {"field": "x", "type": "quantitative", "scale": {"domain": [0, 180]}, "axis": null},
+        "y": {"field": "y", "type": "quantitative", "scale": {"domain": [0, 500]}, "axis": null},
+        "text": {"field": "label", "type": "nominal"}
+      }
+    },
+    {
+      "data": {"values": [{"x1": 10, "x2": 40, "y": 436}]},
+      "mark": {"type": "rule", "color": "#FF7F0E", "strokeWidth": 2},
+      "encoding": {
+        "x": {"field": "x1", "type": "quantitative", "scale": {"domain": [0, 180]}, "axis": null},
+        "x2": {"field": "x2"},
+        "y": {"field": "y", "type": "quantitative", "scale": {"domain": [0, 500]}, "axis": null}
+      }
+    },
+    {
+      "data": {"values": [{"x": 45, "y": 436, "label": "GDP per capita"}]},
+      "mark": {"type": "text", "align": "left", "fontSize": 12},
+      "encoding": {
+        "x": {"field": "x", "type": "quantitative", "scale": {"domain": [0, 180]}, "axis": null},
+        "y": {"field": "y", "type": "quantitative", "scale": {"domain": [0, 500]}, "axis": null},
+        "text": {"field": "label", "type": "nominal"}
+      }
+    }
+  ]
+}
+]
 }

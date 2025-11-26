@@ -1157,7 +1157,12 @@
           },
           "mark": {
             "type": "line",
-            "strokeWidth": 2
+            "strokeWidth": 2,
+            "point": {
+              "filled": true,
+              "size": 100,
+              "opacity": 0
+            }
           },
           "encoding": {
             "x": {
@@ -1224,2665 +1229,2669 @@
                 "year": 2024,
                 "value": 592.6890994645801,
                 "source": "Coal",
-                "color": "#8B4513",
+                "color": "#c5a289",
                 "type": "projection"
               },
               {
                 "year": 2025,
                 "value": 556.891391136538,
                 "source": "Coal",
-                "color": "#8B4513",
+                "color": "#c5a289",
                 "type": "projection"
               },
               {
                 "year": 2026,
                 "value": 521.0936828084814,
                 "source": "Coal",
-                "color": "#8B4513",
+                "color": "#c5a289",
                 "type": "projection"
               },
               {
                 "year": 2027,
                 "value": 485.2959744804393,
                 "source": "Coal",
-                "color": "#8B4513",
+                "color": "#c5a289",
                 "type": "projection"
               },
               {
                 "year": 2028,
                 "value": 449.4982661523827,
                 "source": "Coal",
-                "color": "#8B4513",
+                "color": "#c5a289",
                 "type": "projection"
               },
               {
                 "year": 2029,
                 "value": 413.70055782434065,
                 "source": "Coal",
-                "color": "#8B4513",
+                "color": "#c5a289",
                 "type": "projection"
               },
               {
                 "year": 2030,
                 "value": 377.90284949628403,
                 "source": "Coal",
-                "color": "#8B4513",
+                "color": "#c5a289",
                 "type": "projection"
               },
               {
                 "year": 2031,
                 "value": 342.10514116824197,
                 "source": "Coal",
-                "color": "#8B4513",
+                "color": "#c5a289",
                 "type": "projection"
               },
               {
                 "year": 2032,
                 "value": 306.3074328401999,
                 "source": "Coal",
-                "color": "#8B4513",
+                "color": "#c5a289",
                 "type": "projection"
               },
               {
                 "year": 2033,
                 "value": 270.5097245121433,
                 "source": "Coal",
-                "color": "#8B4513",
+                "color": "#c5a289",
                 "type": "projection"
               },
               {
                 "year": 2034,
                 "value": 234.71201618410123,
                 "source": "Coal",
-                "color": "#8B4513",
+                "color": "#c5a289",
                 "type": "projection"
               },
               {
                 "year": 2035,
                 "value": 198.91430785604462,
                 "source": "Coal",
-                "color": "#8B4513",
+                "color": "#c5a289",
                 "type": "projection"
               },
               {
                 "year": 2036,
                 "value": 163.11659952800255,
                 "source": "Coal",
-                "color": "#8B4513",
+                "color": "#c5a289",
                 "type": "projection"
               },
               {
                 "year": 2037,
                 "value": 127.31889119994594,
                 "source": "Coal",
-                "color": "#8B4513",
+                "color": "#c5a289",
                 "type": "projection"
               },
               {
                 "year": 2038,
                 "value": 91.52118287190387,
                 "source": "Coal",
-                "color": "#8B4513",
+                "color": "#c5a289",
                 "type": "projection"
               },
               {
                 "year": 2039,
                 "value": 55.72347454384726,
                 "source": "Coal",
-                "color": "#8B4513",
+                "color": "#c5a289",
                 "type": "projection"
               },
               {
                 "year": 2040,
                 "value": 19.925766215805197,
                 "source": "Coal",
-                "color": "#8B4513",
+                "color": "#c5a289",
                 "type": "projection"
               },
               {
                 "year": 2041,
                 "value": 0.0,
                 "source": "Coal",
-                "color": "#8B4513",
+                "color": "#c5a289",
                 "type": "projection"
               },
               {
                 "year": 2024,
                 "value": 1122.4791645528967,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2025,
                 "value": 1103.8509149460588,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2026,
                 "value": 1085.2226653392208,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2027,
                 "value": 1066.594415732383,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2028,
                 "value": 1047.9661661255377,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2029,
                 "value": 1029.3379165186998,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2030,
                 "value": 1010.7096669118619,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2031,
                 "value": 992.0814173050239,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2032,
                 "value": 973.453167698186,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2033,
                 "value": 954.8249180913481,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2034,
                 "value": 936.1966684845102,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2035,
                 "value": 917.5684188776722,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2036,
                 "value": 898.9401692708343,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2037,
                 "value": 880.3119196639964,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2038,
                 "value": 861.6836700571585,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2039,
                 "value": 843.0554204503205,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2040,
                 "value": 824.4271708434826,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2041,
                 "value": 805.7989212366447,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2042,
                 "value": 787.1706716297995,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2043,
                 "value": 768.5424220229615,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2044,
                 "value": 749.9141724161236,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2045,
                 "value": 731.2859228092857,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2046,
                 "value": 712.6576732024478,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2047,
                 "value": 694.0294235956098,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2048,
                 "value": 675.4011739887719,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2049,
                 "value": 656.772924381934,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2050,
                 "value": 638.1446747750961,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2051,
                 "value": 619.5164251682581,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2052,
                 "value": 600.8881755614202,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2053,
                 "value": 582.2599259545823,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2054,
                 "value": 563.6316763477444,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2055,
                 "value": 545.0034267408992,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2056,
                 "value": 526.3751771340612,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2057,
                 "value": 507.7469275272233,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2058,
                 "value": 489.1186779203854,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2059,
                 "value": 470.49042831354745,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2060,
                 "value": 451.8621787067095,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2061,
                 "value": 433.2339290998716,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2062,
                 "value": 414.6056794930337,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2063,
                 "value": 395.97742988619575,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2064,
                 "value": 377.3491802793578,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2065,
                 "value": 358.7209306725199,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2066,
                 "value": 340.092681065682,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2067,
                 "value": 321.46443145884405,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2068,
                 "value": 302.8361818520061,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2069,
                 "value": 284.2079322451609,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2070,
                 "value": 265.579682638323,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2071,
                 "value": 246.95143303148507,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2072,
                 "value": 228.32318342464714,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2073,
                 "value": 209.69493381780921,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2074,
                 "value": 191.0666842109713,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2075,
                 "value": 172.43843460413336,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2076,
                 "value": 153.81018499729544,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2077,
                 "value": 135.1819353904575,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2078,
                 "value": 116.55368578361958,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2079,
                 "value": 97.92543617678166,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2080,
                 "value": 79.29718656994373,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2081,
                 "value": 60.66893696310581,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2082,
                 "value": 42.040687356260605,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2083,
                 "value": 23.41243774942268,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2084,
                 "value": 4.784188142584753,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2085,
                 "value": 0.0,
                 "source": "Oil",
-                "color": "#000000",
+                "color": "#7f7f7f",
                 "type": "projection"
               },
               {
                 "year": 2024,
                 "value": 692.3601710992461,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2025,
                 "value": 684.9187662760432,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2026,
                 "value": 677.4773614528385,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2027,
                 "value": 670.0359566296338,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2028,
                 "value": 662.5945518064309,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2029,
                 "value": 655.1531469832262,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2030,
                 "value": 647.7117421600215,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2031,
                 "value": 640.2703373368186,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2032,
                 "value": 632.8289325136138,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2033,
                 "value": 625.3875276904091,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2034,
                 "value": 617.9461228672062,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2035,
                 "value": 610.5047180440015,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2036,
                 "value": 603.0633132207968,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2037,
                 "value": 595.621908397592,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2038,
                 "value": 588.1805035743891,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2039,
                 "value": 580.7390987511844,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2040,
                 "value": 573.2976939279797,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2041,
                 "value": 565.8562891047768,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2042,
                 "value": 558.4148842815721,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2043,
                 "value": 550.9734794583674,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2044,
                 "value": 543.5320746351645,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2045,
                 "value": 536.0906698119597,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2046,
                 "value": 528.649264988755,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2047,
                 "value": 521.2078601655521,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2048,
                 "value": 513.7664553423474,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2049,
                 "value": 506.3250505191427,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2050,
                 "value": 498.8836456959398,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2051,
                 "value": 491.44224087273506,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2052,
                 "value": 484.00083604953034,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2053,
                 "value": 476.55943122632743,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2054,
                 "value": 469.1180264031227,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2055,
                 "value": 461.676621579918,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2056,
                 "value": 454.2352167567151,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2057,
                 "value": 446.79381193351037,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2058,
                 "value": 439.35240711030565,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2059,
                 "value": 431.91100228710275,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2060,
                 "value": 424.469597463898,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2061,
                 "value": 417.0281926406933,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2062,
                 "value": 409.5867878174886,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2063,
                 "value": 402.1453829942857,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2064,
                 "value": 394.70397817108096,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2065,
                 "value": 387.26257334787624,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2066,
                 "value": 379.82116852467334,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2067,
                 "value": 372.3797637014686,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2068,
                 "value": 364.9383588782639,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2069,
                 "value": 357.496954055061,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2070,
                 "value": 350.0555492318563,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2071,
                 "value": 342.61414440865155,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2072,
                 "value": 335.17273958544865,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2073,
                 "value": 327.73133476224393,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2074,
                 "value": 320.2899299390392,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2075,
                 "value": 312.8485251158363,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2076,
                 "value": 305.4071202926316,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2077,
                 "value": 297.96571546942687,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2078,
                 "value": 290.52431064622397,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2079,
                 "value": 283.08290582301925,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2080,
                 "value": 275.6415009998145,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2081,
                 "value": 268.2000961766116,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2082,
                 "value": 260.7586913534069,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2083,
                 "value": 253.31728653020218,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2084,
                 "value": 245.87588170699928,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2085,
                 "value": 238.43447688379456,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2086,
                 "value": 230.99307206058984,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2087,
                 "value": 223.55166723738512,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2088,
                 "value": 216.11026241418222,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2089,
                 "value": 208.6688575909775,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2090,
                 "value": 201.22745276777277,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2091,
                 "value": 193.78604794456987,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2092,
                 "value": 186.34464312136515,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2093,
                 "value": 178.90323829816043,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2094,
                 "value": 171.46183347495753,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2095,
                 "value": 164.0204286517528,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2096,
                 "value": 156.5790238285481,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2097,
                 "value": 149.1376190053452,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2098,
                 "value": 141.69621418214047,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2099,
                 "value": 134.25480935893574,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2100,
                 "value": 126.81340453573284,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2101,
                 "value": 119.37199971252812,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2102,
                 "value": 111.9305948893234,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2103,
                 "value": 104.4891900661205,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2104,
                 "value": 97.04778524291578,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2105,
                 "value": 89.60638041971106,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2106,
                 "value": 82.16497559650816,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2107,
                 "value": 74.72357077330344,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2108,
                 "value": 67.28216595009872,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2109,
                 "value": 59.84076112689581,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2110,
                 "value": 52.39935630369109,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2111,
                 "value": 44.95795148048637,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2112,
                 "value": 37.51654665728165,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2113,
                 "value": 30.07514183407875,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2114,
                 "value": 22.63373701087403,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2115,
                 "value": 15.192332187669308,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2116,
                 "value": 7.750927364466406,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2117,
                 "value": 0.30952254126168555,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2118,
                 "value": 0.0,
                 "source": "Gas",
-                "color": "#4169E1",
+                "color": "#a0b4f0",
                 "type": "projection"
               },
               {
                 "year": 2024,
                 "value": 60.65466280520195,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2025,
                 "value": 58.974380801972984,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2026,
                 "value": 57.29409879874356,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2027,
                 "value": 55.61381679551414,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2028,
                 "value": 53.93353479228472,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2029,
                 "value": 52.25325278905575,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2030,
                 "value": 50.57297078582633,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2031,
                 "value": 48.892688782596906,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2032,
                 "value": 47.212406779367484,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2033,
                 "value": 45.53212477613806,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2034,
                 "value": 43.851842772909094,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2035,
                 "value": 42.17156076967967,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2036,
                 "value": 40.49127876645025,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2037,
                 "value": 38.81099676322083,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2038,
                 "value": 37.13071475999186,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2039,
                 "value": 35.45043275676244,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2040,
                 "value": 33.77015075353302,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2041,
                 "value": 32.089868750303594,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2042,
                 "value": 30.409586747074627,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2043,
                 "value": 28.729304743845205,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2044,
                 "value": 27.049022740615783,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2045,
                 "value": 25.36874073738636,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2046,
                 "value": 23.688458734157393,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2047,
                 "value": 22.00817673092797,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2048,
                 "value": 20.32789472769855,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2049,
                 "value": 18.647612724469127,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2050,
                 "value": 16.967330721239705,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2051,
                 "value": 15.287048718010738,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2052,
                 "value": 13.606766714781315,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2053,
                 "value": 11.926484711551893,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2054,
                 "value": 10.246202708322471,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2055,
                 "value": 8.565920705093504,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2056,
                 "value": 6.885638701864082,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2057,
                 "value": 5.2053566986346596,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2058,
                 "value": 3.5250746954052374,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2059,
                 "value": 1.84479269217627,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2060,
                 "value": 0.16451068894684795,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2061,
                 "value": 0.0,
                 "source": "Cement",
-                "color": "#808080",
+                "color": "#bfbfbf",
                 "type": "projection"
               },
               {
                 "year": 2024,
                 "value": 19.016974478056966,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2025,
                 "value": 18.826811091105185,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2026,
                 "value": 18.636647704153404,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2027,
                 "value": 18.446484317201623,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2028,
                 "value": 18.256320930249785,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2029,
                 "value": 18.066157543298004,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2030,
                 "value": 17.875994156346223,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2031,
                 "value": 17.685830769394443,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2032,
                 "value": 17.495667382442605,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2033,
                 "value": 17.305503995490824,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2034,
                 "value": 17.115340608539043,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2035,
                 "value": 16.925177221587262,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2036,
                 "value": 16.73501383463548,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2037,
                 "value": 16.544850447683643,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2038,
                 "value": 16.354687060731862,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2039,
                 "value": 16.16452367378008,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2040,
                 "value": 15.9743602868283,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2041,
                 "value": 15.78419689987652,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2042,
                 "value": 15.594033512924682,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2043,
                 "value": 15.403870125972901,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2044,
                 "value": 15.21370673902112,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2045,
                 "value": 15.023543352069339,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2046,
                 "value": 14.833379965117501,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2047,
                 "value": 14.64321657816572,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2048,
                 "value": 14.45305319121394,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2049,
                 "value": 14.262889804262159,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2050,
                 "value": 14.072726417310378,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2051,
                 "value": 13.88256303035854,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2052,
                 "value": 13.692399643406759,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2053,
                 "value": 13.502236256454978,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2054,
                 "value": 13.312072869503197,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2055,
                 "value": 13.12190948255136,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2056,
                 "value": 12.931746095599578,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2057,
                 "value": 12.741582708647798,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2058,
                 "value": 12.551419321696017,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2059,
                 "value": 12.361255934744236,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2060,
                 "value": 12.171092547792398,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2061,
                 "value": 11.980929160840617,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2062,
                 "value": 11.790765773888836,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2063,
                 "value": 11.600602386937055,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2064,
                 "value": 11.410438999985274,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2065,
                 "value": 11.220275613033436,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2066,
                 "value": 11.030112226081656,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2067,
                 "value": 10.839948839129875,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2068,
                 "value": 10.649785452178094,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2069,
                 "value": 10.459622065226256,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2070,
                 "value": 10.269458678274475,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2071,
                 "value": 10.079295291322694,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2072,
                 "value": 9.889131904370913,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2073,
                 "value": 9.698968517419132,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2074,
                 "value": 9.508805130467294,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2075,
                 "value": 9.318641743515514,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2076,
                 "value": 9.128478356563733,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2077,
                 "value": 8.938314969611952,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2078,
                 "value": 8.748151582660114,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2079,
                 "value": 8.557988195708333,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2080,
                 "value": 8.367824808756552,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2081,
                 "value": 8.177661421804771,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2082,
                 "value": 7.98749803485299,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2083,
                 "value": 7.7973346479011525,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2084,
                 "value": 7.607171260949372,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2085,
                 "value": 7.417007873997591,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2086,
                 "value": 7.22684448704581,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2087,
                 "value": 7.036681100094029,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2088,
                 "value": 6.846517713142191,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2089,
                 "value": 6.65635432619041,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2090,
                 "value": 6.466190939238629,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2091,
                 "value": 6.276027552286848,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2092,
                 "value": 6.0858641653350105,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2093,
                 "value": 5.89570077838323,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2094,
                 "value": 5.705537391431449,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2095,
                 "value": 5.515374004479668,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2096,
                 "value": 5.325210617527887,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2097,
                 "value": 5.135047230576049,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2098,
                 "value": 4.944883843624268,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2099,
                 "value": 4.754720456672487,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2100,
                 "value": 4.564557069720706,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2101,
                 "value": 4.3743936827688685,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2102,
                 "value": 4.184230295817088,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2103,
                 "value": 3.9940669088653067,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2104,
                 "value": 3.8039035219135258,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2105,
                 "value": 3.613740134961745,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2106,
                 "value": 3.423576748009907,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2107,
                 "value": 3.233413361058126,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2108,
                 "value": 3.0432499741063452,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2109,
                 "value": 2.8530865871545643,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2110,
                 "value": 2.6629232002027265,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2111,
                 "value": 2.4727598132509456,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2112,
                 "value": 2.2825964262991647,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2113,
                 "value": 2.092433039347384,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2114,
                 "value": 1.9022696523956029,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2115,
                 "value": 1.712106265443765,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2116,
                 "value": 1.5219428784919842,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2117,
                 "value": 1.3317794915402033,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2118,
                 "value": 1.1416161045884223,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2119,
                 "value": 0.9514527176366414,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2120,
                 "value": 0.7612893306848036,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2121,
                 "value": 0.5711259437330227,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2122,
                 "value": 0.3809625567812418,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2123,
                 "value": 0.19079916982946088,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2124,
                 "value": 0.0006357828776231145,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2125,
                 "value": 0.0,
                 "source": "Flaring",
-                "color": "#FF4500",
+                "color": "#ffa27f",
                 "type": "projection"
               },
               {
                 "year": 2024,
                 "value": 34.36368139688079,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2025,
                 "value": 33.81589513506219,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2026,
                 "value": 33.268108873243364,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2027,
                 "value": 32.72032261142476,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2028,
                 "value": 32.17253634960616,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2029,
                 "value": 31.62475008778756,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2030,
                 "value": 31.07696382596896,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2031,
                 "value": 30.52917756415036,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2032,
                 "value": 29.981391302331758,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2033,
                 "value": 29.433605040513157,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2034,
                 "value": 28.885818778694556,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2035,
                 "value": 28.338032516875728,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2036,
                 "value": 27.790246255057127,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2037,
                 "value": 27.242459993238526,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2038,
                 "value": 26.694673731419925,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2039,
                 "value": 26.146887469601324,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2040,
                 "value": 25.599101207782724,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2041,
                 "value": 25.051314945964123,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2042,
                 "value": 24.50352868414552,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2043,
                 "value": 23.95574242232692,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2044,
                 "value": 23.407956160508093,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2045,
                 "value": 22.86016989868949,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2046,
                 "value": 22.31238363687089,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2047,
                 "value": 21.76459737505229,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2048,
                 "value": 21.21681111323369,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2049,
                 "value": 20.669024851415088,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2050,
                 "value": 20.121238589596487,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2051,
                 "value": 19.573452327777886,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2052,
                 "value": 19.025666065959285,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2053,
                 "value": 18.477879804140457,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2054,
                 "value": 17.930093542321856,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2055,
                 "value": 17.382307280503255,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2056,
                 "value": 16.834521018684654,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2057,
                 "value": 16.286734756866053,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2058,
                 "value": 15.738948495047453,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2059,
                 "value": 15.191162233228852,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2060,
                 "value": 14.64337597141025,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2061,
                 "value": 14.09558970959165,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2062,
                 "value": 13.547803447772822,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2063,
                 "value": 13.00001718595422,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2064,
                 "value": 12.45223092413562,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2065,
                 "value": 11.904444662317019,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2066,
                 "value": 11.356658400498418,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2067,
                 "value": 10.808872138679817,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2068,
                 "value": 10.261085876861216,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2069,
                 "value": 9.713299615042615,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2070,
                 "value": 9.165513353224014,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2071,
                 "value": 8.617727091405186,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2072,
                 "value": 8.069940829586585,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2073,
                 "value": 7.522154567767984,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2074,
                 "value": 6.974368305949383,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2075,
                 "value": 6.426582044130782,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2076,
                 "value": 5.8787957823121815,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2077,
                 "value": 5.331009520493581,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2078,
                 "value": 4.78322325867498,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2079,
                 "value": 4.235436996856379,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2080,
                 "value": 3.6876507350375505,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2081,
                 "value": 3.1398644732189496,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2082,
                 "value": 2.5920782114003487,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2083,
                 "value": 2.0442919495817478,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2084,
                 "value": 1.4965056877631469,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2085,
                 "value": 0.948719425944546,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2086,
                 "value": 0.40093316412594504,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               },
               {
                 "year": 2087,
                 "value": 0.0,
                 "source": "Other Industry",
-                "color": "#9370DB",
+                "color": "#c9b7ed",
                 "type": "projection"
               }
             ]
           },
           "mark": {
             "type": "line",
-            "strokeWidth": 2,
+            "strokeWidth": 3,
             "strokeDash": [
               5,
               5
             ],
-            "opacity": 0.4
+            "point": {
+              "filled": true,
+              "opacity": 0,
+              "size": 100
+            }
           },
           "encoding": {
             "x": {

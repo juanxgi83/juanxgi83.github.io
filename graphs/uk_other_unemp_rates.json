@@ -31,7 +31,15 @@
       }
     }
   ],
-  "mark": {"type": "line", "tooltip": true},
+  "mark": {
+    "type": "line",
+    "tooltip": true,
+    "point": {
+      "filled": true,
+      "size": 100,
+      "opacity": 0
+    }
+  },
   "encoding": {
     "x": {
       "field": "date",

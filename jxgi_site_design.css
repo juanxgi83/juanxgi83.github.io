@@ -364,6 +364,8 @@ figure {
   justify-content: center;
   align-items: center;
   position: relative;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
 /* Zoom button for charts */
@@ -477,11 +479,11 @@ figure > div {
   max-width: 100%;
 }
 
-/* Chart canvas elements */
+/* Chart canvas/svg elements - preserve natural dimensions for tooltip accuracy */
 figure canvas,
 figure svg {
   max-width: 100%;
-  height: auto !important;
+  height: auto;
 }
 
 /* Responsive chart sizing */

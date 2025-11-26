@@ -615,9 +615,12 @@
               5,
               5
             ],
-            "color": "black",
-            "opacity": 0.4,
-            "strokeWidth": 2
+            "color": "gray",
+            "strokeWidth": 3,
+            "point": {
+              "opacity": 0,
+              "size": 200
+            }
           },
           "encoding": {
             "x": {
