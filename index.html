@@ -301,6 +301,15 @@
                                     spec.hconcat[1].height = Math.floor(spec.hconcat[1].height * scale);
                                 }
                             }
+                        } else if (spec.layer && spec.layer.length > 0) {
+                            // For layered specs with fixed positioning, scale everything
+                            if (maxWidth < 800) {
+                                const scale = maxWidth / 800;
+                                spec.width = maxWidth;
+                                if (spec.height) {
+                                    spec.height = Math.floor(spec.height * scale);
+                                }
+                            }
                         } else {
                             // For regular specs, adjust width
                             if (maxWidth < 800) {
@@ -440,6 +449,12 @@
                             spec.hconcat[0].width = Math.max(500, availableWidth);
                             
                             // Embed without container sizing
+                            vegaEmbed('#modalChart', spec, {
+                                actions: true,
+                                renderer: "svg"
+                            });
+                        } else if (spec.layer && spec.layer.length > 0) {
+                            // For layered specs with fixed positioning, keep original dimensions in modal
                             vegaEmbed('#modalChart', spec, {
                                 actions: true,
                                 renderer: "svg"
