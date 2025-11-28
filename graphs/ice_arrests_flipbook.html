@@ -33,8 +33,7 @@
         }
         #chart-display {
             width: 100%;
-            max-width: 900px;
-            max-height: 360px;
+            height: 100%;
             margin: 0 auto;
             display: flex;
             align-items: center;
@@ -77,11 +76,15 @@
         }
         @media (max-width: 768px) {
             #chart-container {
-                padding: 10px;
+                padding: 5px;
+            }
+            #chart-display {
+                width: 100%;
+                height: 100%;
             }
             #controls {
-                padding: 15px 10px;
-                gap: 10px;
+                padding: 12px 8px;
+                gap: 8px;
             }
             button {
                 padding: 10px 16px;
@@ -93,12 +96,20 @@
             }
         }
         @media (max-width: 480px) {
+            #chart-container {
+                padding: 2px;
+            }
+            #controls {
+                padding: 10px 5px;
+                gap: 5px;
+            }
             button {
                 padding: 8px 12px;
                 font-size: 12px;
             }
             #page-indicator {
                 font-size: 12px;
+                min-width: 70px;
             }
         }
         /* Loading indicator */
@@ -175,12 +186,13 @@
             
             // Calculate responsive dimensions based on actual available space
             const container = document.getElementById('chart-container');
-            const containerWidth = container.offsetWidth - 20 || window.innerWidth - 40;
-            const containerHeight = container.offsetHeight - 20 || 300;
+            const containerWidth = container.offsetWidth || window.innerWidth;
+            const containerHeight = container.offsetHeight || window.innerHeight - 100;
             
-            // Adjust spec for responsive display
-            const maxWidth = Math.min(containerWidth, 900);
-            const maxHeight = Math.max(containerHeight, 300);
+            // Use full available space with minimal padding
+            const padding = window.innerWidth <= 480 ? 10 : 20;
+            const maxWidth = containerWidth - padding;
+            const maxHeight = containerHeight - padding;
             
             // Use Vega-Lite autosize to fit within container while maintaining aspect ratio
             spec.autosize = {
@@ -188,7 +200,7 @@
                 contains: 'padding'
             };
             
-            // Set container constraints
+            // Set container constraints - use full available space
             spec.width = maxWidth;
             spec.height = maxHeight;
             
