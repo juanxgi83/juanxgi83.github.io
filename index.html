@@ -216,8 +216,11 @@
         let figure_4_spec = "graphs/usa_weekly_wages.json";
         let figure_5_spec = "graphs/eu_co2_emissions_targets.json";
         let figure_6_spec = "graphs/eu_co2_emissions_sources.json";
-        let figure_7_spec = "graphs/ice_migrant_arrests_combined.json";
+        let figure_7_spec = "graphs/ice_migrant_arrests_total_economist_combined.json";
         let figure_8_spec = "";
+        
+        // Store parameter state for charts with parameters
+        let chartParameterStates = {};
 
         let embedOpt = {
             actions: false,
@@ -309,11 +312,34 @@
                             }
                         }
                         
+                        // Restore saved parameter state if available
+                        if (chartParameterStates[locationId]) {
+                            if (spec.params) {
+                                spec.params.forEach(param => {
+                                    if (chartParameterStates[locationId][param.name] !== undefined) {
+                                        param.value = chartParameterStates[locationId][param.name];
+                                    }
+                                });
+                            }
+                        }
+                        
                         // Embed with SVG renderer for accurate tooltips at any size
                         vegaEmbed('#' + locationId, spec, {
                             actions: false,
                             renderer: "svg"
                         }).then((result) => {
+                            // Store parameter change listeners
+                            if (result.view && spec.params) {
+                                if (!chartParameterStates[locationId]) {
+                                    chartParameterStates[locationId] = {};
+                                }
+                                spec.params.forEach(param => {
+                                    result.view.addSignalListener(param.name, (name, value) => {
+                                        chartParameterStates[locationId][name] = value;
+                                    });
+                                });
+                            }
+                            
                             // Move parameter controls (bindings) above the chart
                             setTimeout(() => {
                                 const figureElement = document.getElementById(locationId);
