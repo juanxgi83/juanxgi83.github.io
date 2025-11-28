@@ -85,12 +85,10 @@
         
         <section>
             <div class="chart-description">
-                <h5>ICE Migrant Arrests Flipbook</h5>
+                <h5>Week 4: TFR API Live Chart</h5>
                 <p> 
-                    This interactive flipbook displays ICE migrant arrests data from September 2023 through July 2025. 
-                    Use the Previous/Next buttons or arrow keys to navigate between the reproduced chart and the modified 
-                    version with baseline comparison. The charts are fully responsive and work on both desktop and mobile devices, 
-                    with proper tooltips and zoom functionality.
+                    We've organised the page into sections, with each section containing a chart, title and a description. Here, we can describe the chart and give some context.
+                    As a first example, we're using a basic chart from our repo.
                 </p>
             </div>
             <figure id="Location7"></figure> 
@@ -218,7 +216,7 @@
         let figure_4_spec = "graphs/usa_weekly_wages.json";
         let figure_5_spec = "graphs/eu_co2_emissions_targets.json";
         let figure_6_spec = "graphs/eu_co2_emissions_sources.json";
-        let figure_7_spec = "graphs/ice_arrests_flipbook.html";
+        let figure_7_spec = "graphs/ice_migrant_arrests_combined.json";
         let figure_8_spec = "";
 
         let embedOpt = {
@@ -260,14 +258,13 @@
         function loadChart(locationId, chartSpec) {
             const figure = document.getElementById(locationId);
             if (chartSpec.endsWith('.html')) {
-                // For HTML files (like flipbook), use iframe
+                // For HTML files (like Plotly), use iframe
                 const iframe = document.createElement('iframe');
                 iframe.src = chartSpec;
                 iframe.style.width = '100%';
-                iframe.style.height = '480px';
+                iframe.style.height = '600px';
                 iframe.style.border = 'none';
-                iframe.style.minHeight = '480px';
-                iframe.scrolling = 'no';
+                iframe.style.minHeight = '400px';
                 figure.appendChild(iframe);
                 addZoomButton(locationId, chartSpec);
             } else {
@@ -316,7 +313,21 @@
                         vegaEmbed('#' + locationId, spec, {
                             actions: false,
                             renderer: "svg"
-                        }).then(() => addZoomButton(locationId, chartSpec));
+                        }).then((result) => {
+                            // Move parameter controls (bindings) above the chart
+                            setTimeout(() => {
+                                const figureElement = document.getElementById(locationId);
+                                if (figureElement) {
+                                    const bindings = figureElement.querySelector('.vega-bindings');
+                                    const vegaEmbed = figureElement.querySelector('.vega-embed');
+                                    if (bindings && vegaEmbed) {
+                                        vegaEmbed.insertBefore(bindings, vegaEmbed.firstChild);
+                                        bindings.style.marginBottom = '15px';
+                                    }
+                                }
+                            }, 100);
+                            addZoomButton(locationId, chartSpec);
+                        });
                     });
             }
         }
@@ -381,13 +392,12 @@
             modalChart.style.overflow = 'auto'; // Allow scrolling if needed
             
             if (chartSpec.endsWith('.html')) {
-                // For HTML files (flipbook with responsive config)
+                // For HTML files (Plotly with responsive config)
                 const iframe = document.createElement('iframe');
                 iframe.src = chartSpec;
                 iframe.style.width = '100%';
                 iframe.style.height = '100%';
                 iframe.style.border = 'none';
-                iframe.style.minHeight = '100%';
                 modalChart.appendChild(iframe);
             } else {
                 // For JSON files (Vega-Lite)
