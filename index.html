@@ -85,10 +85,12 @@
         
         <section>
             <div class="chart-description">
-                <h5>Week 4: TFR API Live Chart</h5>
+                <h5>ICE Migrant Arrests Flipbook</h5>
                 <p> 
-                    We've organised the page into sections, with each section containing a chart, title and a description. Here, we can describe the chart and give some context.
-                    As a first example, we're using a basic chart from our repo.
+                    This interactive flipbook displays ICE migrant arrests data from September 2023 through July 2025. 
+                    Use the Previous/Next buttons or arrow keys to navigate between the reproduced chart and the modified 
+                    version with baseline comparison. The charts are fully responsive and work on both desktop and mobile devices, 
+                    with proper tooltips and zoom functionality.
                 </p>
             </div>
             <figure id="Location7"></figure> 
@@ -217,7 +219,7 @@
         let figure_5_spec = "graphs/eu_co2_emissions_targets.json";
         let figure_6_spec = "graphs/eu_co2_emissions_sources.json";
         let figure_7_spec = "graphs/ice_arrests_flipbook.html";
-        let figure_8_spec = "graphs/ice_arrests_by_status_flipbook.html";
+        let figure_8_spec = "";
 
         let embedOpt = {
             actions: false,
@@ -258,13 +260,14 @@
         function loadChart(locationId, chartSpec) {
             const figure = document.getElementById(locationId);
             if (chartSpec.endsWith('.html')) {
-                // For HTML files (like Plotly), use iframe
+                // For HTML files (like flipbook), use iframe
                 const iframe = document.createElement('iframe');
                 iframe.src = chartSpec;
                 iframe.style.width = '100%';
-                iframe.style.height = '600px';
+                iframe.style.height = '480px';
                 iframe.style.border = 'none';
-                iframe.style.minHeight = '400px';
+                iframe.style.minHeight = '480px';
+                iframe.scrolling = 'no';
                 figure.appendChild(iframe);
                 addZoomButton(locationId, chartSpec);
             } else {
@@ -378,12 +381,13 @@
             modalChart.style.overflow = 'auto'; // Allow scrolling if needed
             
             if (chartSpec.endsWith('.html')) {
-                // For HTML files (Plotly with responsive config)
+                // For HTML files (flipbook with responsive config)
                 const iframe = document.createElement('iframe');
                 iframe.src = chartSpec;
                 iframe.style.width = '100%';
                 iframe.style.height = '100%';
                 iframe.style.border = 'none';
+                iframe.style.minHeight = '100%';
                 modalChart.appendChild(iframe);
             } else {
                 // For JSON files (Vega-Lite)
