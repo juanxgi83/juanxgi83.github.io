@@ -1,0 +1,167 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "Scatter plot of GDP per capita vs Gini coefficient by country and year",
+  "width": 800,
+  "height": 500,
+  "padding": 5,
+  
+  "signals": [
+    {
+      "name": "year_select",
+      "value": 2019,
+      "bind": {"input": "range", "min": 2010, "max": 2030, "step": 1, "name": "Year: "}
+    },
+    {
+      "name": "continent_selection",
+      "value": null,
+      "on": [
+        {"events": "@legend_symbol:click", "update": "datum.value === continent_selection ? null : datum.value"}
+      ]
+    }
+  ],
+  
+  "data": [
+    {
+      "name": "gdp_raw",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.PCAP.CD?date=2010:2030&format=json&per_page=10000",
+      "format": {"type": "json", "property": "1"},
+      "transform": [
+        {"type": "filter", "expr": "datum.value != null"},
+        {"type": "filter", "expr": "datum.countryiso3code != null && datum.countryiso3code != ''"},
+        {"type": "filter", "expr": "length(datum.countryiso3code) == 3"},
+        {
+          "type": "formula",
+          "as": "key",
+          "expr": "datum.countryiso3code + '_' + datum.date"
+        }
+      ]
+    },
+    {
+      "name": "gini_raw",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/SI.POV.GINI?date=2010:2030&format=json&per_page=10000",
+      "format": {"type": "json", "property": "1"},
+      "transform": [
+        {"type": "filter", "expr": "datum.value != null"},
+        {"type": "filter", "expr": "datum.countryiso3code != null"},
+        {
+          "type": "formula",
+          "as": "key",
+          "expr": "datum.countryiso3code + '_' + datum.date"
+        }
+      ]
+    },
+    {
+      "name": "continents",
+      "url": "https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/master/all/all.json",
+      "format": {"type": "json"}
+    },
+    {
+      "name": "combined",
+      "source": "gdp_raw",
+      "transform": [
+        {
+          "type": "lookup",
+          "from": "gini_raw",
+          "key": "key",
+          "fields": ["key"],
+          "values": ["value"],
+          "as": ["gini"]
+        },
+        {"type": "filter", "expr": "datum.gini != null"},
+        {
+          "type": "lookup",
+          "from": "continents",
+          "key": "alpha-3",
+          "fields": ["countryiso3code"],
+          "values": ["region"],
+          "as": ["continent"]
+        },
+        {"type": "filter", "expr": "datum.continent != null"},
+        {
+          "type": "formula",
+          "as": "continent_clean",
+          "expr": "datum.continent == 'Africa' ? 'Africa' : datum.continent == 'Americas' ? 'Americas' : datum.continent == 'Asia' ? 'Asia' : datum.continent == 'Europe' ? 'Europe' : datum.continent == 'Oceania' ? 'Oceania' : 'Other'"
+        },
+        {"type": "filter", "expr": "datum.continent_clean != 'Other'"},
+        {"type": "filter", "expr": "parseInt(datum.date) == year_select"},
+        {"type": "filter", "expr": "!continent_selection || datum.continent_clean == continent_selection"}
+      ]
+    }
+  ],
+  
+  "scales": [
+    {
+      "name": "xscale",
+      "type": "linear",
+      "domain": [20, 65],
+      "range": "width"
+    },
+    {
+      "name": "yscale",
+      "type": "linear",
+      "domain": {"data": "combined", "field": "value"},
+      "range": "height",
+      "nice": true
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": ["Africa", "Americas", "Asia", "Europe", "Oceania"],
+      "range": ["#ff7f0e", "#2ca02c", "#d62728", "#4169e1", "#9467bd"]
+    }
+  ],
+  
+  "axes": [
+    {
+      "orient": "bottom",
+      "scale": "xscale",
+      "title": "Gini Coefficient"
+    },
+    {
+      "orient": "left",
+      "scale": "yscale",
+      "title": "GDP per Capita (USD)",
+      "format": ",.0f"
+    }
+  ],
+  
+  "legends": [
+    {
+      "fill": "color",
+      "title": "Continent (Click to filter)",
+      "encode": {
+        "symbols": {
+          "name": "legend_symbol",
+          "interactive": true,
+          "update": {
+            "opacity": {"value": 0.8}
+          },
+          "hover": {
+            "opacity": {"value": 1}
+          }
+        }
+      }
+    }
+  ],
+  
+  "marks": [
+    {
+      "type": "symbol",
+      "from": {"data": "combined"},
+      "encode": {
+        "enter": {
+          "x": {"scale": "xscale", "field": "gini"},
+          "y": {"scale": "yscale", "field": "value"},
+          "size": {"value": 100},
+          "fill": {"scale": "color", "field": "continent_clean"},
+          "tooltip": {
+            "signal": "{'Country': datum.country.value, 'Year': datum.date, 'Gini': format(datum.gini, '.2f'), 'GDP per Capita': format(datum.value, ',.0f'), 'Continent': datum.continent_clean}"
+          }
+        },
+        "update": {
+          "opacity": {"value": 0.8}
+        }
+      }
+    }
+  ]
+}
