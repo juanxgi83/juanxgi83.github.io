@@ -313,14 +313,9 @@
                                 }
                             }
                         } else if (spec.layer && spec.layer.length > 0) {
-                            // For layered specs with fixed positioning, scale everything
-                            if (maxWidth < 800) {
-                                const scale = maxWidth / 800;
-                                spec.width = maxWidth;
-                                if (spec.height) {
-                                    spec.height = Math.floor(spec.height * scale);
-                                }
-                            }
+                            // For layered specs with fixed positioning, don't override width
+                            // Let the chart use its container width naturally
+                            spec.width = 'container';
                         } else {
                             // For regular specs, adjust width
                             if (maxWidth < 800) {
