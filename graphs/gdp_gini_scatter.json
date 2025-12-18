@@ -5,6 +5,25 @@
   "height": 500,
   "padding": 5,
   
+  "title": {
+    "text": "GDP per Capita vs Income Inequality",
+    "subtitle": "Comparing GDP per capita and Gini coefficient across countries and continents",
+    "fontSize": 18,
+    "subtitleFontSize": 14,
+    "anchor": "start"
+  },
+  
+  "config": {
+    "axis": {
+      "labelFontSize": 14,
+      "titleFontSize": 15
+    },
+    "legend": {
+      "labelFontSize": 14,
+      "titleFontSize": 15
+    }
+  },
+  
   "signals": [
     {
       "name": "year_select",
