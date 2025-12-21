@@ -382,11 +382,21 @@ figure {
   font-size: 14px;
   z-index: 100;
   transition: all 0.3s;
+  pointer-events: auto;
 }
 
 .zoom-btn:hover {
   background-color: rgba(51, 51, 51, 1);
   transform: scale(1.05);
+}
+
+/* Ensure chart container allows pointer events to pass through except on button */
+figure {
+  position: relative;
+}
+
+figure > *:not(.zoom-btn) {
+  pointer-events: auto;
 }
 
 /* Modal/Lightbox for zoomed chart */

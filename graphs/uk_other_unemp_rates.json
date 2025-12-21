@@ -47,16 +47,7 @@
           }
         }
       ],
-      "mark": {
-        "type": "line",
-        "tooltip": true,
-        "strokeWidth": 2,
-        "point": {
-          "filled": true,
-          "size": 100,
-          "opacity": 0
-        }
-      },
+      "mark": {"type": "line", "tooltip": true},
       "encoding": {
         "x": {
           "field": "date",
@@ -84,6 +75,10 @@
             "range": ["#4169E1", "#e41a1c", "#FFA500", "#984ea3"]
           },
           "legend": null
+        },
+        "opacity": {
+          "condition": {"param": "selector", "empty": true, "value": 1},
+          "value": 0.15
         },
         "tooltip": [
           {"field": "country_name", "type": "nominal", "title": "Country"},
