@@ -1,0 +1,476 @@
+[
+  {
+    "page": 1,
+    "pages": 1,
+    "per_page": 100,
+    "total": 29,
+    "sourceid": "2",
+    "lastupdated": "2025-12-19"
+  },
+  [
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IE",
+        "value": "Ireland"
+      },
+      "countryiso3code": "IRL",
+      "date": "2023",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IE",
+        "value": "Ireland"
+      },
+      "countryiso3code": "IRL",
+      "date": "2022",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IE",
+        "value": "Ireland"
+      },
+      "countryiso3code": "IRL",
+      "date": "2021",
+      "value": 2.904629945755,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IE",
+        "value": "Ireland"
+      },
+      "countryiso3code": "IRL",
+      "date": "2020",
+      "value": 3.19163990020752,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IE",
+        "value": "Ireland"
+      },
+      "countryiso3code": "IRL",
+      "date": "2019",
+      "value": 3.22984004020691,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IE",
+        "value": "Ireland"
+      },
+      "countryiso3code": "IRL",
+      "date": "2018",
+      "value": 3.30347990989685,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IE",
+        "value": "Ireland"
+      },
+      "countryiso3code": "IRL",
+      "date": "2017",
+      "value": 3.37737989425659,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IE",
+        "value": "Ireland"
+      },
+      "countryiso3code": "IRL",
+      "date": "2016",
+      "value": 3.65882992744446,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IE",
+        "value": "Ireland"
+      },
+      "countryiso3code": "IRL",
+      "date": "2015",
+      "value": 3.62438011169434,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IE",
+        "value": "Ireland"
+      },
+      "countryiso3code": "IRL",
+      "date": "2014",
+      "value": 4.73554992675781,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IE",
+        "value": "Ireland"
+      },
+      "countryiso3code": "IRL",
+      "date": "2013",
+      "value": 5.23177003860474,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IE",
+        "value": "Ireland"
+      },
+      "countryiso3code": "IRL",
+      "date": "2012",
+      "value": 5.70777988433838,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IE",
+        "value": "Ireland"
+      },
+      "countryiso3code": "IRL",
+      "date": "2011",
+      "value": 5.77199983596802,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IE",
+        "value": "Ireland"
+      },
+      "countryiso3code": "IRL",
+      "date": "2010",
+      "value": 6.04836988449097,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IE",
+        "value": "Ireland"
+      },
+      "countryiso3code": "IRL",
+      "date": "2009",
+      "value": 6.15610980987549,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IE",
+        "value": "Ireland"
+      },
+      "countryiso3code": "IRL",
+      "date": "2008",
+      "value": 5.45828008651733,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IE",
+        "value": "Ireland"
+      },
+      "countryiso3code": "IRL",
+      "date": "2007",
+      "value": 4.71541023254395,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IE",
+        "value": "Ireland"
+      },
+      "countryiso3code": "IRL",
+      "date": "2006",
+      "value": 4.54742002487183,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IE",
+        "value": "Ireland"
+      },
+      "countryiso3code": "IRL",
+      "date": "2005",
+      "value": 4.51898002624512,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IE",
+        "value": "Ireland"
+      },
+      "countryiso3code": "IRL",
+      "date": "2004",
+      "value": 4.48296022415161,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IE",
+        "value": "Ireland"
+      },
+      "countryiso3code": "IRL",
+      "date": "2003",
+      "value": 4.20493984222412,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IE",
+        "value": "Ireland"
+      },
+      "countryiso3code": "IRL",
+      "date": "2002",
+      "value": 4.10487985610962,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IE",
+        "value": "Ireland"
+      },
+      "countryiso3code": "IRL",
+      "date": "2001",
+      "value": 4.08749008178711,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IE",
+        "value": "Ireland"
+      },
+      "countryiso3code": "IRL",
+      "date": "2000",
+      "value": 4.13225984573364,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IE",
+        "value": "Ireland"
+      },
+      "countryiso3code": "IRL",
+      "date": "1999",
+      "value": 4.13379001617432,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IE",
+        "value": "Ireland"
+      },
+      "countryiso3code": "IRL",
+      "date": "1998",
+      "value": 4.28753995895386,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IE",
+        "value": "Ireland"
+      },
+      "countryiso3code": "IRL",
+      "date": "1997",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IE",
+        "value": "Ireland"
+      },
+      "countryiso3code": "IRL",
+      "date": "1996",
+      "value": 4.75392007827759,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IE",
+        "value": "Ireland"
+      },
+      "countryiso3code": "IRL",
+      "date": "1995",
+      "value": 4.87162017822266,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    }
+  ]
+]

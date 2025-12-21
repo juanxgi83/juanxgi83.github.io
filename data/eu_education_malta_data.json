@@ -1,0 +1,476 @@
+[
+  {
+    "page": 1,
+    "pages": 1,
+    "per_page": 100,
+    "total": 29,
+    "sourceid": "2",
+    "lastupdated": "2025-12-19"
+  },
+  [
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "MT",
+        "value": "Malta"
+      },
+      "countryiso3code": "MLT",
+      "date": "2023",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "MT",
+        "value": "Malta"
+      },
+      "countryiso3code": "MLT",
+      "date": "2022",
+      "value": 4.71973991394043,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "MT",
+        "value": "Malta"
+      },
+      "countryiso3code": "MLT",
+      "date": "2021",
+      "value": 4.93089008331299,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "MT",
+        "value": "Malta"
+      },
+      "countryiso3code": "MLT",
+      "date": "2020",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "MT",
+        "value": "Malta"
+      },
+      "countryiso3code": "MLT",
+      "date": "2019",
+      "value": 4.79941987991333,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "MT",
+        "value": "Malta"
+      },
+      "countryiso3code": "MLT",
+      "date": "2018",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "MT",
+        "value": "Malta"
+      },
+      "countryiso3code": "MLT",
+      "date": "2017",
+      "value": 4.34281015396118,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "MT",
+        "value": "Malta"
+      },
+      "countryiso3code": "MLT",
+      "date": "2016",
+      "value": 4.95570993423462,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "MT",
+        "value": "Malta"
+      },
+      "countryiso3code": "MLT",
+      "date": "2015",
+      "value": 4.91352987289429,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "MT",
+        "value": "Malta"
+      },
+      "countryiso3code": "MLT",
+      "date": "2014",
+      "value": 6.84973001480103,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "MT",
+        "value": "Malta"
+      },
+      "countryiso3code": "MLT",
+      "date": "2013",
+      "value": 7.40672016143799,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "MT",
+        "value": "Malta"
+      },
+      "countryiso3code": "MLT",
+      "date": "2012",
+      "value": 6.24788999557495,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "MT",
+        "value": "Malta"
+      },
+      "countryiso3code": "MLT",
+      "date": "2011",
+      "value": 7.57771015167236,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "MT",
+        "value": "Malta"
+      },
+      "countryiso3code": "MLT",
+      "date": "2010",
+      "value": 6.20798015594482,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "MT",
+        "value": "Malta"
+      },
+      "countryiso3code": "MLT",
+      "date": "2009",
+      "value": 5.04781007766724,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "MT",
+        "value": "Malta"
+      },
+      "countryiso3code": "MLT",
+      "date": "2008",
+      "value": 5.47429990768433,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "MT",
+        "value": "Malta"
+      },
+      "countryiso3code": "MLT",
+      "date": "2007",
+      "value": 5.95993995666504,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "MT",
+        "value": "Malta"
+      },
+      "countryiso3code": "MLT",
+      "date": "2006",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "MT",
+        "value": "Malta"
+      },
+      "countryiso3code": "MLT",
+      "date": "2005",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "MT",
+        "value": "Malta"
+      },
+      "countryiso3code": "MLT",
+      "date": "2004",
+      "value": 4.430260181427,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "MT",
+        "value": "Malta"
+      },
+      "countryiso3code": "MLT",
+      "date": "2003",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "MT",
+        "value": "Malta"
+      },
+      "countryiso3code": "MLT",
+      "date": "2002",
+      "value": 4.15744018554688,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "MT",
+        "value": "Malta"
+      },
+      "countryiso3code": "MLT",
+      "date": "2001",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "MT",
+        "value": "Malta"
+      },
+      "countryiso3code": "MLT",
+      "date": "2000",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "MT",
+        "value": "Malta"
+      },
+      "countryiso3code": "MLT",
+      "date": "1999",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "MT",
+        "value": "Malta"
+      },
+      "countryiso3code": "MLT",
+      "date": "1998",
+      "value": 4.18536996841431,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "MT",
+        "value": "Malta"
+      },
+      "countryiso3code": "MLT",
+      "date": "1997",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "MT",
+        "value": "Malta"
+      },
+      "countryiso3code": "MLT",
+      "date": "1996",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "MT",
+        "value": "Malta"
+      },
+      "countryiso3code": "MLT",
+      "date": "1995",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    }
+  ]
+]

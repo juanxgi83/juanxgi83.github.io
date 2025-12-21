@@ -131,6 +131,102 @@
       </ul>
     </nav>
 
+    <div id="cc6">
+
+        <h3>Schoolwork | PP434 | Coding Challenges | Coding Challenge 6</h3>
+        <h2>Loops. Build a Dashboard.</h2>
+        <hr>
+        
+        <section>
+            <div class="chart-description">
+                <h5>EU Education Expenditure Dashboard</h5>
+                <p> 
+                    This dashboard displays education expenditure as a percentage of GDP for randomly selected EU countries.
+                    Data is sourced from the <strong>World Bank API</strong> and shows historical trends from 1995-2023.
+                    Six charts are randomly selected from all 27 EU member states each time the page loads.
+                    The charts are generated using a loop to batch download data from the API and another loop to embed them dynamically.
+                </p>
+            </div>
+            
+            <!-- 2-column grid for 6 charts (2x3) -->
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 20px auto; max-width: 650px;">
+                <div id="chart1"></div>
+                <div id="chart2"></div>
+                <div id="chart3"></div>
+                <div id="chart4"></div>
+                <div id="chart5"></div>
+                <div id="chart6"></div>
+            </div>
+        </section>
+        
+        <script>
+            // Wait for DOM to be ready
+            document.addEventListener('DOMContentLoaded', function() {
+                // Array of all 27 EU countries with their chart filenames
+                const allCharts = [
+                    'eu_education_austria.json',
+                    'eu_education_belgium.json',
+                    'eu_education_bulgaria.json',
+                    'eu_education_croatia.json',
+                    'eu_education_cyprus.json',
+                    'eu_education_czech_republic.json',
+                    'eu_education_denmark.json',
+                    'eu_education_estonia.json',
+                    'eu_education_finland.json',
+                    'eu_education_france.json',
+                    'eu_education_germany.json',
+                    'eu_education_greece.json',
+                    'eu_education_hungary.json',
+                    'eu_education_ireland.json',
+                    'eu_education_italy.json',
+                    'eu_education_latvia.json',
+                    'eu_education_lithuania.json',
+                    'eu_education_luxembourg.json',
+                    'eu_education_malta.json',
+                    'eu_education_netherlands.json',
+                    'eu_education_poland.json',
+                    'eu_education_portugal.json',
+                    'eu_education_romania.json',
+                    'eu_education_slovakia.json',
+                    'eu_education_slovenia.json',
+                    'eu_education_spain.json',
+                    'eu_education_sweden.json'
+                ];
+                
+                // Function to shuffle array and get random 6 charts
+                function getRandomCharts(arr, count) {
+                    const shuffled = arr.slice().sort(() => Math.random() - 0.5);
+                    return shuffled.slice(0, count);
+                }
+                
+                // Get 6 random charts
+                const selectedCharts = getRandomCharts(allCharts, 6);
+                
+                // Use a loop to embed the 6 charts
+                for (let i = 0; i < selectedCharts.length; i++) {
+                    const chartFile = 'graphs/' + selectedCharts[i];
+                    const chartDiv = '#chart' + (i + 1);
+                    
+                    // Configure vegaEmbed with options to allow loading external data
+                    vegaEmbed(chartDiv, chartFile, {
+                        "actions": false,
+                        "loader": {
+                            "baseURL": "",
+                            "http": { "credentials": "same-origin" }
+                        }
+                    }).then(function(result) {
+                        console.log('Successfully loaded chart ' + (i + 1) + ': ' + selectedCharts[i]);
+                    }).catch(function(error) {
+                        console.error('Error loading chart ' + (i + 1) + ':', error);
+                        console.error('Chart file:', chartFile);
+                        document.querySelector(chartDiv).innerHTML = '<p style="color: red;">Error loading chart: ' + error.message + '</p>';
+                    });
+                }
+            });
+        </script>
+
+    </div>
+
     <div id="cc5">
 
         <h3>Schoolwork | PP434 | Coding Challenges | Coding Challenge 5</h3>

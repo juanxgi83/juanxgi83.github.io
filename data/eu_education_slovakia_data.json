@@ -1,0 +1,476 @@
+[
+  {
+    "page": 1,
+    "pages": 1,
+    "per_page": 100,
+    "total": 29,
+    "sourceid": "2",
+    "lastupdated": "2025-12-19"
+  },
+  [
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2023",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2022",
+      "value": 4.65508985519409,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2021",
+      "value": 4.71646976470947,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2020",
+      "value": 4.720290184021,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2019",
+      "value": 4.26779985427856,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2018",
+      "value": 3.93534994125366,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2017",
+      "value": 3.91876006126404,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2016",
+      "value": 3.88375997543335,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2015",
+      "value": 4.56416988372803,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2014",
+      "value": 4.20446014404297,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2013",
+      "value": 4.06078004837036,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2012",
+      "value": 3.85490989685059,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2011",
+      "value": 3.90686988830566,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2010",
+      "value": 4.04704999923706,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2009",
+      "value": 4.00893020629883,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2008",
+      "value": 3.52339005470276,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2007",
+      "value": 3.52223992347717,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2006",
+      "value": 3.70850992202759,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2005",
+      "value": 3.77565002441406,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2004",
+      "value": 4.11747980117798,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2003",
+      "value": 4.23699998855591,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2002",
+      "value": 4.25193023681641,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2001",
+      "value": 3.94236993789673,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "2000",
+      "value": 3.86823010444641,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "1999",
+      "value": 4.10291004180908,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "1998",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "1997",
+      "value": 4.10179996490479,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "1996",
+      "value": 4.08450984954834,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SK",
+        "value": "Slovak Republic"
+      },
+      "countryiso3code": "SVK",
+      "date": "1995",
+      "value": 4.24178981781006,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    }
+  ]
+]

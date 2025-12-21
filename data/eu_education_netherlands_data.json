@@ -1,0 +1,476 @@
+[
+  {
+    "page": 1,
+    "pages": 1,
+    "per_page": 100,
+    "total": 29,
+    "sourceid": "2",
+    "lastupdated": "2025-12-19"
+  },
+  [
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "NL",
+        "value": "Netherlands"
+      },
+      "countryiso3code": "NLD",
+      "date": "2023",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "NL",
+        "value": "Netherlands"
+      },
+      "countryiso3code": "NLD",
+      "date": "2022",
+      "value": 5.17918014526367,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "NL",
+        "value": "Netherlands"
+      },
+      "countryiso3code": "NLD",
+      "date": "2021",
+      "value": 5.37661981582642,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "NL",
+        "value": "Netherlands"
+      },
+      "countryiso3code": "NLD",
+      "date": "2020",
+      "value": 5.29139995574951,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "NL",
+        "value": "Netherlands"
+      },
+      "countryiso3code": "NLD",
+      "date": "2019",
+      "value": 5.0559401512146,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "NL",
+        "value": "Netherlands"
+      },
+      "countryiso3code": "NLD",
+      "date": "2018",
+      "value": 5.26723003387451,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "NL",
+        "value": "Netherlands"
+      },
+      "countryiso3code": "NLD",
+      "date": "2017",
+      "value": 5.08747005462646,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "NL",
+        "value": "Netherlands"
+      },
+      "countryiso3code": "NLD",
+      "date": "2016",
+      "value": 5.38952016830444,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "NL",
+        "value": "Netherlands"
+      },
+      "countryiso3code": "NLD",
+      "date": "2015",
+      "value": 5.27802991867065,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "NL",
+        "value": "Netherlands"
+      },
+      "countryiso3code": "NLD",
+      "date": "2014",
+      "value": 5.40205001831055,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "NL",
+        "value": "Netherlands"
+      },
+      "countryiso3code": "NLD",
+      "date": "2013",
+      "value": 5.48417997360229,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "NL",
+        "value": "Netherlands"
+      },
+      "countryiso3code": "NLD",
+      "date": "2012",
+      "value": 5.36694002151489,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "NL",
+        "value": "Netherlands"
+      },
+      "countryiso3code": "NLD",
+      "date": "2011",
+      "value": 5.41595983505249,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "NL",
+        "value": "Netherlands"
+      },
+      "countryiso3code": "NLD",
+      "date": "2010",
+      "value": 5.45634984970093,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "NL",
+        "value": "Netherlands"
+      },
+      "countryiso3code": "NLD",
+      "date": "2009",
+      "value": 5.38561010360718,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "NL",
+        "value": "Netherlands"
+      },
+      "countryiso3code": "NLD",
+      "date": "2008",
+      "value": 4.99737977981567,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "NL",
+        "value": "Netherlands"
+      },
+      "countryiso3code": "NLD",
+      "date": "2007",
+      "value": 4.85854005813599,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "NL",
+        "value": "Netherlands"
+      },
+      "countryiso3code": "NLD",
+      "date": "2006",
+      "value": 5.01913976669312,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "NL",
+        "value": "Netherlands"
+      },
+      "countryiso3code": "NLD",
+      "date": "2005",
+      "value": 5.08871984481812,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "NL",
+        "value": "Netherlands"
+      },
+      "countryiso3code": "NLD",
+      "date": "2004",
+      "value": 5.0411901473999,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "NL",
+        "value": "Netherlands"
+      },
+      "countryiso3code": "NLD",
+      "date": "2003",
+      "value": 5.0199499130249,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "NL",
+        "value": "Netherlands"
+      },
+      "countryiso3code": "NLD",
+      "date": "2002",
+      "value": 4.78904008865356,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "NL",
+        "value": "Netherlands"
+      },
+      "countryiso3code": "NLD",
+      "date": "2001",
+      "value": 4.68933010101318,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "NL",
+        "value": "Netherlands"
+      },
+      "countryiso3code": "NLD",
+      "date": "2000",
+      "value": 4.58325004577637,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "NL",
+        "value": "Netherlands"
+      },
+      "countryiso3code": "NLD",
+      "date": "1999",
+      "value": 4.4996600151062,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "NL",
+        "value": "Netherlands"
+      },
+      "countryiso3code": "NLD",
+      "date": "1998",
+      "value": 4.53430986404419,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "NL",
+        "value": "Netherlands"
+      },
+      "countryiso3code": "NLD",
+      "date": "1997",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "NL",
+        "value": "Netherlands"
+      },
+      "countryiso3code": "NLD",
+      "date": "1996",
+      "value": 4.48540019989014,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "NL",
+        "value": "Netherlands"
+      },
+      "countryiso3code": "NLD",
+      "date": "1995",
+      "value": 4.57215023040771,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    }
+  ]
+]

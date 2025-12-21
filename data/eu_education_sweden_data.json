@@ -1,0 +1,476 @@
+[
+  {
+    "page": 1,
+    "pages": 1,
+    "per_page": 100,
+    "total": 29,
+    "sourceid": "2",
+    "lastupdated": "2025-12-19"
+  },
+  [
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SE",
+        "value": "Sweden"
+      },
+      "countryiso3code": "SWE",
+      "date": "2023",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SE",
+        "value": "Sweden"
+      },
+      "countryiso3code": "SWE",
+      "date": "2022",
+      "value": 7.31909990310669,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SE",
+        "value": "Sweden"
+      },
+      "countryiso3code": "SWE",
+      "date": "2021",
+      "value": 7.60224008560181,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SE",
+        "value": "Sweden"
+      },
+      "countryiso3code": "SWE",
+      "date": "2020",
+      "value": 7.95333003997803,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SE",
+        "value": "Sweden"
+      },
+      "countryiso3code": "SWE",
+      "date": "2019",
+      "value": 7.66306018829346,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SE",
+        "value": "Sweden"
+      },
+      "countryiso3code": "SWE",
+      "date": "2018",
+      "value": 7.69824981689453,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SE",
+        "value": "Sweden"
+      },
+      "countryiso3code": "SWE",
+      "date": "2017",
+      "value": 7.63850021362305,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SE",
+        "value": "Sweden"
+      },
+      "countryiso3code": "SWE",
+      "date": "2016",
+      "value": 7.63990020751953,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SE",
+        "value": "Sweden"
+      },
+      "countryiso3code": "SWE",
+      "date": "2015",
+      "value": 7.49443006515503,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SE",
+        "value": "Sweden"
+      },
+      "countryiso3code": "SWE",
+      "date": "2014",
+      "value": 7.62924003601074,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SE",
+        "value": "Sweden"
+      },
+      "countryiso3code": "SWE",
+      "date": "2013",
+      "value": 7.64657020568848,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SE",
+        "value": "Sweden"
+      },
+      "countryiso3code": "SWE",
+      "date": "2012",
+      "value": 7.57456016540527,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SE",
+        "value": "Sweden"
+      },
+      "countryiso3code": "SWE",
+      "date": "2011",
+      "value": 6.40656995773315,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SE",
+        "value": "Sweden"
+      },
+      "countryiso3code": "SWE",
+      "date": "2010",
+      "value": 6.56318998336792,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SE",
+        "value": "Sweden"
+      },
+      "countryiso3code": "SWE",
+      "date": "2009",
+      "value": 6.78425979614258,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SE",
+        "value": "Sweden"
+      },
+      "countryiso3code": "SWE",
+      "date": "2008",
+      "value": 6.38263988494873,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SE",
+        "value": "Sweden"
+      },
+      "countryiso3code": "SWE",
+      "date": "2007",
+      "value": 6.1867299079895,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SE",
+        "value": "Sweden"
+      },
+      "countryiso3code": "SWE",
+      "date": "2006",
+      "value": 6.37276983261108,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SE",
+        "value": "Sweden"
+      },
+      "countryiso3code": "SWE",
+      "date": "2005",
+      "value": 6.51516008377075,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SE",
+        "value": "Sweden"
+      },
+      "countryiso3code": "SWE",
+      "date": "2004",
+      "value": 6.6729998588562,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SE",
+        "value": "Sweden"
+      },
+      "countryiso3code": "SWE",
+      "date": "2003",
+      "value": 6.79678010940552,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SE",
+        "value": "Sweden"
+      },
+      "countryiso3code": "SWE",
+      "date": "2002",
+      "value": 6.91077995300293,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SE",
+        "value": "Sweden"
+      },
+      "countryiso3code": "SWE",
+      "date": "2001",
+      "value": 6.61482000350952,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SE",
+        "value": "Sweden"
+      },
+      "countryiso3code": "SWE",
+      "date": "2000",
+      "value": 6.7383599281311,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SE",
+        "value": "Sweden"
+      },
+      "countryiso3code": "SWE",
+      "date": "1999",
+      "value": 6.84252977371216,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SE",
+        "value": "Sweden"
+      },
+      "countryiso3code": "SWE",
+      "date": "1998",
+      "value": 7.05915021896362,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SE",
+        "value": "Sweden"
+      },
+      "countryiso3code": "SWE",
+      "date": "1997",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SE",
+        "value": "Sweden"
+      },
+      "countryiso3code": "SWE",
+      "date": "1996",
+      "value": 6.83373022079468,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SE",
+        "value": "Sweden"
+      },
+      "countryiso3code": "SWE",
+      "date": "1995",
+      "value": 6.15396022796631,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    }
+  ]
+]

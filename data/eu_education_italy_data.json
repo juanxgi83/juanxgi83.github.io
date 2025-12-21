@@ -1,0 +1,476 @@
+[
+  {
+    "page": 1,
+    "pages": 1,
+    "per_page": 100,
+    "total": 29,
+    "sourceid": "2",
+    "lastupdated": "2025-12-19"
+  },
+  [
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IT",
+        "value": "Italy"
+      },
+      "countryiso3code": "ITA",
+      "date": "2023",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IT",
+        "value": "Italy"
+      },
+      "countryiso3code": "ITA",
+      "date": "2022",
+      "value": 4.0698299407959,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IT",
+        "value": "Italy"
+      },
+      "countryiso3code": "ITA",
+      "date": "2021",
+      "value": 4.17118978500366,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IT",
+        "value": "Italy"
+      },
+      "countryiso3code": "ITA",
+      "date": "2020",
+      "value": 4.41802978515625,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IT",
+        "value": "Italy"
+      },
+      "countryiso3code": "ITA",
+      "date": "2019",
+      "value": 4.07843017578125,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IT",
+        "value": "Italy"
+      },
+      "countryiso3code": "ITA",
+      "date": "2018",
+      "value": 4.24093008041382,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IT",
+        "value": "Italy"
+      },
+      "countryiso3code": "ITA",
+      "date": "2017",
+      "value": 4.02662992477417,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IT",
+        "value": "Italy"
+      },
+      "countryiso3code": "ITA",
+      "date": "2016",
+      "value": 3.795490026474,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IT",
+        "value": "Italy"
+      },
+      "countryiso3code": "ITA",
+      "date": "2015",
+      "value": 4.05422019958496,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IT",
+        "value": "Italy"
+      },
+      "countryiso3code": "ITA",
+      "date": "2014",
+      "value": 4.04026985168457,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IT",
+        "value": "Italy"
+      },
+      "countryiso3code": "ITA",
+      "date": "2013",
+      "value": 4.12192010879517,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IT",
+        "value": "Italy"
+      },
+      "countryiso3code": "ITA",
+      "date": "2012",
+      "value": 4.03481006622315,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IT",
+        "value": "Italy"
+      },
+      "countryiso3code": "ITA",
+      "date": "2011",
+      "value": 4.09430980682373,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IT",
+        "value": "Italy"
+      },
+      "countryiso3code": "ITA",
+      "date": "2010",
+      "value": 4.31625986099243,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IT",
+        "value": "Italy"
+      },
+      "countryiso3code": "ITA",
+      "date": "2009",
+      "value": 4.50415992736816,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IT",
+        "value": "Italy"
+      },
+      "countryiso3code": "ITA",
+      "date": "2008",
+      "value": 4.37188005447388,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IT",
+        "value": "Italy"
+      },
+      "countryiso3code": "ITA",
+      "date": "2007",
+      "value": 4.08762979507446,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IT",
+        "value": "Italy"
+      },
+      "countryiso3code": "ITA",
+      "date": "2006",
+      "value": 4.50463008880615,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IT",
+        "value": "Italy"
+      },
+      "countryiso3code": "ITA",
+      "date": "2005",
+      "value": 4.22292995452881,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IT",
+        "value": "Italy"
+      },
+      "countryiso3code": "ITA",
+      "date": "2004",
+      "value": 4.37003993988037,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IT",
+        "value": "Italy"
+      },
+      "countryiso3code": "ITA",
+      "date": "2003",
+      "value": 4.52655982971191,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IT",
+        "value": "Italy"
+      },
+      "countryiso3code": "ITA",
+      "date": "2002",
+      "value": 4.41520023345947,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IT",
+        "value": "Italy"
+      },
+      "countryiso3code": "ITA",
+      "date": "2001",
+      "value": 4.63415002822876,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IT",
+        "value": "Italy"
+      },
+      "countryiso3code": "ITA",
+      "date": "2000",
+      "value": 4.27994012832642,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IT",
+        "value": "Italy"
+      },
+      "countryiso3code": "ITA",
+      "date": "1999",
+      "value": 4.50165987014771,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IT",
+        "value": "Italy"
+      },
+      "countryiso3code": "ITA",
+      "date": "1998",
+      "value": 4.4409499168396,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IT",
+        "value": "Italy"
+      },
+      "countryiso3code": "ITA",
+      "date": "1997",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IT",
+        "value": "Italy"
+      },
+      "countryiso3code": "ITA",
+      "date": "1996",
+      "value": 4.43969011306763,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "IT",
+        "value": "Italy"
+      },
+      "countryiso3code": "ITA",
+      "date": "1995",
+      "value": 4.30872011184692,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    }
+  ]
+]

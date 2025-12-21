@@ -1,0 +1,476 @@
+[
+  {
+    "page": 1,
+    "pages": 1,
+    "per_page": 100,
+    "total": 29,
+    "sourceid": "2",
+    "lastupdated": "2025-12-19"
+  },
+  [
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SI",
+        "value": "Slovenia"
+      },
+      "countryiso3code": "SVN",
+      "date": "2023",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SI",
+        "value": "Slovenia"
+      },
+      "countryiso3code": "SVN",
+      "date": "2022",
+      "value": 5.28065013885498,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SI",
+        "value": "Slovenia"
+      },
+      "countryiso3code": "SVN",
+      "date": "2021",
+      "value": 5.39167022705078,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SI",
+        "value": "Slovenia"
+      },
+      "countryiso3code": "SVN",
+      "date": "2020",
+      "value": 5.41901016235352,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SI",
+        "value": "Slovenia"
+      },
+      "countryiso3code": "SVN",
+      "date": "2019",
+      "value": 4.93479013442993,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SI",
+        "value": "Slovenia"
+      },
+      "countryiso3code": "SVN",
+      "date": "2018",
+      "value": 4.97948980331421,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SI",
+        "value": "Slovenia"
+      },
+      "countryiso3code": "SVN",
+      "date": "2017",
+      "value": 4.82381010055542,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SI",
+        "value": "Slovenia"
+      },
+      "countryiso3code": "SVN",
+      "date": "2016",
+      "value": 4.84419012069702,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SI",
+        "value": "Slovenia"
+      },
+      "countryiso3code": "SVN",
+      "date": "2015",
+      "value": 4.95528984069824,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SI",
+        "value": "Slovenia"
+      },
+      "countryiso3code": "SVN",
+      "date": "2014",
+      "value": 5.34328985214233,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SI",
+        "value": "Slovenia"
+      },
+      "countryiso3code": "SVN",
+      "date": "2013",
+      "value": 5.46767997741699,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SI",
+        "value": "Slovenia"
+      },
+      "countryiso3code": "SVN",
+      "date": "2012",
+      "value": 5.6702299118042,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SI",
+        "value": "Slovenia"
+      },
+      "countryiso3code": "SVN",
+      "date": "2011",
+      "value": 5.58290004730225,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SI",
+        "value": "Slovenia"
+      },
+      "countryiso3code": "SVN",
+      "date": "2010",
+      "value": 5.59362983703613,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SI",
+        "value": "Slovenia"
+      },
+      "countryiso3code": "SVN",
+      "date": "2009",
+      "value": 5.62079000473022,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SI",
+        "value": "Slovenia"
+      },
+      "countryiso3code": "SVN",
+      "date": "2008",
+      "value": 5.13438987731934,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SI",
+        "value": "Slovenia"
+      },
+      "countryiso3code": "SVN",
+      "date": "2007",
+      "value": 5.13660001754761,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SI",
+        "value": "Slovenia"
+      },
+      "countryiso3code": "SVN",
+      "date": "2006",
+      "value": 5.62207984924316,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SI",
+        "value": "Slovenia"
+      },
+      "countryiso3code": "SVN",
+      "date": "2005",
+      "value": 5.64437007904053,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SI",
+        "value": "Slovenia"
+      },
+      "countryiso3code": "SVN",
+      "date": "2004",
+      "value": 5.68693017959595,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SI",
+        "value": "Slovenia"
+      },
+      "countryiso3code": "SVN",
+      "date": "2003",
+      "value": 5.75657987594604,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SI",
+        "value": "Slovenia"
+      },
+      "countryiso3code": "SVN",
+      "date": "2002",
+      "value": 5.74013996124268,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SI",
+        "value": "Slovenia"
+      },
+      "countryiso3code": "SVN",
+      "date": "2001",
+      "value": 5.81461000442505,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SI",
+        "value": "Slovenia"
+      },
+      "countryiso3code": "SVN",
+      "date": "2000",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SI",
+        "value": "Slovenia"
+      },
+      "countryiso3code": "SVN",
+      "date": "1999",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SI",
+        "value": "Slovenia"
+      },
+      "countryiso3code": "SVN",
+      "date": "1998",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SI",
+        "value": "Slovenia"
+      },
+      "countryiso3code": "SVN",
+      "date": "1997",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SI",
+        "value": "Slovenia"
+      },
+      "countryiso3code": "SVN",
+      "date": "1996",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "SI",
+        "value": "Slovenia"
+      },
+      "countryiso3code": "SVN",
+      "date": "1995",
+      "value": 4.90210008621216,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    }
+  ]
+]

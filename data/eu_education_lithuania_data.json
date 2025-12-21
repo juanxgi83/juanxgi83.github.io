@@ -1,0 +1,476 @@
+[
+  {
+    "page": 1,
+    "pages": 1,
+    "per_page": 100,
+    "total": 29,
+    "sourceid": "2",
+    "lastupdated": "2025-12-19"
+  },
+  [
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2023",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2022",
+      "value": 4.25285005569458,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2021",
+      "value": 4.23977994918823,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2020",
+      "value": 4.47348022460938,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2019",
+      "value": 3.9415500164032,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2018",
+      "value": 3.85628008842468,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2017",
+      "value": 3.81236004829407,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2016",
+      "value": 4.01143980026245,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2015",
+      "value": 4.21646022796631,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2014",
+      "value": 4.5076699256897,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2013",
+      "value": 4.62416982650757,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2012",
+      "value": 4.78232002258301,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2011",
+      "value": 5.15469980239868,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2010",
+      "value": 5.36880016326904,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2009",
+      "value": 5.56941986083984,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2008",
+      "value": 4.83649015426636,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2007",
+      "value": 4.59159994125366,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2006",
+      "value": 4.83653020858765,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2005",
+      "value": 4.87698984146118,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2004",
+      "value": 5.14797019958496,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2003",
+      "value": 5.1067099571228,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2002",
+      "value": 5.79093980789185,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2001",
+      "value": 5.83644008636475,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "2000",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "1999",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "1998",
+      "value": 6.08957004547119,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "1997",
+      "value": 5.42383003234863,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "1996",
+      "value": 4.81781005859375,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LT",
+        "value": "Lithuania"
+      },
+      "countryiso3code": "LTU",
+      "date": "1995",
+      "value": 4.73458003997803,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    }
+  ]
+]

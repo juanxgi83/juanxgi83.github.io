@@ -1,0 +1,476 @@
+[
+  {
+    "page": 1,
+    "pages": 1,
+    "per_page": 100,
+    "total": 29,
+    "sourceid": "2",
+    "lastupdated": "2025-12-19"
+  },
+  [
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2023",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2022",
+      "value": 5.20733976364136,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2021",
+      "value": 5.21514987945557,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2020",
+      "value": 5.44180011749268,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2019",
+      "value": 5.16415023803711,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2018",
+      "value": 5.13962984085083,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2017",
+      "value": 4.86288022994995,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2016",
+      "value": 5.05511999130249,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2015",
+      "value": 5.05127000808716,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2014",
+      "value": 4.32586002349854,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2013",
+      "value": 4.78006982803345,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2012",
+      "value": 4.67340993881226,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2011",
+      "value": 4.99514007568359,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2010",
+      "value": 5.51753997802734,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2009",
+      "value": 5.9597601890564,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2008",
+      "value": 5.48375988006592,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2007",
+      "value": 4.6196699142456,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2006",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2005",
+      "value": 4.80935001373291,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2004",
+      "value": 4.87566995620728,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2003",
+      "value": 5.27171993255615,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2002",
+      "value": 5.433030128479,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2001",
+      "value": 5.23217010498047,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "2000",
+      "value": 5.33945989608765,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "1999",
+      "value": 6.65249013900757,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "1998",
+      "value": 6.23536014556885,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "1997",
+      "value": 6.33788013458252,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "1996",
+      "value": 6.0549201965332,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "EE",
+        "value": "Estonia"
+      },
+      "countryiso3code": "EST",
+      "date": "1995",
+      "value": 5.89866018295288,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    }
+  ]
+]

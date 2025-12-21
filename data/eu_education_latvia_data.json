@@ -1,0 +1,476 @@
+[
+  {
+    "page": 1,
+    "pages": 1,
+    "per_page": 100,
+    "total": 29,
+    "sourceid": "2",
+    "lastupdated": "2025-12-19"
+  },
+  [
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2023",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2022",
+      "value": 4.31920003890991,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2021",
+      "value": 4.76752996444702,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2020",
+      "value": 4.99749994277954,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2019",
+      "value": 4.58675003051758,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2018",
+      "value": 4.39430999755859,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2017",
+      "value": 4.52905988693237,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2016",
+      "value": 4.82350015640259,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2015",
+      "value": 5.46670007705688,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2014",
+      "value": 5.47479009628296,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2013",
+      "value": 7.24962997436523,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2012",
+      "value": 6.83852005004883,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2011",
+      "value": 5.24315977096558,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2010",
+      "value": 5.14355993270874,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2009",
+      "value": 5.67728996276855,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2008",
+      "value": 5.63671016693115,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2007",
+      "value": 4.89059019088745,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2006",
+      "value": 4.94490003585815,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2005",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2004",
+      "value": 5.04684019088745,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2003",
+      "value": 5.2944598197937,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2002",
+      "value": 5.78911018371582,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2001",
+      "value": 5.56101989746094,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "2000",
+      "value": 5.40854978561401,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "1999",
+      "value": 5.69789981842041,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "1998",
+      "value": 5.96775007247925,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "1997",
+      "value": 5.66772985458374,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "1996",
+      "value": 5.41694021224976,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SE.XPD.TOTL.GD.ZS",
+        "value": "Government expenditure on education, total (% of GDP)"
+      },
+      "country": {
+        "id": "LV",
+        "value": "Latvia"
+      },
+      "countryiso3code": "LVA",
+      "date": "1995",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    }
+  ]
+]
