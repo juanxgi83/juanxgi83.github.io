@@ -362,9 +362,11 @@
             }
         }
         
-        // Function to load chart (handles both JSON and HTML files)
-        function loadChart(locationId, chartSpec) {
+        // Function to load chart with retry logic for external data sources
+        function loadChart(locationId, chartSpec, retryCount = 0) {
             const figure = document.getElementById(locationId);
+            const maxRetries = 3;
+            
             if (chartSpec.endsWith('.html')) {
                 // For HTML files (like Plotly), use iframe
                 const iframe = document.createElement('iframe');
@@ -435,22 +437,43 @@
                         // Embed with SVG renderer for accurate tooltips at any size
                         vegaEmbed('#' + locationId, spec, {
                             actions: true,
-                            renderer: "svg"
+                            renderer: "svg",
+                            loader: {
+                                // Set timeout for external data loads
+                                http: { credentials: 'same-origin' }
+                            },
+                            timeFormatLocale: undefined,
+                            formatLocale: undefined
                         }).then((result) => {
-                            // Store parameter change listeners
-                            if (result.view && spec.params) {
-                                if (!chartParameterStates[locationId]) {
-                                    chartParameterStates[locationId] = {};
-                                }
-                                spec.params.forEach(param => {
-                                    result.view.addSignalListener(param.name, (name, value) => {
-                                        chartParameterStates[locationId][name] = value;
-                                    });
-                                });
-                            }
-                            
-                            // Move parameter controls (bindings) above the chart
+                            // Validate data loaded successfully (especially for charts with external data)
                             setTimeout(() => {
+                                const hasData = result.view.data('combined') || result.view.data('source_0');
+                                const dataCount = hasData ? (Array.isArray(hasData) ? hasData.length : 0) : 0;
+                                
+                                // If chart should have data but doesn't, retry
+                                if (dataCount === 0 && retryCount < maxRetries && chartSpec.includes('gdp_gini_scatter')) {
+                                    console.log(`Chart ${locationId} has no data. Retry ${retryCount + 1}/${maxRetries}...`);
+                                    figure.innerHTML = '<div style="text-align:center;padding:20px;color:#666;">Loading data, please wait...</div>';
+                                    setTimeout(() => {
+                                        figure.innerHTML = '';
+                                        loadChart(locationId, chartSpec, retryCount + 1);
+                                    }, 2000); // Wait 2 seconds before retry
+                                    return;
+                                }
+                                
+                                // Store parameter change listeners
+                                if (result.view && spec.params) {
+                                    if (!chartParameterStates[locationId]) {
+                                        chartParameterStates[locationId] = {};
+                                    }
+                                    spec.params.forEach(param => {
+                                        result.view.addSignalListener(param.name, (name, value) => {
+                                            chartParameterStates[locationId][name] = value;
+                                        });
+                                    });
+                                }
+                                
+                                // Move parameter controls (bindings) above the chart
                                 const figureElement = document.getElementById(locationId);
                                 if (figureElement) {
                                     const bindings = figureElement.querySelector('.vega-bindings');
@@ -460,8 +483,21 @@
                                         bindings.style.marginBottom = '15px';
                                     }
                                 }
-                            }, 100);
-                            addZoomButton(locationId, chartSpec);
+                                addZoomButton(locationId, chartSpec);
+                            }, 1500); // Wait 1.5 seconds for external data to load
+                        }).catch((error) => {
+                            console.error(`Error loading chart ${locationId}:`, error);
+                            // Retry on error
+                            if (retryCount < maxRetries) {
+                                console.log(`Retrying ${locationId}... (${retryCount + 1}/${maxRetries})`);
+                                figure.innerHTML = '<div style="text-align:center;padding:20px;color:#666;">Loading data, retrying...</div>';
+                                setTimeout(() => {
+                                    figure.innerHTML = '';
+                                    loadChart(locationId, chartSpec, retryCount + 1);
+                                }, 2000);
+                            } else {
+                                figure.innerHTML = '<div style="text-align:center;padding:20px;color:#c00;">Failed to load chart. Please refresh the page.</div>';
+                            }
                         });
                     });
             }
