@@ -131,6 +131,35 @@
       </ul>
     </nav>
 
+    <div id="cc8">
+
+        <h3>Schoolwork | PP434 | Coding Challenges | Coding Challenge 8</h3>
+        <h2>Debate. Use a visualisation in policy commentary.</h2>
+        <hr>
+        
+        <section>
+            <div class="chart-description">
+                <h5>Week 3: Python / Altair chart</h5>
+                <p> 
+                    We've organised the page into sections, with each section containing a chart, title and a description. Here, we can describe the chart and give some context.
+                    As a first example, we're using a basic chart from our repo.
+                </p>
+            </div>
+            <figure id="Location14"></figure> 
+        </section>
+
+        <section>
+            <div class="chart-description">
+                <h5>Week 3: Python / Altair chart</h5>
+                <p> 
+                    We've organised the page into sections, with each section containing a chart, title and a description. Here, we can describe the chart and give some context.
+                    As a first example, we're using a basic chart from our repo.
+                </p>
+            </div>
+            <figure id="Location15"></figure> 
+        </section>
+
+    </div>
 
     <div id="cc7">
 
@@ -405,6 +434,7 @@
         let figure_11_spec = "graphs/world_taxation_map.json";
         let figure_12_spec = "graphs/scotland_unemployment_map.json";
         let figure_13_spec = "graphs/wales_community_safety_map.json";
+        let figure_14_spec = "graphs/autocpi_wine_price_histogram.json";
         
         // Array of all 27 EU countries with their chart filenames for CC6
         const allEduCharts = [
@@ -468,7 +498,8 @@
             'Location10': figure_10_spec,
             'Location11': figure_11_spec,
             'Location12': figure_12_spec,
-            'Location13': figure_13_spec
+            'Location13': figure_13_spec,
+            'Location14': figure_14_spec
         };
         
         // Function to add zoom button to a figure
@@ -641,6 +672,7 @@
         loadChart('Location11', figure_11_spec);
         loadChart('Location12', figure_12_spec);
         loadChart('Location13', figure_13_spec);
+        loadChart('Location14', figure_14_spec);
         
         // Use a loop to embed all 27 education charts for CC6
         for (let i = 0; i < selectedEduCharts.length; i++) {
@@ -695,6 +727,7 @@
                     document.getElementById('Location11').innerHTML = '';
                     document.getElementById('Location12').innerHTML = '';
                     document.getElementById('Location13').innerHTML = '';
+                    document.getElementById('Location14').innerHTML = '';
                     
                     loadChart('Location1', figure_1_spec);
                     loadChart('Location2', figure_2_spec);
@@ -709,6 +742,7 @@
                     loadChart('Location11', figure_11_spec);
                     loadChart('Location12', figure_12_spec);
                     loadChart('Location13', figure_13_spec);
+                    loadChart('Location14', figure_14_spec);
                 }, 300);
             });
         }
