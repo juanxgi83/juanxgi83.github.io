@@ -103,6 +103,32 @@ nav ul li a {
 }
 
 nav ul li a:hover {
+  text-decoration: none;
+}
+
+/* White icons for menu items */
+.icon-home::before {
+  content: "🏠 ";
+  filter: grayscale(100%) brightness(200%);
+  margin-right: 4px;
+}
+
+.icon-chart::before {
+  content: "📊 ";
+  filter: grayscale(100%) brightness(110%);
+  margin-right: 4px;
+}
+
+.icon-folder::before {
+  content: "📁 ";
+  filter: grayscale(100%) brightness(200%);
+  margin-right: 4px;
+}
+
+/* Underline only the text span on hover */
+.icon-home:hover span,
+.icon-chart:hover span,
+.icon-folder:hover span {
   text-decoration: underline;
 }
 
@@ -115,7 +141,7 @@ nav ul li ul.dropdown {
   position: absolute;
   top: 100%; /* below parent */
   left: 0;
-  background-color: #333;
+  background-color: #666;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -135,7 +161,7 @@ nav ul li ul.dropdown li a {
 }
 
 nav ul li ul.dropdown li a:hover {
-  background-color: #444;
+  background-color: #777;
 }
 
 /* Show dropdown on hover */
@@ -154,7 +180,7 @@ nav ul li ul.dropdown {
   position: absolute;
   top: 100%; 
   left: 0;
-  background-color: #333;   /* darkest gray for first level */
+  background-color: #666;   /* lighter gray for dropdowns */
   padding: 0;
   margin: 0;
   list-style: none;
@@ -170,7 +196,7 @@ nav ul li ul.dropdown li a {
 }
 
 nav ul li ul.dropdown li a:hover {
-  background-color: #444;
+  background-color: #777;
 }
 
 /* Show dropdown on hover */
@@ -179,17 +205,17 @@ nav ul li:hover > ul.dropdown {
 }
 
 /* Second-level submenu (lighter gray) */
-nav ul li ul.dropdown li ul.dropdown {
+av ul li ul.dropdown li ul.dropdown {
   top: 0;
   left: 100%;
-  background-color: #555;   /* lighter than #333 */
+  background-color: #777;   /* lighter gray */
 }
 
 /* Third-level submenu (even lighter gray) */
 nav ul li ul.dropdown li ul.dropdown li ul.dropdown {
   top: 0;
   left: 100%;
-  background-color: #777;   /* lighter still */
+  background-color: #888;   /* lighter still */
 }
 
 @media (max-width: 768px) {
@@ -236,15 +262,15 @@ nav ul li ul.dropdown li ul.dropdown li ul.dropdown {
     position: static;
     display: none;
     width: 100%;
-    background-color: #444;
+    background-color: #666;
   }
   
   nav ul li ul.dropdown li ul.dropdown {
-    background-color: #555;
+    background-color: #777;
   }
   
   nav ul li ul.dropdown li ul.dropdown li ul.dropdown {
-    background-color: #666;
+    background-color: #888;
   }
   
   /* Show dropdowns on click/tap for mobile */
