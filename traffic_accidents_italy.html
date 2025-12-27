@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+
+<html> 
+
+<head>    
+    <link rel="stylesheet" type="text/css" href="jxgi_site_design.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title> 
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <style>
+        /* Override body styling for this page */
+        body {
+            padding: 20px;
+            margin: 0;
+            background-color: transparent;
+        }
+        
+        /* Parallax background container - full screen, behind everything */
+        .parallax-container {
+            position: fixed;
+            top: 0;
+            left: 20px; /* Match body padding */
+            right: 20px; /* Match body padding */
+            height: 100vh;
+            z-index: -1;
+            overflow: hidden;
+            background-color: #f5f5f5;
+        }
+        
+        .parallax-bg {
+            position: absolute;
+            top: 50%; /* Position at vertical middle */
+            left: 0;
+            width: 100%;
+            height: 400vh; /* Very tall to ensure coverage */
+            background-image: url('images/italy_traffic_accidents_background.png');
+            background-size: contain; /* Show full image width */
+            background-position: center center; /* Show center of image */
+            background-repeat: no-repeat;
+            will-change: transform;
+            transform: translateY(-30%); /* Start at -30% to match JS */
+        }
+        
+        /* Header section with white background */
+        .header-section {
+            background-color: white;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+            margin: -20px -20px 0 -20px; /* Extend to true edges */
+            padding: 20px 40px;
+        }
+        
+        /* Content wrapper */
+        .content-wrapper {
+            position: relative;
+            z-index: 1;
+            min-height: 100vh;
+            padding-top: 20px;
+        }
+        
+        /* Report content container */
+        .report-content {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.92);
+            padding: 40px 60px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 60px;
+        }
+        
+        .report-content h1, 
+        .report-content h2, 
+        .report-content h3, 
+        .report-content h4 {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: #333;
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+        }
+        
+        .report-content h1 {
+            font-size: 2.5em;
+            margin-top: 0;
+        }
+        
+        .report-content h2 {
+            font-size: 2em;
+            border-bottom: 2px solid #065f46;
+            padding-bottom: 10px;
+        }
+        
+        .report-content h3 {
+            font-size: 1.5em;
+            color: #065f46;
+        }
+        
+        .report-content h4 {
+            font-size: 1.2em;
+        }
+        
+        .report-content p {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+            margin-bottom: 1em;
+        }
+        
+        .report-content figure {
+            margin: 30px 0;
+            text-align: center;
+        }
+        
+        /* Portrait mode warning for mobile devices */
+        #portrait-warning {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #1a1a1a;
+            color: white;
+            z-index: 10000;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        #portrait-warning h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        
+        #portrait-warning p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+        
+        #portrait-warning .rotate-icon {
+            font-size: 60px;
+            animation: rotate 2s infinite;
+        }
+        
+        @keyframes rotate {
+            0%, 100% { transform: rotate(0deg); }
+            50% { transform: rotate(90deg); }
+        }
+        
+        @media (max-width: 768px) {
+            .report-content {
+                padding: 30px 20px;
+                margin: 0 15px 40px 15px;
+            }
+            
+            .report-content h1 {
+                font-size: 2em;
+            }
+            
+            .report-content h2 {
+                font-size: 1.5em;
+            }
+        }
+        
+        @media (max-width: 768px) and (orientation: portrait) {
+            #portrait-warning {
+                display: flex;
+            }
+            body > *:not(#portrait-warning) {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    
+    <!-- Portrait Mode Warning -->
+    <div id="portrait-warning">
+        <div class="rotate-icon">📱</div>
+        <h2>Please Rotate Your Device</h2>
+        <p>This site is best viewed in landscape mode for optimal chart display.</p>
+    </div> 
+    
+    <!-- Header section with white background -->
+    <div class="header-section">
+        <div class="header">
+          <div class="header-text">
+            <h1 class="big" style="margin-bottom: 0px;">
+              Juan Xavier Gomez Illingworth
+            </h1>
+            <p style="margin-top: 0px; color: darkblue">
+              <a href="JXGI CV 09-2025.pdf">CV</a> | 
+              <a href="https://www.linkedin.com/in/juan-xavier-gomez-illingworth">LinkedIn</a> | 
+              <a href="https://www.github.com/YOUR_GITHUB">GitHub</a>
+            </p>
+          </div>
+          <img src="images/jxgi_photo.jpg" alt="My photo" class="profile-pic">
+        </div>
+
+        <hr>
+        
+        <div class="header">
+            <h3 class="small"> 
+                Hello and welcome! This space mostly contains schoolwork, information I find interesting, and random data. Feel free to get in touch with me through one of the links above!
+            </h3>
+        </div>
+        <div class="header">
+            <h4>  
+                - Juan
+            </h4>
+        </div>
+    </div>
+        
+    <nav>
+      <div class="menu-toggle" id="menuToggle">
+        <span>☰</span>
+      </div>
+      <ul id="navMenu">
+        <li><a href="index.html" class="icon-home"><span>Home</span></a></li>
+        <li><a href="data_viz_portfolio.html" class="icon-chart"><span>Data Viz Portfolio</span></a>
+          <ul class="dropdown">
+            <li><a href="data_viz_portfolio.html#cc1">Coding Challenge 1</a></li>
+            <li><a href="data_viz_portfolio.html#cc2">Coding Challenge 2</a></li>
+            <li><a href="data_viz_portfolio.html#cc3">Coding Challenge 3</a></li>
+            <li><a href="data_viz_portfolio.html#cc4">Coding Challenge 4</a></li>
+            <li><a href="data_viz_portfolio.html#cc5">Coding Challenge 5</a></li>
+            <li><a href="data_viz_portfolio.html#cc6">Coding Challenge 6</a></li>
+            <li><a href="data_viz_portfolio.html#cc7">Coding Challenge 7</a></li>
+            <li><a href="data_viz_portfolio.html#cc8">Coding Challenge 8</a></li>
+            <li><a href="data_viz_portfolio.html#cc9">Coding Challenge 9</a></li>
+            <li><a href="data_viz_portfolio.html#cc10">Coding Challenge 10</a></li>
+          </ul>
+        </li>
+        <li><a href="#" class="icon-folder"><span>Projects</span></a>
+          <ul class="dropdown">
+            <li><a href="traffic_accidents_italy.html">Traffic Accidents In Italy</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    
+    <!-- Parallax Background -->
+    <div class="parallax-container">
+        <div class="parallax-bg" id="parallaxBg"></div>
+    </div>
+    
+    <!-- Main Content -->
+    <div class="content-wrapper">
+        <div class="report-content">
+            <h1>Traffic Accidents in Italy</h1>
+            
+            <h2>Introduction</h2>
+            <p>
+                This report examines traffic accident patterns and trends in Italy. Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+            </p>
+            
+            <h3>Background</h3>
+            <p>
+                Italy's road network is one of the most extensive in Europe. Understanding traffic accident patterns 
+                is crucial for developing effective safety measures and policies. This analysis provides insights 
+                into when, where, and how accidents occur.
+            </p>
+            
+            <figure id="chart1"></figure>
+            
+            <h2>Methodology</h2>
+            <p>
+                Our analysis uses data collected from various sources including police reports, hospital records, 
+                and insurance claims. The dataset spans multiple years and includes information on accident severity, 
+                location, time, weather conditions, and vehicle types involved.
+            </p>
+            
+            <h3>Data Collection</h3>
+            <p>
+                Data was gathered from national statistics offices and regional authorities. Each accident record 
+                includes detailed information about the circumstances, contributing factors, and outcomes.
+            </p>
+            
+            <figure id="chart2"></figure>
+            
+            <h2>Key Findings</h2>
+            <p>
+                The analysis reveals several important patterns in Italian traffic accidents. Seasonal variations, 
+                time-of-day effects, and regional differences all play significant roles in accident frequency 
+                and severity.
+            </p>
+            
+            <h3>Temporal Patterns</h3>
+            <p>
+                Accident rates show clear temporal patterns, with peaks during certain times of the day and 
+                specific months of the year. Rush hour periods and holiday seasons consistently show elevated 
+                accident rates across all regions studied.
+            </p>
+            
+            <figure id="chart3"></figure>
+            
+            <h2>Conclusions</h2>
+            <p>
+                This comprehensive analysis of traffic accidents in Italy provides valuable insights for 
+                policymakers and safety advocates. The findings suggest several areas where targeted interventions 
+                could significantly reduce accident rates and improve road safety.
+            </p>
+            
+            <h3>Recommendations</h3>
+            <p>
+                Based on our findings, we recommend increased enforcement during high-risk periods, improved 
+                road infrastructure in accident-prone areas, and enhanced driver education programs focusing 
+                on the identified risk factors.
+            </p>
+
+            <h2>Conclusions</h2>
+            <p>
+                This comprehensive analysis of traffic accidents in Italy provides valuable insights for 
+                policymakers and safety advocates. The findings suggest several areas where targeted interventions 
+                could significantly reduce accident rates and improve road safety.
+            </p>
+            
+            <h3>Recommendations</h3>
+            <p>
+                Based on our findings, we recommend increased enforcement during high-risk periods, improved 
+                road infrastructure in accident-prone areas, and enhanced driver education programs focusing 
+                on the identified risk factors. Based on our findings, we recommend increased enforcement during high-risk periods, improved 
+                road infrastructure in accident-prone areas, and enhanced driver education programs focusing 
+                on the identified risk factors. Based on our findings, we recommend increased enforcement during high-risk periods, improved 
+                road infrastructure in accident-prone areas, and enhanced driver education programs focusing 
+                on the identified risk factors. Based on our findings, we recommend increased enforcement during high-risk periods, improved 
+                road infrastructure in accident-prone areas, and enhanced driver education programs focusing 
+                on the identified risk factors. Based on our findings, we recommend increased enforcement during high-risk periods, improved 
+                road infrastructure in accident-prone areas, and enhanced driver education programs focusing 
+                on the identified risk factors. Based on our findings, we recommend increased enforcement during high-risk periods, improved 
+                road infrastructure in accident-prone areas, and enhanced driver education programs focusing 
+                on the identified risk factors. Based on our findings, we recommend increased enforcement during high-risk periods, improved 
+                road infrastructure in accident-prone areas, and enhanced driver education programs focusing 
+                on the identified risk factors.
+            </p>
+
+        </div>
+    </div>
+
+    <script>
+        // Parallax scroll effect
+        let ticking = false;
+        
+        function updateParallax() {
+            const scrolled = window.pageYOffset;
+            const parallaxBg = document.getElementById('parallaxBg');
+            
+            // Start higher in the image (-30%) and move upward extremely slowly (0.01x speed)
+            // This shows more of the upper portion initially and moves very slowly
+            // The extremely slow speed ensures the background never scrolls away from view
+            const yPos = -30 - (scrolled * 0.01); // Start at -30%, move upward at 1% of scroll speed
+            parallaxBg.style.transform = `translateY(${yPos}%)`;
+            
+            ticking = false;
+        }
+        
+        window.addEventListener('scroll', function() {
+            if (!ticking) {
+                window.requestAnimationFrame(updateParallax);
+                ticking = true;
+            }
+        });
+        
+        // Mobile menu toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const navMenu = document.getElementById('navMenu');
+        
+        menuToggle.onclick = function() {
+            navMenu.classList.toggle('active');
+        }
+        
+        // Handle dropdown toggles (works on mobile and when window is resized)
+        document.querySelectorAll('nav li > a').forEach(link => {
+            const parentLi = link.parentElement;
+            const dropdown = parentLi.querySelector('ul.dropdown');
+            
+            if (dropdown) {
+                link.addEventListener('click', function(e) {
+                    // Check if we're in mobile/hamburger menu mode
+                    const isHamburgerMode = window.innerWidth <= 768;
+                    
+                    // Only prevent default if there's a dropdown and we're in hamburger mode
+                    if (isHamburgerMode) {
+                        e.preventDefault();
+                        parentLi.classList.toggle('active');
+                    }
+                });
+            }
+        });
+        
+        // Close menu when clicking a final destination link on mobile
+        document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', function() {
+                const parentLi = link.parentElement;
+                const dropdown = parentLi.querySelector('ul.dropdown');
+                
+                // Only close menu if it's a final link (no dropdown) and we're in hamburger mode
+                if (!dropdown && window.innerWidth <= 768) {
+                    navMenu.classList.remove('active');
+                }
+            });
+        });
+        
+    </script>
+    
+</html>
