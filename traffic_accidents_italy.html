@@ -12,7 +12,7 @@
     <style>
         /* Override body styling for this page */
         body {
-            padding: 20px;
+            padding: 0 20px 20px 20px; /* No top padding to align with other pages */
             margin: 0;
             background-color: transparent;
         }
@@ -46,11 +46,30 @@
         /* Header section with white background */
         .header-section {
             background-color: white;
-            padding: 20px;
+            padding: 20px 20px 0 20px; /* No bottom padding to align nav */
             position: relative;
             z-index: 1;
-            margin: -20px -20px 0 -20px; /* Extend to true edges */
-            padding: 20px 40px;
+            margin: 0 -20px 0 -20px; /* Extend to true edges */
+        }
+        
+        /* Align nav with other pages */
+        nav {
+            margin-top: 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        /* White background extension above nav to cover overflow */
+        nav::before {
+            content: '';
+            position: absolute;
+            top: -20px;
+            left: -20px;
+            right: -20px;
+            height: 20px;
+            background-color: white;
+            z-index: -1;
         }
         
         /* Content wrapper */
