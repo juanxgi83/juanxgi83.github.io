@@ -1,0 +1,1233 @@
+﻿FREQ,Frequency,REF_AREA,Territory,DATA_TYPE,Indicator,IMPUTED_RENTS,Including or not including imputed rents,FAM_MAIN_INCOME_SOURCE,Households main income source,TIME_PERIOD,Observation
+A,Annual,IT,Italy,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2010,29790
+A,Annual,IT,Italy,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2011,29877
+A,Annual,IT,Italy,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2012,29422
+A,Annual,IT,Italy,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2013,29712
+A,Annual,IT,Italy,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2014,29694
+A,Annual,IT,Italy,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2015,29273
+A,Annual,IT,Italy,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2016,29778
+A,Annual,IT,Italy,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2017,30352
+A,Annual,IT,Italy,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2018,30482
+A,Annual,IT,Italy,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2019,32208
+A,Annual,IT,Italy,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2020,31495
+A,Annual,IT,Italy,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2021,32168
+A,Annual,IT,Italy,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2022,33546
+A,Annual,IT,Italy,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2023,35077
+A,Annual,IT,Italy,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2010,24606
+A,Annual,IT,Italy,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2011,24811
+A,Annual,IT,Italy,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2012,24171
+A,Annual,IT,Italy,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2013,24310
+A,Annual,IT,Italy,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2014,24190
+A,Annual,IT,Italy,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2015,24522
+A,Annual,IT,Italy,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2016,25091
+A,Annual,IT,Italy,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2017,25426
+A,Annual,IT,Italy,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2018,25716
+A,Annual,IT,Italy,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2019,27102
+A,Annual,IT,Italy,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2020,26597
+A,Annual,IT,Italy,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2021,26979
+A,Annual,IT,Italy,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2022,28865
+A,Annual,IT,Italy,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2023,30039
+A,Annual,IT,Italy,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2010,35439
+A,Annual,IT,Italy,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2011,35371
+A,Annual,IT,Italy,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2012,34847
+A,Annual,IT,Italy,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2013,34866
+A,Annual,IT,Italy,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2014,35017
+A,Annual,IT,Italy,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2015,34743
+A,Annual,IT,Italy,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2016,35204
+A,Annual,IT,Italy,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2017,36293
+A,Annual,IT,Italy,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2018,36416
+A,Annual,IT,Italy,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2019,38319
+A,Annual,IT,Italy,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2020,37786
+A,Annual,IT,Italy,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2021,39144
+A,Annual,IT,Italy,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2022,41004
+A,Annual,IT,Italy,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2023,42715
+A,Annual,IT,Italy,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2010,30220
+A,Annual,IT,Italy,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2011,30236
+A,Annual,IT,Italy,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2012,29579
+A,Annual,IT,Italy,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2013,29473
+A,Annual,IT,Italy,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2014,29472
+A,Annual,IT,Italy,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2015,29988
+A,Annual,IT,Italy,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2016,30595
+A,Annual,IT,Italy,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2017,31393
+A,Annual,IT,Italy,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2018,31641
+A,Annual,IT,Italy,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2019,33106
+A,Annual,IT,Italy,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2020,32812
+A,Annual,IT,Italy,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2021,33798
+A,Annual,IT,Italy,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2022,35995
+A,Annual,IT,Italy,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2023,37511
+A,Annual,ITC1,Piemonte,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2010,30665
+A,Annual,ITC1,Piemonte,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2011,31991
+A,Annual,ITC1,Piemonte,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2012,30825
+A,Annual,ITC1,Piemonte,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2013,30401
+A,Annual,ITC1,Piemonte,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2014,31010
+A,Annual,ITC1,Piemonte,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2015,29580
+A,Annual,ITC1,Piemonte,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2016,29232
+A,Annual,ITC1,Piemonte,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2017,29999
+A,Annual,ITC1,Piemonte,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2018,31634
+A,Annual,ITC1,Piemonte,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2019,32300
+A,Annual,ITC1,Piemonte,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2020,32124
+A,Annual,ITC1,Piemonte,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2021,32144
+A,Annual,ITC1,Piemonte,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2022,34242
+A,Annual,ITC1,Piemonte,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2023,37312
+A,Annual,ITC1,Piemonte,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2010,26048
+A,Annual,ITC1,Piemonte,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2011,26817
+A,Annual,ITC1,Piemonte,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2012,26187
+A,Annual,ITC1,Piemonte,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2013,25283
+A,Annual,ITC1,Piemonte,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2014,25903
+A,Annual,ITC1,Piemonte,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2015,25684
+A,Annual,ITC1,Piemonte,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2016,25367
+A,Annual,ITC1,Piemonte,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2017,25960
+A,Annual,ITC1,Piemonte,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2018,26830
+A,Annual,ITC1,Piemonte,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2019,28033
+A,Annual,ITC1,Piemonte,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2020,27544
+A,Annual,ITC1,Piemonte,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2021,27755
+A,Annual,ITC1,Piemonte,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2022,30267
+A,Annual,ITC1,Piemonte,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2023,32688
+A,Annual,ITC1,Piemonte,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2010,36938
+A,Annual,ITC1,Piemonte,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2011,37129
+A,Annual,ITC1,Piemonte,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2012,36761
+A,Annual,ITC1,Piemonte,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2013,34608
+A,Annual,ITC1,Piemonte,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2014,35367
+A,Annual,ITC1,Piemonte,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2015,34644
+A,Annual,ITC1,Piemonte,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2016,34290
+A,Annual,ITC1,Piemonte,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2017,35330
+A,Annual,ITC1,Piemonte,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2018,37745
+A,Annual,ITC1,Piemonte,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2019,39094
+A,Annual,ITC1,Piemonte,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2020,38628
+A,Annual,ITC1,Piemonte,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2021,39168
+A,Annual,ITC1,Piemonte,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2022,40741
+A,Annual,ITC1,Piemonte,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2023,43965
+A,Annual,ITC1,Piemonte,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2010,32302
+A,Annual,ITC1,Piemonte,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2011,32196
+A,Annual,ITC1,Piemonte,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2012,31774
+A,Annual,ITC1,Piemonte,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2013,29572
+A,Annual,ITC1,Piemonte,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2014,30298
+A,Annual,ITC1,Piemonte,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2015,30261
+A,Annual,ITC1,Piemonte,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2016,30177
+A,Annual,ITC1,Piemonte,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2017,31068
+A,Annual,ITC1,Piemonte,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2018,33055
+A,Annual,ITC1,Piemonte,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2019,34289
+A,Annual,ITC1,Piemonte,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2020,34079
+A,Annual,ITC1,Piemonte,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2021,34125
+A,Annual,ITC1,Piemonte,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2022,36131
+A,Annual,ITC1,Piemonte,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2023,39021
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2010,31042
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2011,32114
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2012,29889
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2013,29446
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2014,30388
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2015,29466
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2016,27567
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2017,26041
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2018,30374
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2019,34737
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2020,31797
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2021,33124
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2022,37911
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2023,38320
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2010,26436
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2011,26801
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2012,26392
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2013,24575
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2014,25088
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2015,25951
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2016,24081
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2017,24017
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2018,25766
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2019,29559
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2020,26948
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2021,27700
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2022,32900
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2023,32830
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2010,37317
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2011,36339
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2012,35602
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2013,34188
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2014,34555
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2015,34775
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2016,33504
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2017,34585
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2018,35808
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2019,39786
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2020,38640
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2021,41593
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2022,46115
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2023,47471
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2010,32309
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2011,32093
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2012,31296
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2013,29634
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2014,30280
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2015,31151
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2016,30303
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2017,30965
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2018,31985
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2019,34708
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2020,33735
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2021,35237
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2022,39461
+A,Annual,ITC2,"'Valle d""'Aosta / Vallée d""'Aoste'",REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2023,41932
+A,Annual,ITC3,Liguria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2010,31236
+A,Annual,ITC3,Liguria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2011,29958
+A,Annual,ITC3,Liguria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2012,29530
+A,Annual,ITC3,Liguria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2013,29203
+A,Annual,ITC3,Liguria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2014,29903
+A,Annual,ITC3,Liguria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2015,30211
+A,Annual,ITC3,Liguria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2016,30234
+A,Annual,ITC3,Liguria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2017,30016
+A,Annual,ITC3,Liguria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2018,30025
+A,Annual,ITC3,Liguria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2019,32625
+A,Annual,ITC3,Liguria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2020,32108
+A,Annual,ITC3,Liguria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2021,31504
+A,Annual,ITC3,Liguria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2022,33564
+A,Annual,ITC3,Liguria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2023,35759
+A,Annual,ITC3,Liguria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2010,24736
+A,Annual,ITC3,Liguria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2011,24084
+A,Annual,ITC3,Liguria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2012,24572
+A,Annual,ITC3,Liguria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2013,23328
+A,Annual,ITC3,Liguria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2014,24246
+A,Annual,ITC3,Liguria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2015,25200
+A,Annual,ITC3,Liguria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2016,25107
+A,Annual,ITC3,Liguria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2017,25227
+A,Annual,ITC3,Liguria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2018,25073
+A,Annual,ITC3,Liguria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2019,26607
+A,Annual,ITC3,Liguria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2020,26202
+A,Annual,ITC3,Liguria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2021,26233
+A,Annual,ITC3,Liguria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2022,28085
+A,Annual,ITC3,Liguria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2023,31446
+A,Annual,ITC3,Liguria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2010,35597
+A,Annual,ITC3,Liguria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2011,35431
+A,Annual,ITC3,Liguria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2012,35234
+A,Annual,ITC3,Liguria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2013,33916
+A,Annual,ITC3,Liguria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2014,34519
+A,Annual,ITC3,Liguria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2015,35319
+A,Annual,ITC3,Liguria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2016,35866
+A,Annual,ITC3,Liguria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2017,36784
+A,Annual,ITC3,Liguria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2018,36116
+A,Annual,ITC3,Liguria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2019,38144
+A,Annual,ITC3,Liguria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2020,37332
+A,Annual,ITC3,Liguria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2021,36665
+A,Annual,ITC3,Liguria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2022,39898
+A,Annual,ITC3,Liguria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2023,42458
+A,Annual,ITC3,Liguria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2010,29637
+A,Annual,ITC3,Liguria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2011,29594
+A,Annual,ITC3,Liguria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2012,29545
+A,Annual,ITC3,Liguria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2013,28269
+A,Annual,ITC3,Liguria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2014,28764
+A,Annual,ITC3,Liguria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2015,30273
+A,Annual,ITC3,Liguria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2016,30864
+A,Annual,ITC3,Liguria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2017,31721
+A,Annual,ITC3,Liguria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2018,31230
+A,Annual,ITC3,Liguria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2019,32723
+A,Annual,ITC3,Liguria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2020,31865
+A,Annual,ITC3,Liguria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2021,31586
+A,Annual,ITC3,Liguria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2022,34487
+A,Annual,ITC3,Liguria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2023,37253
+A,Annual,ITC4,Lombardia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2010,34332
+A,Annual,ITC4,Lombardia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2011,34311
+A,Annual,ITC4,Lombardia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2012,34009
+A,Annual,ITC4,Lombardia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2013,34369
+A,Annual,ITC4,Lombardia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2014,35588
+A,Annual,ITC4,Lombardia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2015,33035
+A,Annual,ITC4,Lombardia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2016,33598
+A,Annual,ITC4,Lombardia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2017,34487
+A,Annual,ITC4,Lombardia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2018,34297
+A,Annual,ITC4,Lombardia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2019,36602
+A,Annual,ITC4,Lombardia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2020,35917
+A,Annual,ITC4,Lombardia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2021,36317
+A,Annual,ITC4,Lombardia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2022,38638
+A,Annual,ITC4,Lombardia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2023,39579
+A,Annual,ITC4,Lombardia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2010,28930
+A,Annual,ITC4,Lombardia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2011,28635
+A,Annual,ITC4,Lombardia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2012,27712
+A,Annual,ITC4,Lombardia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2013,28156
+A,Annual,ITC4,Lombardia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2014,28799
+A,Annual,ITC4,Lombardia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2015,27661
+A,Annual,ITC4,Lombardia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2016,28222
+A,Annual,ITC4,Lombardia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2017,29098
+A,Annual,ITC4,Lombardia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2018,29007
+A,Annual,ITC4,Lombardia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2019,31503
+A,Annual,ITC4,Lombardia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2020,30496
+A,Annual,ITC4,Lombardia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2021,30276
+A,Annual,ITC4,Lombardia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2022,32485
+A,Annual,ITC4,Lombardia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2023,33336
+A,Annual,ITC4,Lombardia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2010,39962
+A,Annual,ITC4,Lombardia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2011,40172
+A,Annual,ITC4,Lombardia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2012,39937
+A,Annual,ITC4,Lombardia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2013,40802
+A,Annual,ITC4,Lombardia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2014,41519
+A,Annual,ITC4,Lombardia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2015,39449
+A,Annual,ITC4,Lombardia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2016,40459
+A,Annual,ITC4,Lombardia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2017,41519
+A,Annual,ITC4,Lombardia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2018,41231
+A,Annual,ITC4,Lombardia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2019,43228
+A,Annual,ITC4,Lombardia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2020,43126
+A,Annual,ITC4,Lombardia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2021,46365
+A,Annual,ITC4,Lombardia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2022,47038
+A,Annual,ITC4,Lombardia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2023,49814
+A,Annual,ITC4,Lombardia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2010,34605
+A,Annual,ITC4,Lombardia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2011,34528
+A,Annual,ITC4,Lombardia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2012,34046
+A,Annual,ITC4,Lombardia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2013,34456
+A,Annual,ITC4,Lombardia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2014,34831
+A,Annual,ITC4,Lombardia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2015,34221
+A,Annual,ITC4,Lombardia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2016,35129
+A,Annual,ITC4,Lombardia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2017,36101
+A,Annual,ITC4,Lombardia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2018,35968
+A,Annual,ITC4,Lombardia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2019,37702
+A,Annual,ITC4,Lombardia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2020,37611
+A,Annual,ITC4,Lombardia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2021,40277
+A,Annual,ITC4,Lombardia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2022,41428
+A,Annual,ITC4,Lombardia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2023,43825
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2010,38120
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2011,39559
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2012,38867
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2013,41495
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2014,39419
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2015,37637
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2016,37519
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2017,36610
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2018,37740
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2019,35202
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2020,37840
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2021,38070
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2022,41593
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2023,42108
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2010,32865
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2011,33700
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2012,31594
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2013,34630
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2014,33209
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2015,33479
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2016,33300
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2017,31882
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2018,32768
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2019,30511
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2020,31146
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2021,31802
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2022,37563
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2023,37563
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2010,42984
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2011,44361
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2012,43366
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2013,46221
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2014,44140
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2015,45187
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2016,43862
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2017,42957
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2018,45953
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2019,45095
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2020,45647
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2021,49630
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2022,51632
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2023,49032
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2010,37276
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2011,37811
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2012,36996
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2013,39107
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2014,37424
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2015,39923
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2016,39217
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2017,37892
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2018,40606
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2019,39028
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2020,39534
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2021,44370
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2022,45931
+A,Annual,ITD1,Provincia Autonoma Bolzano / Bozen,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2023,44032
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2010,37356
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2011,34239
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2012,34906
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2013,32980
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2014,32429
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2015,31246
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2016,31743
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2017,32774
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2018,33828
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2019,33612
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2020,34547
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2021,35179
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2022,40491
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2023,41286
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2010,31019
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2011,28522
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2012,29155
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2013,27297
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2014,26859
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2015,24833
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2016,26083
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2017,26746
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2018,28294
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2019,27716
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2020,29901
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2021,29768
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2022,37052
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2023,35726
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2010,41041
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2011,37726
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2012,39517
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2013,38300
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2014,38446
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2015,37987
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2016,39674
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2017,40370
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2018,41203
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2019,40938
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2020,41825
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2021,43650
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2022,47925
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2023,46585
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2010,34650
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2011,31804
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2012,33922
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2013,32217
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2014,32177
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2015,32612
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2016,34658
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2017,34604
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2018,35495
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2019,35226
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2020,35917
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2021,38526
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2022,42437
+A,Annual,ITD2,Provincia Autonoma Trento,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2023,41593
+A,Annual,ITD3,Veneto,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2010,33790
+A,Annual,ITD3,Veneto,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2011,32982
+A,Annual,ITD3,Veneto,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2012,33202
+A,Annual,ITD3,Veneto,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2013,33555
+A,Annual,ITD3,Veneto,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2014,33205
+A,Annual,ITD3,Veneto,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2015,33855
+A,Annual,ITD3,Veneto,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2016,34732
+A,Annual,ITD3,Veneto,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2017,36003
+A,Annual,ITD3,Veneto,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2018,35357
+A,Annual,ITD3,Veneto,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2019,36984
+A,Annual,ITD3,Veneto,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2020,34616
+A,Annual,ITD3,Veneto,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2021,35483
+A,Annual,ITD3,Veneto,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2022,37946
+A,Annual,ITD3,Veneto,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2023,38376
+A,Annual,ITD3,Veneto,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2010,27989
+A,Annual,ITD3,Veneto,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2011,27840
+A,Annual,ITD3,Veneto,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2012,27549
+A,Annual,ITD3,Veneto,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2013,27469
+A,Annual,ITD3,Veneto,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2014,26802
+A,Annual,ITD3,Veneto,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2015,28065
+A,Annual,ITD3,Veneto,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2016,29295
+A,Annual,ITD3,Veneto,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2017,29785
+A,Annual,ITD3,Veneto,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2018,30310
+A,Annual,ITD3,Veneto,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2019,30701
+A,Annual,ITD3,Veneto,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2020,28193
+A,Annual,ITD3,Veneto,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2021,29764
+A,Annual,ITD3,Veneto,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2022,32272
+A,Annual,ITD3,Veneto,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2023,33053
+A,Annual,ITD3,Veneto,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2010,38020
+A,Annual,ITD3,Veneto,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2011,38067
+A,Annual,ITD3,Veneto,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2012,37684
+A,Annual,ITD3,Veneto,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2013,37763
+A,Annual,ITD3,Veneto,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2014,38075
+A,Annual,ITD3,Veneto,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2015,38801
+A,Annual,ITD3,Veneto,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2016,39521
+A,Annual,ITD3,Veneto,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2017,41409
+A,Annual,ITD3,Veneto,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2018,41048
+A,Annual,ITD3,Veneto,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2019,42629
+A,Annual,ITD3,Veneto,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2020,41247
+A,Annual,ITD3,Veneto,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2021,43025
+A,Annual,ITD3,Veneto,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2022,46162
+A,Annual,ITD3,Veneto,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2023,46098
+A,Annual,ITD3,Veneto,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2010,32336
+A,Annual,ITD3,Veneto,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2011,32715
+A,Annual,ITD3,Veneto,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2012,32078
+A,Annual,ITD3,Veneto,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2013,31416
+A,Annual,ITD3,Veneto,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2014,31392
+A,Annual,ITD3,Veneto,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2015,32973
+A,Annual,ITD3,Veneto,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2016,34253
+A,Annual,ITD3,Veneto,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2017,35501
+A,Annual,ITD3,Veneto,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2018,35673
+A,Annual,ITD3,Veneto,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2019,36670
+A,Annual,ITD3,Veneto,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2020,35536
+A,Annual,ITD3,Veneto,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2021,37113
+A,Annual,ITD3,Veneto,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2022,40548
+A,Annual,ITD3,Veneto,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2023,40480
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2010,31466
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2011,31319
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2012,31231
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2013,30921
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2014,32225
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2015,31801
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2016,31692
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2017,34283
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2018,33250
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2019,33650
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2020,33716
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2021,34780
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2022,36671
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2023,37045
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2010,25648
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2011,26252
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2012,25820
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2013,25834
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2014,26969
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2015,26358
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2016,26866
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2017,28739
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2018,27826
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2019,27832
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2020,28219
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2021,27872
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2022,30856
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2023,30671
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2010,36853
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2011,36853
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2012,35832
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2013,36405
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2014,37136
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2015,37291
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2016,37483
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2017,39307
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2018,38128
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2019,38321
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2020,39267
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2021,40832
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2022,43338
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2023,45119
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2010,31210
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2011,31794
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2012,30518
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2013,30730
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2014,31760
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2015,32217
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2016,32725
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2017,34143
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2018,33227
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2019,32858
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2020,33794
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2021,34637
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2022,37527
+A,Annual,ITD4,Friuli-Venezia Giulia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2023,39146
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2010,33778
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2011,33673
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2012,33419
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2013,33531
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2014,34019
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2015,33895
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2016,35513
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2017,35861
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2018,34484
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2019,39657
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2020,37903
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2021,39099
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2022,41461
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2023,42793
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2010,27883
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2011,27490
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2012,26607
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2013,27702
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2014,27911
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2015,28867
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2016,30052
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2017,30111
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2018,29385
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2019,33786
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2020,31552
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2021,33431
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2022,35682
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2023,36929
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2010,40816
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2011,39173
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2012,39158
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2013,40137
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2014,40382
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2015,39746
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2016,40187
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2017,40957
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2018,39536
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2019,44435
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2020,43388
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2021,46150
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2022,48082
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2023,48990
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2010,34941
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2011,33568
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2012,32971
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2013,34066
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2014,34076
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2015,34700
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2016,35169
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2017,35431
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2018,34536
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2019,38593
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2020,37768
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2021,39941
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2022,42278
+A,Annual,ITD5,Emilia-Romagna,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2023,43258
+A,Annual,ITE1,Toscana,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2010,33593
+A,Annual,ITE1,Toscana,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2011,33511
+A,Annual,ITE1,Toscana,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2012,33147
+A,Annual,ITE1,Toscana,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2013,34545
+A,Annual,ITE1,Toscana,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2014,33960
+A,Annual,ITE1,Toscana,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2015,34255
+A,Annual,ITE1,Toscana,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2016,32652
+A,Annual,ITE1,Toscana,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2017,32749
+A,Annual,ITE1,Toscana,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2018,32892
+A,Annual,ITE1,Toscana,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2019,36719
+A,Annual,ITE1,Toscana,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2020,36243
+A,Annual,ITE1,Toscana,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2021,37364
+A,Annual,ITE1,Toscana,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2022,38338
+A,Annual,ITE1,Toscana,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2023,39490
+A,Annual,ITE1,Toscana,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2010,26955
+A,Annual,ITE1,Toscana,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2011,27730
+A,Annual,ITE1,Toscana,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2012,25914
+A,Annual,ITE1,Toscana,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2013,27576
+A,Annual,ITE1,Toscana,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2014,27426
+A,Annual,ITE1,Toscana,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2015,28462
+A,Annual,ITE1,Toscana,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2016,26974
+A,Annual,ITE1,Toscana,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2017,27090
+A,Annual,ITE1,Toscana,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2018,27557
+A,Annual,ITE1,Toscana,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2019,30339
+A,Annual,ITE1,Toscana,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2020,30568
+A,Annual,ITE1,Toscana,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2021,30696
+A,Annual,ITE1,Toscana,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2022,33268
+A,Annual,ITE1,Toscana,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2023,34211
+A,Annual,ITE1,Toscana,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2010,38644
+A,Annual,ITE1,Toscana,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2011,38376
+A,Annual,ITE1,Toscana,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2012,37872
+A,Annual,ITE1,Toscana,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2013,38607
+A,Annual,ITE1,Toscana,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2014,39591
+A,Annual,ITE1,Toscana,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2015,39171
+A,Annual,ITE1,Toscana,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2016,38202
+A,Annual,ITE1,Toscana,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2017,39391
+A,Annual,ITE1,Toscana,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2018,39133
+A,Annual,ITE1,Toscana,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2019,42332
+A,Annual,ITE1,Toscana,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2020,41136
+A,Annual,ITE1,Toscana,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2021,42660
+A,Annual,ITE1,Toscana,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2022,45232
+A,Annual,ITE1,Toscana,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2023,46022
+A,Annual,ITE1,Toscana,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2010,32154
+A,Annual,ITE1,Toscana,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2011,32487
+A,Annual,ITE1,Toscana,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2012,31107
+A,Annual,ITE1,Toscana,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2013,31710
+A,Annual,ITE1,Toscana,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2014,32755
+A,Annual,ITE1,Toscana,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2015,33323
+A,Annual,ITE1,Toscana,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2016,32936
+A,Annual,ITE1,Toscana,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2017,33835
+A,Annual,ITE1,Toscana,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2018,33792
+A,Annual,ITE1,Toscana,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2019,35877
+A,Annual,ITE1,Toscana,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2020,34834
+A,Annual,ITE1,Toscana,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2021,35815
+A,Annual,ITE1,Toscana,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2022,39537
+A,Annual,ITE1,Toscana,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2023,39886
+A,Annual,ITE2,Umbria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2010,30360
+A,Annual,ITE2,Umbria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2011,30948
+A,Annual,ITE2,Umbria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2012,29351
+A,Annual,ITE2,Umbria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2013,30404
+A,Annual,ITE2,Umbria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2014,29761
+A,Annual,ITE2,Umbria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2015,29706
+A,Annual,ITE2,Umbria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2016,31004
+A,Annual,ITE2,Umbria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2017,31833
+A,Annual,ITE2,Umbria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2018,32420
+A,Annual,ITE2,Umbria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2019,34245
+A,Annual,ITE2,Umbria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2020,34433
+A,Annual,ITE2,Umbria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2021,35825
+A,Annual,ITE2,Umbria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2022,38633
+A,Annual,ITE2,Umbria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2023,40068
+A,Annual,ITE2,Umbria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2010,25892
+A,Annual,ITE2,Umbria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2011,25884
+A,Annual,ITE2,Umbria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2012,24833
+A,Annual,ITE2,Umbria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2013,25156
+A,Annual,ITE2,Umbria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2014,24685
+A,Annual,ITE2,Umbria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2015,24764
+A,Annual,ITE2,Umbria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2016,26457
+A,Annual,ITE2,Umbria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2017,26695
+A,Annual,ITE2,Umbria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2018,27605
+A,Annual,ITE2,Umbria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2019,28632
+A,Annual,ITE2,Umbria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2020,29074
+A,Annual,ITE2,Umbria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2021,31192
+A,Annual,ITE2,Umbria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2022,33677
+A,Annual,ITE2,Umbria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2023,35097
+A,Annual,ITE2,Umbria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2010,35541
+A,Annual,ITE2,Umbria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2011,35916
+A,Annual,ITE2,Umbria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2012,34448
+A,Annual,ITE2,Umbria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2013,35471
+A,Annual,ITE2,Umbria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2014,33382
+A,Annual,ITE2,Umbria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2015,34815
+A,Annual,ITE2,Umbria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2016,35860
+A,Annual,ITE2,Umbria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2017,38721
+A,Annual,ITE2,Umbria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2018,37977
+A,Annual,ITE2,Umbria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2019,39726
+A,Annual,ITE2,Umbria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2020,38987
+A,Annual,ITE2,Umbria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2021,43167
+A,Annual,ITE2,Umbria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2022,47148
+A,Annual,ITE2,Umbria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2023,49212
+A,Annual,ITE2,Umbria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2010,30703
+A,Annual,ITE2,Umbria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2011,30805
+A,Annual,ITE2,Umbria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2012,29555
+A,Annual,ITE2,Umbria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2013,30161
+A,Annual,ITE2,Umbria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2014,28715
+A,Annual,ITE2,Umbria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2015,30094
+A,Annual,ITE2,Umbria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2016,31454
+A,Annual,ITE2,Umbria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2017,33228
+A,Annual,ITE2,Umbria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2018,33338
+A,Annual,ITE2,Umbria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2019,34278
+A,Annual,ITE2,Umbria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2020,33714
+A,Annual,ITE2,Umbria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2021,38011
+A,Annual,ITE2,Umbria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2022,41652
+A,Annual,ITE2,Umbria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2023,44060
+A,Annual,ITE3,Marche,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2010,31637
+A,Annual,ITE3,Marche,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2011,32150
+A,Annual,ITE3,Marche,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2012,31568
+A,Annual,ITE3,Marche,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2013,32396
+A,Annual,ITE3,Marche,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2014,31656
+A,Annual,ITE3,Marche,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2015,31437
+A,Annual,ITE3,Marche,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2016,32182
+A,Annual,ITE3,Marche,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2017,31766
+A,Annual,ITE3,Marche,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2018,31907
+A,Annual,ITE3,Marche,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2019,36766
+A,Annual,ITE3,Marche,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2020,35541
+A,Annual,ITE3,Marche,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2021,34917
+A,Annual,ITE3,Marche,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2022,37919
+A,Annual,ITE3,Marche,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2023,39918
+A,Annual,ITE3,Marche,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2010,26602
+A,Annual,ITE3,Marche,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2011,26797
+A,Annual,ITE3,Marche,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2012,26803
+A,Annual,ITE3,Marche,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2013,26471
+A,Annual,ITE3,Marche,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2014,25920
+A,Annual,ITE3,Marche,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2015,26902
+A,Annual,ITE3,Marche,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2016,27898
+A,Annual,ITE3,Marche,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2017,27546
+A,Annual,ITE3,Marche,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2018,27761
+A,Annual,ITE3,Marche,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2019,31646
+A,Annual,ITE3,Marche,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2020,30744
+A,Annual,ITE3,Marche,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2021,31700
+A,Annual,ITE3,Marche,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2022,33315
+A,Annual,ITE3,Marche,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2023,35072
+A,Annual,ITE3,Marche,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2010,37573
+A,Annual,ITE3,Marche,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2011,37109
+A,Annual,ITE3,Marche,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2012,36320
+A,Annual,ITE3,Marche,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2013,36574
+A,Annual,ITE3,Marche,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2014,36341
+A,Annual,ITE3,Marche,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2015,36244
+A,Annual,ITE3,Marche,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2016,36687
+A,Annual,ITE3,Marche,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2017,37801
+A,Annual,ITE3,Marche,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2018,37794
+A,Annual,ITE3,Marche,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2019,41162
+A,Annual,ITE3,Marche,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2020,40062
+A,Annual,ITE3,Marche,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2021,39186
+A,Annual,ITE3,Marche,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2022,43446
+A,Annual,ITE3,Marche,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2023,44945
+A,Annual,ITE3,Marche,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2010,32001
+A,Annual,ITE3,Marche,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2011,31801
+A,Annual,ITE3,Marche,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2012,31040
+A,Annual,ITE3,Marche,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2013,31411
+A,Annual,ITE3,Marche,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2014,30964
+A,Annual,ITE3,Marche,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2015,31650
+A,Annual,ITE3,Marche,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2016,32131
+A,Annual,ITE3,Marche,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2017,33165
+A,Annual,ITE3,Marche,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2018,33275
+A,Annual,ITE3,Marche,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2019,36063
+A,Annual,ITE3,Marche,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2020,35315
+A,Annual,ITE3,Marche,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2021,34730
+A,Annual,ITE3,Marche,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2022,38160
+A,Annual,ITE3,Marche,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2023,39432
+A,Annual,ITE4,Lazio,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2010,32906
+A,Annual,ITE4,Lazio,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2011,31753
+A,Annual,ITE4,Lazio,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2012,29929
+A,Annual,ITE4,Lazio,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2013,30253
+A,Annual,ITE4,Lazio,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2014,30609
+A,Annual,ITE4,Lazio,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2015,28501
+A,Annual,ITE4,Lazio,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2016,30788
+A,Annual,ITE4,Lazio,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2017,30853
+A,Annual,ITE4,Lazio,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2018,32244
+A,Annual,ITE4,Lazio,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2019,33713
+A,Annual,ITE4,Lazio,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2020,33171
+A,Annual,ITE4,Lazio,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2021,32565
+A,Annual,ITE4,Lazio,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2022,33287
+A,Annual,ITE4,Lazio,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2023,34090
+A,Annual,ITE4,Lazio,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2010,25883
+A,Annual,ITE4,Lazio,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2011,25289
+A,Annual,ITE4,Lazio,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2012,23827
+A,Annual,ITE4,Lazio,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2013,24021
+A,Annual,ITE4,Lazio,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2014,23866
+A,Annual,ITE4,Lazio,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2015,23593
+A,Annual,ITE4,Lazio,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2016,25381
+A,Annual,ITE4,Lazio,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2017,25032
+A,Annual,ITE4,Lazio,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2018,26389
+A,Annual,ITE4,Lazio,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2019,27146
+A,Annual,ITE4,Lazio,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2020,26873
+A,Annual,ITE4,Lazio,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2021,26632
+A,Annual,ITE4,Lazio,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2022,28714
+A,Annual,ITE4,Lazio,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2023,28840
+A,Annual,ITE4,Lazio,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2010,39483
+A,Annual,ITE4,Lazio,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2011,38528
+A,Annual,ITE4,Lazio,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2012,37411
+A,Annual,ITE4,Lazio,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2013,36651
+A,Annual,ITE4,Lazio,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2014,35683
+A,Annual,ITE4,Lazio,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2015,35001
+A,Annual,ITE4,Lazio,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2016,36636
+A,Annual,ITE4,Lazio,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2017,37805
+A,Annual,ITE4,Lazio,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2018,37803
+A,Annual,ITE4,Lazio,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2019,39671
+A,Annual,ITE4,Lazio,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2020,38646
+A,Annual,ITE4,Lazio,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2021,39062
+A,Annual,ITE4,Lazio,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2022,40352
+A,Annual,ITE4,Lazio,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2023,41732
+A,Annual,ITE4,Lazio,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2010,31994
+A,Annual,ITE4,Lazio,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2011,31724
+A,Annual,ITE4,Lazio,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2012,30764
+A,Annual,ITE4,Lazio,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2013,30075
+A,Annual,ITE4,Lazio,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2014,28991
+A,Annual,ITE4,Lazio,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2015,29819
+A,Annual,ITE4,Lazio,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2016,31477
+A,Annual,ITE4,Lazio,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2017,32297
+A,Annual,ITE4,Lazio,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2018,32366
+A,Annual,ITE4,Lazio,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2019,33453
+A,Annual,ITE4,Lazio,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2020,32858
+A,Annual,ITE4,Lazio,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2021,33205
+A,Annual,ITE4,Lazio,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2022,34957
+A,Annual,ITE4,Lazio,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2023,36334
+A,Annual,ITF1,Abruzzo,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2010,26417
+A,Annual,ITF1,Abruzzo,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2011,27567
+A,Annual,ITF1,Abruzzo,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2012,26466
+A,Annual,ITF1,Abruzzo,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2013,26238
+A,Annual,ITF1,Abruzzo,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2014,26216
+A,Annual,ITF1,Abruzzo,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2015,26492
+A,Annual,ITF1,Abruzzo,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2016,27921
+A,Annual,ITF1,Abruzzo,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2017,29759
+A,Annual,ITF1,Abruzzo,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2018,31630
+A,Annual,ITF1,Abruzzo,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2019,29815
+A,Annual,ITF1,Abruzzo,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2020,25847
+A,Annual,ITF1,Abruzzo,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2021,28154
+A,Annual,ITF1,Abruzzo,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2022,27505
+A,Annual,ITF1,Abruzzo,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2023,31304
+A,Annual,ITF1,Abruzzo,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2010,21532
+A,Annual,ITF1,Abruzzo,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2011,22787
+A,Annual,ITF1,Abruzzo,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2012,22950
+A,Annual,ITF1,Abruzzo,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2013,23073
+A,Annual,ITF1,Abruzzo,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2014,22651
+A,Annual,ITF1,Abruzzo,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2015,22990
+A,Annual,ITF1,Abruzzo,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2016,24273
+A,Annual,ITF1,Abruzzo,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2017,25459
+A,Annual,ITF1,Abruzzo,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2018,27223
+A,Annual,ITF1,Abruzzo,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2019,25243
+A,Annual,ITF1,Abruzzo,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2020,22979
+A,Annual,ITF1,Abruzzo,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2021,23299
+A,Annual,ITF1,Abruzzo,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2022,24767
+A,Annual,ITF1,Abruzzo,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2023,27592
+A,Annual,ITF1,Abruzzo,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2010,30171
+A,Annual,ITF1,Abruzzo,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2011,31487
+A,Annual,ITF1,Abruzzo,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2012,30401
+A,Annual,ITF1,Abruzzo,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2013,30204
+A,Annual,ITF1,Abruzzo,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2014,30107
+A,Annual,ITF1,Abruzzo,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2015,30485
+A,Annual,ITF1,Abruzzo,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2016,31712
+A,Annual,ITF1,Abruzzo,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2017,32071
+A,Annual,ITF1,Abruzzo,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2018,33966
+A,Annual,ITF1,Abruzzo,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2019,34484
+A,Annual,ITF1,Abruzzo,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2020,29052
+A,Annual,ITF1,Abruzzo,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2021,33602
+A,Annual,ITF1,Abruzzo,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2022,34271
+A,Annual,ITF1,Abruzzo,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2023,36951
+A,Annual,ITF1,Abruzzo,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2010,25147
+A,Annual,ITF1,Abruzzo,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2011,26978
+A,Annual,ITF1,Abruzzo,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2012,25947
+A,Annual,ITF1,Abruzzo,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2013,26347
+A,Annual,ITF1,Abruzzo,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2014,26040
+A,Annual,ITF1,Abruzzo,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2015,26317
+A,Annual,ITF1,Abruzzo,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2016,27308
+A,Annual,ITF1,Abruzzo,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2017,27888
+A,Annual,ITF1,Abruzzo,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2018,28936
+A,Annual,ITF1,Abruzzo,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2019,30275
+A,Annual,ITF1,Abruzzo,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2020,26037
+A,Annual,ITF1,Abruzzo,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2021,29021
+A,Annual,ITF1,Abruzzo,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2022,30634
+A,Annual,ITF1,Abruzzo,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2023,33085
+A,Annual,ITF2,Molise,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2010,24417
+A,Annual,ITF2,Molise,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2011,23500
+A,Annual,ITF2,Molise,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2012,22040
+A,Annual,ITF2,Molise,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2013,23723
+A,Annual,ITF2,Molise,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2014,24573
+A,Annual,ITF2,Molise,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2015,24611
+A,Annual,ITF2,Molise,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2016,25430
+A,Annual,ITF2,Molise,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2017,28750
+A,Annual,ITF2,Molise,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2018,23605
+A,Annual,ITF2,Molise,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2019,26452
+A,Annual,ITF2,Molise,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2020,25641
+A,Annual,ITF2,Molise,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2021,29162
+A,Annual,ITF2,Molise,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2022,29434
+A,Annual,ITF2,Molise,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2023,31499
+A,Annual,ITF2,Molise,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2010,20861
+A,Annual,ITF2,Molise,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2011,20703
+A,Annual,ITF2,Molise,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2012,18761
+A,Annual,ITF2,Molise,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2013,18452
+A,Annual,ITF2,Molise,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2014,20261
+A,Annual,ITF2,Molise,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2015,20941
+A,Annual,ITF2,Molise,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2016,21550
+A,Annual,ITF2,Molise,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2017,23998
+A,Annual,ITF2,Molise,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2018,20505
+A,Annual,ITF2,Molise,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2019,24308
+A,Annual,ITF2,Molise,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2020,22846
+A,Annual,ITF2,Molise,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2021,25197
+A,Annual,ITF2,Molise,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2022,24484
+A,Annual,ITF2,Molise,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2023,26975
+A,Annual,ITF2,Molise,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2010,29273
+A,Annual,ITF2,Molise,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2011,27509
+A,Annual,ITF2,Molise,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2012,26808
+A,Annual,ITF2,Molise,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2013,26556
+A,Annual,ITF2,Molise,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2014,28303
+A,Annual,ITF2,Molise,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2015,27249
+A,Annual,ITF2,Molise,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2016,28581
+A,Annual,ITF2,Molise,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2017,32311
+A,Annual,ITF2,Molise,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2018,27676
+A,Annual,ITF2,Molise,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2019,30550
+A,Annual,ITF2,Molise,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2020,29985
+A,Annual,ITF2,Molise,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2021,31098
+A,Annual,ITF2,Molise,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2022,34704
+A,Annual,ITF2,Molise,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2023,36277
+A,Annual,ITF2,Molise,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2010,25439
+A,Annual,ITF2,Molise,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2011,24638
+A,Annual,ITF2,Molise,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2012,23459
+A,Annual,ITF2,Molise,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2013,21607
+A,Annual,ITF2,Molise,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2014,24004
+A,Annual,ITF2,Molise,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2015,23894
+A,Annual,ITF2,Molise,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2016,24781
+A,Annual,ITF2,Molise,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2017,27411
+A,Annual,ITF2,Molise,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2018,24477
+A,Annual,ITF2,Molise,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2019,27051
+A,Annual,ITF2,Molise,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2020,27368
+A,Annual,ITF2,Molise,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2021,27247
+A,Annual,ITF2,Molise,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2022,29910
+A,Annual,ITF2,Molise,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2023,31755
+A,Annual,ITF3,Campania,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2010,24280
+A,Annual,ITF3,Campania,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2011,24007
+A,Annual,ITF3,Campania,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2012,22560
+A,Annual,ITF3,Campania,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2013,22859
+A,Annual,ITF3,Campania,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2014,24065
+A,Annual,ITF3,Campania,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2015,23708
+A,Annual,ITF3,Campania,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2016,23890
+A,Annual,ITF3,Campania,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2017,24256
+A,Annual,ITF3,Campania,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2018,24420
+A,Annual,ITF3,Campania,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2019,24968
+A,Annual,ITF3,Campania,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2020,24681
+A,Annual,ITF3,Campania,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2021,25028
+A,Annual,ITF3,Campania,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2022,26817
+A,Annual,ITF3,Campania,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2023,28632
+A,Annual,ITF3,Campania,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2010,20396
+A,Annual,ITF3,Campania,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2011,20206
+A,Annual,ITF3,Campania,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2012,19323
+A,Annual,ITF3,Campania,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2013,19425
+A,Annual,ITF3,Campania,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2014,20429
+A,Annual,ITF3,Campania,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2015,20170
+A,Annual,ITF3,Campania,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2016,20727
+A,Annual,ITF3,Campania,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2017,20596
+A,Annual,ITF3,Campania,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2018,20448
+A,Annual,ITF3,Campania,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2019,21659
+A,Annual,ITF3,Campania,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2020,21234
+A,Annual,ITF3,Campania,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2021,21683
+A,Annual,ITF3,Campania,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2022,23751
+A,Annual,ITF3,Campania,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2023,24501
+A,Annual,ITF3,Campania,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2010,28549
+A,Annual,ITF3,Campania,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2011,29397
+A,Annual,ITF3,Campania,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2012,27911
+A,Annual,ITF3,Campania,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2013,27007
+A,Annual,ITF3,Campania,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2014,27765
+A,Annual,ITF3,Campania,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2015,27677
+A,Annual,ITF3,Campania,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2016,27778
+A,Annual,ITF3,Campania,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2017,28277
+A,Annual,ITF3,Campania,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2018,29535
+A,Annual,ITF3,Campania,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2019,31047
+A,Annual,ITF3,Campania,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2020,30202
+A,Annual,ITF3,Campania,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2021,30427
+A,Annual,ITF3,Campania,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2022,32461
+A,Annual,ITF3,Campania,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2023,34499
+A,Annual,ITF3,Campania,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2010,24578
+A,Annual,ITF3,Campania,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2011,25381
+A,Annual,ITF3,Campania,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2012,24252
+A,Annual,ITF3,Campania,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2013,23497
+A,Annual,ITF3,Campania,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2014,24252
+A,Annual,ITF3,Campania,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2015,24229
+A,Annual,ITF3,Campania,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2016,24373
+A,Annual,ITF3,Campania,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2017,24732
+A,Annual,ITF3,Campania,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2018,25555
+A,Annual,ITF3,Campania,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2019,27125
+A,Annual,ITF3,Campania,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2020,26626
+A,Annual,ITF3,Campania,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2021,26676
+A,Annual,ITF3,Campania,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2022,28758
+A,Annual,ITF3,Campania,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2023,30222
+A,Annual,ITF4,Puglia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2010,26004
+A,Annual,ITF4,Puglia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2011,25817
+A,Annual,ITF4,Puglia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2012,26015
+A,Annual,ITF4,Puglia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2013,26927
+A,Annual,ITF4,Puglia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2014,25279
+A,Annual,ITF4,Puglia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2015,26493
+A,Annual,ITF4,Puglia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2016,27655
+A,Annual,ITF4,Puglia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2017,27934
+A,Annual,ITF4,Puglia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2018,26887
+A,Annual,ITF4,Puglia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2019,27818
+A,Annual,ITF4,Puglia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2020,26554
+A,Annual,ITF4,Puglia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2021,28906
+A,Annual,ITF4,Puglia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2022,30858
+A,Annual,ITF4,Puglia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2023,30674
+A,Annual,ITF4,Puglia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2010,21681
+A,Annual,ITF4,Puglia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2011,21177
+A,Annual,ITF4,Puglia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2012,21195
+A,Annual,ITF4,Puglia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2013,22388
+A,Annual,ITF4,Puglia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2014,21186
+A,Annual,ITF4,Puglia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2015,22492
+A,Annual,ITF4,Puglia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2016,23793
+A,Annual,ITF4,Puglia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2017,24282
+A,Annual,ITF4,Puglia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2018,23087
+A,Annual,ITF4,Puglia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2019,23376
+A,Annual,ITF4,Puglia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2020,23116
+A,Annual,ITF4,Puglia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2021,24772
+A,Annual,ITF4,Puglia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2022,26702
+A,Annual,ITF4,Puglia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2023,25953
+A,Annual,ITF4,Puglia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2010,30610
+A,Annual,ITF4,Puglia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2011,30256
+A,Annual,ITF4,Puglia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2012,29474
+A,Annual,ITF4,Puglia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2013,31124
+A,Annual,ITF4,Puglia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2014,29237
+A,Annual,ITF4,Puglia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2015,30817
+A,Annual,ITF4,Puglia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2016,31726
+A,Annual,ITF4,Puglia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2017,31786
+A,Annual,ITF4,Puglia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2018,30537
+A,Annual,ITF4,Puglia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2019,31957
+A,Annual,ITF4,Puglia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2020,31156
+A,Annual,ITF4,Puglia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2021,32421
+A,Annual,ITF4,Puglia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2022,35433
+A,Annual,ITF4,Puglia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2023,35947
+A,Annual,ITF4,Puglia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2010,26426
+A,Annual,ITF4,Puglia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2011,25707
+A,Annual,ITF4,Puglia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2012,24707
+A,Annual,ITF4,Puglia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2013,26556
+A,Annual,ITF4,Puglia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2014,25099
+A,Annual,ITF4,Puglia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2015,26683
+A,Annual,ITF4,Puglia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2016,27995
+A,Annual,ITF4,Puglia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2017,27553
+A,Annual,ITF4,Puglia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2018,26887
+A,Annual,ITF4,Puglia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2019,27722
+A,Annual,ITF4,Puglia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2020,27252
+A,Annual,ITF4,Puglia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2021,28097
+A,Annual,ITF4,Puglia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2022,31214
+A,Annual,ITF4,Puglia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2023,31415
+A,Annual,ITF5,Basilicata,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2010,22550
+A,Annual,ITF5,Basilicata,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2011,22699
+A,Annual,ITF5,Basilicata,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2012,22820
+A,Annual,ITF5,Basilicata,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2013,23095
+A,Annual,ITF5,Basilicata,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2014,24568
+A,Annual,ITF5,Basilicata,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2015,24072
+A,Annual,ITF5,Basilicata,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2016,23499
+A,Annual,ITF5,Basilicata,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2017,24136
+A,Annual,ITF5,Basilicata,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2018,24700
+A,Annual,ITF5,Basilicata,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2019,25501
+A,Annual,ITF5,Basilicata,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2020,27157
+A,Annual,ITF5,Basilicata,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2021,26404
+A,Annual,ITF5,Basilicata,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2022,28812
+A,Annual,ITF5,Basilicata,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2023,31862
+A,Annual,ITF5,Basilicata,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2010,19661
+A,Annual,ITF5,Basilicata,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2011,19809
+A,Annual,ITF5,Basilicata,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2012,19377
+A,Annual,ITF5,Basilicata,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2013,19967
+A,Annual,ITF5,Basilicata,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2014,20669
+A,Annual,ITF5,Basilicata,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2015,20531
+A,Annual,ITF5,Basilicata,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2016,20195
+A,Annual,ITF5,Basilicata,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2017,20932
+A,Annual,ITF5,Basilicata,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2018,21788
+A,Annual,ITF5,Basilicata,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2019,21167
+A,Annual,ITF5,Basilicata,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2020,22653
+A,Annual,ITF5,Basilicata,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2021,23368
+A,Annual,ITF5,Basilicata,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2022,24984
+A,Annual,ITF5,Basilicata,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2023,27922
+A,Annual,ITF5,Basilicata,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2010,27831
+A,Annual,ITF5,Basilicata,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2011,28829
+A,Annual,ITF5,Basilicata,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2012,27263
+A,Annual,ITF5,Basilicata,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2013,27200
+A,Annual,ITF5,Basilicata,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2014,27774
+A,Annual,ITF5,Basilicata,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2015,29076
+A,Annual,ITF5,Basilicata,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2016,28578
+A,Annual,ITF5,Basilicata,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2017,28911
+A,Annual,ITF5,Basilicata,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2018,29638
+A,Annual,ITF5,Basilicata,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2019,28735
+A,Annual,ITF5,Basilicata,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2020,31531
+A,Annual,ITF5,Basilicata,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2021,32705
+A,Annual,ITF5,Basilicata,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2022,33593
+A,Annual,ITF5,Basilicata,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2023,35887
+A,Annual,ITF5,Basilicata,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2010,24955
+A,Annual,ITF5,Basilicata,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2011,25549
+A,Annual,ITF5,Basilicata,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2012,23804
+A,Annual,ITF5,Basilicata,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2013,23598
+A,Annual,ITF5,Basilicata,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2014,23807
+A,Annual,ITF5,Basilicata,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2015,25432
+A,Annual,ITF5,Basilicata,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2016,25228
+A,Annual,ITF5,Basilicata,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2017,25599
+A,Annual,ITF5,Basilicata,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2018,26363
+A,Annual,ITF5,Basilicata,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2019,24364
+A,Annual,ITF5,Basilicata,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2020,26740
+A,Annual,ITF5,Basilicata,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2021,29043
+A,Annual,ITF5,Basilicata,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2022,30420
+A,Annual,ITF5,Basilicata,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2023,31900
+A,Annual,ITF6,Calabria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2010,23347
+A,Annual,ITF6,Calabria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2011,23918
+A,Annual,ITF6,Calabria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2012,22780
+A,Annual,ITF6,Calabria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2013,22981
+A,Annual,ITF6,Calabria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2014,23171
+A,Annual,ITF6,Calabria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2015,23600
+A,Annual,ITF6,Calabria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2016,23050
+A,Annual,ITF6,Calabria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2017,25028
+A,Annual,ITF6,Calabria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2018,24476
+A,Annual,ITF6,Calabria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2019,25059
+A,Annual,ITF6,Calabria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2020,26722
+A,Annual,ITF6,Calabria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2021,25985
+A,Annual,ITF6,Calabria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2022,24072
+A,Annual,ITF6,Calabria,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2023,27239
+A,Annual,ITF6,Calabria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2010,19795
+A,Annual,ITF6,Calabria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2011,20415
+A,Annual,ITF6,Calabria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2012,19580
+A,Annual,ITF6,Calabria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2013,20000
+A,Annual,ITF6,Calabria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2014,19565
+A,Annual,ITF6,Calabria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2015,19590
+A,Annual,ITF6,Calabria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2016,19665
+A,Annual,ITF6,Calabria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2017,20614
+A,Annual,ITF6,Calabria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2018,21249
+A,Annual,ITF6,Calabria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2019,22308
+A,Annual,ITF6,Calabria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2020,23784
+A,Annual,ITF6,Calabria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2021,21573
+A,Annual,ITF6,Calabria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2022,22225
+A,Annual,ITF6,Calabria,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2023,23210
+A,Annual,ITF6,Calabria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2010,27270
+A,Annual,ITF6,Calabria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2011,27562
+A,Annual,ITF6,Calabria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2012,28404
+A,Annual,ITF6,Calabria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2013,26702
+A,Annual,ITF6,Calabria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2014,26251
+A,Annual,ITF6,Calabria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2015,27826
+A,Annual,ITF6,Calabria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2016,26852
+A,Annual,ITF6,Calabria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2017,29625
+A,Annual,ITF6,Calabria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2018,29307
+A,Annual,ITF6,Calabria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2019,30342
+A,Annual,ITF6,Calabria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2020,32760
+A,Annual,ITF6,Calabria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2021,30691
+A,Annual,ITF6,Calabria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2022,29807
+A,Annual,ITF6,Calabria,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2023,32091
+A,Annual,ITF6,Calabria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2010,23980
+A,Annual,ITF6,Calabria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2011,24160
+A,Annual,ITF6,Calabria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2012,25075
+A,Annual,ITF6,Calabria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2013,23479
+A,Annual,ITF6,Calabria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2014,22856
+A,Annual,ITF6,Calabria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2015,24289
+A,Annual,ITF6,Calabria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2016,23325
+A,Annual,ITF6,Calabria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2017,25544
+A,Annual,ITF6,Calabria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2018,26232
+A,Annual,ITF6,Calabria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2019,26946
+A,Annual,ITF6,Calabria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2020,29495
+A,Annual,ITF6,Calabria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2021,26854
+A,Annual,ITF6,Calabria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2022,26603
+A,Annual,ITF6,Calabria,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2023,28131
+A,Annual,ITG1,Sicilia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2010,21099
+A,Annual,ITG1,Sicilia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2011,21530
+A,Annual,ITG1,Sicilia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2012,21009
+A,Annual,ITG1,Sicilia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2013,21547
+A,Annual,ITG1,Sicilia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2014,22005
+A,Annual,ITG1,Sicilia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2015,22110
+A,Annual,ITG1,Sicilia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2016,22331
+A,Annual,ITG1,Sicilia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2017,23474
+A,Annual,ITG1,Sicilia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2018,24212
+A,Annual,ITG1,Sicilia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2019,24415
+A,Annual,ITG1,Sicilia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2020,25123
+A,Annual,ITG1,Sicilia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2021,26552
+A,Annual,ITG1,Sicilia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2022,26654
+A,Annual,ITG1,Sicilia,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2023,27775
+A,Annual,ITG1,Sicilia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2010,17534
+A,Annual,ITG1,Sicilia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2011,18133
+A,Annual,ITG1,Sicilia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2012,17799
+A,Annual,ITG1,Sicilia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2013,17928
+A,Annual,ITG1,Sicilia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2014,17980
+A,Annual,ITG1,Sicilia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2015,17901
+A,Annual,ITG1,Sicilia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2016,18471
+A,Annual,ITG1,Sicilia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2017,18979
+A,Annual,ITG1,Sicilia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2018,19564
+A,Annual,ITG1,Sicilia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2019,20378
+A,Annual,ITG1,Sicilia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2020,21361
+A,Annual,ITG1,Sicilia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2021,22424
+A,Annual,ITG1,Sicilia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2022,22810
+A,Annual,ITG1,Sicilia,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2023,23310
+A,Annual,ITG1,Sicilia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2010,24875
+A,Annual,ITG1,Sicilia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2011,25075
+A,Annual,ITG1,Sicilia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2012,24779
+A,Annual,ITG1,Sicilia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2013,25659
+A,Annual,ITG1,Sicilia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2014,25828
+A,Annual,ITG1,Sicilia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2015,26114
+A,Annual,ITG1,Sicilia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2016,25936
+A,Annual,ITG1,Sicilia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2017,26899
+A,Annual,ITG1,Sicilia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2018,28282
+A,Annual,ITG1,Sicilia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2019,29320
+A,Annual,ITG1,Sicilia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2020,30260
+A,Annual,ITG1,Sicilia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2021,31117
+A,Annual,ITG1,Sicilia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2022,32674
+A,Annual,ITG1,Sicilia,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2023,33906
+A,Annual,ITG1,Sicilia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2010,21139
+A,Annual,ITG1,Sicilia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2011,21620
+A,Annual,ITG1,Sicilia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2012,21372
+A,Annual,ITG1,Sicilia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2013,21923
+A,Annual,ITG1,Sicilia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2014,21807
+A,Annual,ITG1,Sicilia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2015,21946
+A,Annual,ITG1,Sicilia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2016,22054
+A,Annual,ITG1,Sicilia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2017,22745
+A,Annual,ITG1,Sicilia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2018,23879
+A,Annual,ITG1,Sicilia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2019,24815
+A,Annual,ITG1,Sicilia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2020,26034
+A,Annual,ITG1,Sicilia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2021,26322
+A,Annual,ITG1,Sicilia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2022,28483
+A,Annual,ITG1,Sicilia,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2023,29723
+A,Annual,ITG2,Sardegna,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2010,27960
+A,Annual,ITG2,Sardegna,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2011,27884
+A,Annual,ITG2,Sardegna,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2012,27023
+A,Annual,ITG2,Sardegna,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2013,25914
+A,Annual,ITG2,Sardegna,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2014,26300
+A,Annual,ITG2,Sardegna,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2015,27062
+A,Annual,ITG2,Sardegna,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2016,27289
+A,Annual,ITG2,Sardegna,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2017,27797
+A,Annual,ITG2,Sardegna,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2018,27727
+A,Annual,ITG2,Sardegna,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2019,28472
+A,Annual,ITG2,Sardegna,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2020,28089
+A,Annual,ITG2,Sardegna,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2021,28777
+A,Annual,ITG2,Sardegna,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2022,29523
+A,Annual,ITG2,Sardegna,REDD_MEDIANO_FAM,Annual median households income,1,Including imputed rents,9,Total,2023,30494
+A,Annual,ITG2,Sardegna,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2010,23586
+A,Annual,ITG2,Sardegna,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2011,23318
+A,Annual,ITG2,Sardegna,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2012,22205
+A,Annual,ITG2,Sardegna,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2013,22305
+A,Annual,ITG2,Sardegna,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2014,21604
+A,Annual,ITG2,Sardegna,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2015,23233
+A,Annual,ITG2,Sardegna,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2016,22912
+A,Annual,ITG2,Sardegna,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2017,23679
+A,Annual,ITG2,Sardegna,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2018,23349
+A,Annual,ITG2,Sardegna,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2019,23519
+A,Annual,ITG2,Sardegna,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2020,24511
+A,Annual,ITG2,Sardegna,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2021,24432
+A,Annual,ITG2,Sardegna,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2022,24459
+A,Annual,ITG2,Sardegna,REDD_MEDIANO_FAM,Annual median households income,2,Not including imputed rents,9,Total,2023,25949
+A,Annual,ITG2,Sardegna,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2010,31467
+A,Annual,ITG2,Sardegna,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2011,32235
+A,Annual,ITG2,Sardegna,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2012,31537
+A,Annual,ITG2,Sardegna,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2013,29330
+A,Annual,ITG2,Sardegna,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2014,29872
+A,Annual,ITG2,Sardegna,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2015,29675
+A,Annual,ITG2,Sardegna,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2016,30332
+A,Annual,ITG2,Sardegna,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2017,31811
+A,Annual,ITG2,Sardegna,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2018,31789
+A,Annual,ITG2,Sardegna,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2019,33300
+A,Annual,ITG2,Sardegna,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2020,32730
+A,Annual,ITG2,Sardegna,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2021,31162
+A,Annual,ITG2,Sardegna,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2022,33766
+A,Annual,ITG2,Sardegna,REDD_MEDIO_FAM,Annual average households income,1,Including imputed rents,9,Total,2023,38333
+A,Annual,ITG2,Sardegna,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2010,27257
+A,Annual,ITG2,Sardegna,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2011,27659
+A,Annual,ITG2,Sardegna,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2012,26861
+A,Annual,ITG2,Sardegna,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2013,25663
+A,Annual,ITG2,Sardegna,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2014,24709
+A,Annual,ITG2,Sardegna,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2015,26013
+A,Annual,ITG2,Sardegna,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2016,26242
+A,Annual,ITG2,Sardegna,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2017,27748
+A,Annual,ITG2,Sardegna,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2018,27835
+A,Annual,ITG2,Sardegna,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2019,28710
+A,Annual,ITG2,Sardegna,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2020,28841
+A,Annual,ITG2,Sardegna,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2021,26653
+A,Annual,ITG2,Sardegna,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2022,28591
+A,Annual,ITG2,Sardegna,REDD_MEDIO_FAM,Annual average households income,2,Not including imputed rents,9,Total,2023,33343
