@@ -75,6 +75,36 @@ nav {
   z-index: 1000;     /* keep it above other content */
 }
 
+.page-footer {
+  text-align: center;
+  padding: 24px 0 32px;
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+  position: relative;
+  z-index: 2;
+  box-sizing: border-box;
+}
+
+.footer-inner {
+  max-width: calc(100% - 40px); /* match body padding (20px each side) */
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.footer-inner hr {
+  margin: 0 0 16px 0;
+}
+
+.footer-spacer {
+  height: 300px;
+}
+
+.italy-footer {
+  margin-top: 60px;
+}
+
 .menu-toggle {
   display: none;
   color: white;
@@ -312,6 +342,17 @@ h1, h6 {
   margin-top: 24px;
   margin-bottom: 16px;
   font-weight: 600;
+}
+/* Header link color overrides */
+.header-links,
+.header-links a,
+.header-links a:visited {
+  color: #000;
+}
+
+.header-links a:hover,
+.header-links a:focus {
+  color: #222;
 }
 
 /* We want the headings to be a little bigger than the paragraph text */
