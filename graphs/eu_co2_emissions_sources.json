@@ -20,7 +20,7 @@
       "height": 500,
       "title": {
         "text": "EU-27 CO2 Emissions by Source",
-        "subtitle": "Historical data (1999-2024) with projections to zero emissions",
+        "subtitle": "Historical data (1999-2024) with projections to zero emissions | Source: Our World In Data (https://github.com/owid/co2-data)",
         "anchor": "start"
       },
       "layer": [
@@ -4063,7 +4063,7 @@
               "type": "quantitative"
             },
             "y": {
-              "datum": 80,
+              "datum": 120,
               "type": "quantitative"
             },
             "text": {

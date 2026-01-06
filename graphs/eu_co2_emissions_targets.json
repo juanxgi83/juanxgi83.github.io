@@ -20,7 +20,7 @@
       "height": 500,
       "title": {
         "text": "EU-27 CO2 Emissions and Targets",
-        "subtitle": "Historical data (1999-2024) with trendline projection to 2050",
+        "subtitle": "Historical data (1999-2024) with trendline projection to 2050 | Source: Our World In Data (https://github.com/owid/co2-data)",
         "anchor": "start"
       },
       "resolve": {
@@ -189,31 +189,31 @@
             "values": [
               {
                 "x": 2001.5,
-                "y": 900,
+                "y": 1050,
                 "pct": "+4.3%",
                 "pct_change": 4.296913953022345
               },
               {
                 "x": 2006.5,
-                "y": 900,
+                "y": 1050,
                 "pct": "-11.0%",
                 "pct_change": -11.029576922826081
               },
               {
                 "x": 2011.5,
-                "y": 900,
+                "y": 1050,
                 "pct": "-8.8%",
                 "pct_change": -8.756723662792139
               },
               {
                 "x": 2016.5,
-                "y": 900,
+                "y": 1050,
                 "pct": "-4.4%",
                 "pct_change": -4.406654167981556
               },
               {
                 "x": 2021.5,
-                "y": 900,
+                "y": 1050,
                 "pct": "-16.5%",
                 "pct_change": -16.48163761468507
               }

@@ -93,6 +93,11 @@ nav {
   box-sizing: border-box;
 }
 
+.footer-inner p {
+  margin: 6px 0; /* tighten vertical gap between footer lines */
+  line-height: 1.3;
+}
+
 .footer-inner hr {
   margin: 0 0 16px 0;
 }
