@@ -506,9 +506,33 @@
                 This explains part of the high fixed effect in Liguria, which has a high motorcycle density.
             </p>
 
+            <p>
+                Finally, I ran a PCA / cluster analysis to group cities based on the accident conditions / circumstances they experience as well as their vehicle registry.
+                This would be useful when tailoring solutions and implementing them across all the cities.
+                Click on the clustered cities in the second visualisation below to see their diagnostics as well as those of the cluster to which they belong.
+            </p>
+
+            <figure id="chart6-tools"></figure>
+
+            <figure id="chart7-tools"></figure>
+
+            <p>
+                Jupyter Notebook on my GitHub: <a href="jupyter_notebooks/italy_road_accidents_municipalities_analyses.html" target="_blank" rel="noopener noreferrer">html (better for viewing)</a> | <a href="jupyter_notebooks/italy_road_accidents_municipalities_analyses.ipynb" target="_blank" rel="noopener noreferrer">notebook</a>.
+            </p>
+
             <h2>Conclusions</h2>
             <p>
-                Highlight findings: regions with higher ruggedness and precipitation show distinct fixed effects; motorcycle density and seasonal weather correlate with casualty patterns; spatial heterogeneity suggests targeted enforcement and infrastructure priorities. Mention next steps (e.g., richer weather covariates, micro-level crash data).
+                In this report, I analysed road accidents with injuries in Italy from 2010 to 2024.
+                I found that there has been a general decline in accidents and casualties over time,
+                with a sharp drop in 2020 due to the COVID-19 pandemic. However, there are significant
+                regional differences in accident rates, with some regions consistently experiencing
+                higher rates than others. Through regression analysis, I identified several factors
+                that influence accident rates, including commute patterns and government expenditure.
+                Fixed effects analysis highlighted structural issues in certain regions, such as Liguria,
+                which can be partially explained by factors like motorcycle density. Finally, cluster analysis
+                provided insights into grouping municipalities based on accident conditions, which can inform
+                targeted interventions. Overall, this study provides a comprehensive understanding of road
+                accidents with injuries in Italy and highlights areas for further investigation and policy action.
             </p>
 
         </div>
@@ -593,7 +617,9 @@
             'chart2-tools': 'graphs/italy_corr_matrix.json',
             'chart3-tools': 'graphs/italy_pred_resid.json',
             'chart4-tools': 'graphs/italy_fixed_effects.json',
-            'chart5-tools': 'graphs/italy_region_fe_rugged_precip_moto_scatter_matrix.json'
+            'chart5-tools': 'graphs/italy_region_fe_rugged_precip_moto_scatter_matrix.json',
+            'chart6-tools': 'graphs/italy_municipalities_pca_biplot.html',
+            'chart7-tools': 'graphs/italy_cluster_diagnostics.json'
         };
 
         function loadChart(elId, specPath) {
