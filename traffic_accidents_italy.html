@@ -142,6 +142,18 @@
         .report-content figure {
             margin: 30px 0;
             text-align: center;
+            width: 100%;
+        }
+
+        /* Ensure embedded charts span the content width */
+        .report-content figure iframe,
+        .report-content figure .vega-embed,
+        .report-content figure .vega-embed * {
+            width: 100% !important;
+            max-width: 100% !important;
+        }
+        .report-content figure .vega-embed > svg {
+            height: auto !important;
         }
         
         /* Portrait mode warning for mobile devices */
@@ -284,93 +296,75 @@
     <!-- Main Content -->
     <div class="content-wrapper">
         <div class="report-content">
-            <h1>Traffic Accidents in Italy</h1>
+            <h1>Report: Road Accidents with Injuries in Italy</h1>
             
-            <h2>Introduction</h2>
+            <h2>Aims</h2>
+            
             <p>
-                This report examines traffic accident patterns and trends in Italy. Lorem ipsum dolor sit amet, 
-                consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                The purpose of this study is to analyse the trends and patterns of
+                road accidents with injuries in Italy from 2010 to 2024, with a focus on
+                understanding the drivers of differences across regions and time. I start with
+                the chart below, which shows the number of casualties and the number of casualties
+                per 100,000 inhabitants over time. The trend is largely consistent across regions,
+                steady decline until 2019, then a sharp drop in 2020 due to the COVID-19 pandemic,
+                followed by an increase in 2021 and 2022 as economic activity and mobility resumed,
+                but still lower than pre-pandemic levels. In 2024, the total number of casualties
+                (injured + killed) amounted to 401.7 people per 100,000 inhabitants, up from 
+                385.90 in 2023.
             </p>
+
+            <figure id="chart1-aims"></figure>
             
-            <h3>Background</h3>
             <p>
-                Italy's road network is one of the most extensive in Europe. Understanding traffic accident patterns 
-                is crucial for developing effective safety measures and policies. This analysis provides insights 
-                into when, where, and how accidents occur.
+                Jupyter Notebook on my GitHub: <a href="jupyter_notebooks/italy_road_accidents_analysis.html" target="_blank" rel="noopener noreferrer">html (better for viewing)</a> | <a href="jupyter_notebooks/italy_road_accidents_analysis.ipynb" target="_blank" rel="noopener noreferrer">notebook</a>.
             </p>
-            
-            <figure id="chart1"></figure>
-            
-            <h2>Methodology</h2>
+
             <p>
-                Our analysis uses data collected from various sources including police reports, hospital records, 
-                and insurance claims. The dataset spans multiple years and includes information on accident severity, 
-                location, time, weather conditions, and vehicle types involved.
+                To begin to understand these trends, it is important to consider the regional heterogeneity
+                in road accidents with injuries. The map below shows several metrics related to road accidents with injuries
+                in Italy by region for the studied period. Ratios such as the number of accidents per 100,000 inhabitants,
+                or the mortality rate allow us to compare regions of different sizes and populations. We can see that some regions
+                have consistently higher rates of accidents and casualties than others, indicating potential structural
+                issues such as road infrastructure. Liguria stands out with the highest accident rate, although its mortality rate is not the highest.
             </p>
-            
-            <h3>Data Collection</h3>
+
+            <figure id="chart2-aims"></figure>
+
             <p>
-                Data was gathered from national statistics offices and regional authorities. Each accident record 
-                includes detailed information about the circumstances, contributing factors, and outcomes.
+                Jupyter Notebook on my GitHub: <a href="jupyter_notebooks/italy_road_accidents_with_injuries_map.html" target="_blank" rel="noopener noreferrer">html (better for viewing)</a> | <a href="jupyter_notebooks/italy_road_accidents_with_injuries_map.ipynb" target="_blank" rel="noopener noreferrer">notebook</a>.
             </p>
-            
-            <figure id="chart2"></figure>
-            
-            <h2>Key Findings</h2>
+
             <p>
-                The analysis reveals several important patterns in Italian traffic accidents. Seasonal variations, 
-                time-of-day effects, and regional differences all play significant roles in accident frequency 
-                and severity.
+                The chart below breaks down accident occurrence by the time in which it occurs:
+                month of the year, day of the week, and hour of the day. Looking at the trends by month of the year,
+                we can see a slight uptick in accidents during the summer months. Looking at days of the week, we see
+                a clear decline in the accident rates on the weekend. Finally, looking at hours of the day, we see
+                that there is a lower accident rate late at night and in the early morning, but they peak at 8:00 and 18:00 (likely, rush hour).
             </p>
-            
-            <h3>Temporal Patterns</h3>
+
+            <figure id="chart3-aims"></figure>
+
             <p>
-                Accident rates show clear temporal patterns, with peaks during certain times of the day and 
-                specific months of the year. Rush hour periods and holiday seasons consistently show elevated 
-                accident rates across all regions studied.
+                Jupyter Notebook on my GitHub: <a href="jupyter_notebooks/italy_road_accidents_with_injuries_time_analysis.html" target="_blank" rel="noopener noreferrer">html (better for viewing)</a> | <a href="jupyter_notebooks/italy_road_accidents_with_injuries_time_analysis.ipynb" target="_blank" rel="noopener noreferrer">notebook</a>.
             </p>
-            
-            <figure id="chart3"></figure>
-            
-            <h2>Conclusions</h2>
+
+            <h2>Data</h2>
             <p>
-                This comprehensive analysis of traffic accidents in Italy provides valuable insights for 
-                policymakers and safety advocates. The findings suggest several areas where targeted interventions 
-                could significantly reduce accident rates and improve road safety.
+                Summarise sources: IstatData road accident series, vehicle fleet registers, and ERA5 weather. Note key preprocessing (per-capita normalisation, harmonised region names, merging weather/topography with accidents) and how missing values or outliers were handled.
             </p>
-            
-            <h3>Recommendations</h3>
+
+            <figure id="chart-data-tools"></figure>
+
+            <h2>Tools</h2>
             <p>
-                Based on our findings, we recommend increased enforcement during high-risk periods, improved 
-                road infrastructure in accident-prone areas, and enhanced driver education programs focusing 
-                on the identified risk factors.
+                Describe the stack: Python (pandas, geopandas, scikit-learn) for cleaning, feature engineering, clustering, and regression; Altair/Vega-Lite and Plotly for visualisation; GitHub Pages for hosting. Mention any automation (batch fetch of SRTM tiles, ERA5 API with backoff).
             </p>
+
+            <figure id="chart-tools-conclusions"></figure>
 
             <h2>Conclusions</h2>
             <p>
-                This comprehensive analysis of traffic accidents in Italy provides valuable insights for 
-                policymakers and safety advocates. The findings suggest several areas where targeted interventions 
-                could significantly reduce accident rates and improve road safety.
-            </p>
-            
-            <h3>Recommendations</h3>
-            <p>
-                Based on our findings, we recommend increased enforcement during high-risk periods, improved 
-                road infrastructure in accident-prone areas, and enhanced driver education programs focusing 
-                on the identified risk factors. Based on our findings, we recommend increased enforcement during high-risk periods, improved 
-                road infrastructure in accident-prone areas, and enhanced driver education programs focusing 
-                on the identified risk factors. Based on our findings, we recommend increased enforcement during high-risk periods, improved 
-                road infrastructure in accident-prone areas, and enhanced driver education programs focusing 
-                on the identified risk factors. Based on our findings, we recommend increased enforcement during high-risk periods, improved 
-                road infrastructure in accident-prone areas, and enhanced driver education programs focusing 
-                on the identified risk factors. Based on our findings, we recommend increased enforcement during high-risk periods, improved 
-                road infrastructure in accident-prone areas, and enhanced driver education programs focusing 
-                on the identified risk factors. Based on our findings, we recommend increased enforcement during high-risk periods, improved 
-                road infrastructure in accident-prone areas, and enhanced driver education programs focusing 
-                on the identified risk factors. Based on our findings, we recommend increased enforcement during high-risk periods, improved 
-                road infrastructure in accident-prone areas, and enhanced driver education programs focusing 
-                on the identified risk factors.
+                Highlight findings: regions with higher ruggedness and precipitation show distinct fixed effects; motorcycle density and seasonal weather correlate with casualty patterns; spatial heterogeneity suggests targeted enforcement and infrastructure priorities. Mention next steps (e.g., richer weather covariates, micro-level crash data).
             </p>
 
         </div>
@@ -446,6 +440,63 @@
                     navMenu.classList.remove('active');
                 }
             });
+        });
+
+        // Chart embedding (JSON via Vega-Lite, HTML via iframe) mirroring the portfolio page
+        const chartSpecs = {
+            'chart1-aims': 'graphs/italy_road_accident_casualties_chart.json',
+            'chart2-aims': 'graphs/italy_road_accidents_with_injuries_metrics_map.html',
+            'chart3-aims': 'graphs/italy_road_accidents_with_injuries_time_analysis.json',
+            'chart-data-tools': 'graphs/italy_region_fe_rugged_precip_moto_scatter_matrix.json'
+        };
+
+        function loadChart(elId, specPath) {
+            const container = document.getElementById(elId);
+            if (!container) return;
+            container.innerHTML = '';
+            container.style.width = '100%';
+            container.style.maxWidth = '100%';
+            container.style.boxSizing = 'border-box';
+
+            if (specPath.endsWith('.html')) {
+                const iframe = document.createElement('iframe');
+                iframe.src = specPath;
+                iframe.style.width = '100%';
+                iframe.style.height = '620px';
+                iframe.style.border = 'none';
+                iframe.style.minHeight = '420px';
+                container.appendChild(iframe);
+                return;
+            }
+
+            fetch(specPath)
+                .then(resp => resp.json())
+                .then(spec => {
+                    // Force full-width autosizing for Vega/Vega-Lite charts
+                    spec.autosize = { type: 'fit', contains: 'padding', resize: true };
+                    spec.width = 'container';
+                    if (!spec.height) spec.height = 440;
+                    vegaEmbed('#' + elId, spec, { actions: false, renderer: 'svg' })
+                        .then(res => {
+                            const embedEl = res && res.view && res.view.container();
+                            if (embedEl) {
+                                embedEl.style.width = '100%';
+                                embedEl.style.maxWidth = '100%';
+                                embedEl.style.boxSizing = 'border-box';
+                            }
+                        })
+                        .catch(err => {
+                            console.error('Embed error', elId, err);
+                        });
+                })
+                .catch(err => {
+                    container.innerHTML = '<p style="color:red;">Chart failed to load.</p>';
+                    console.error('Chart load error', elId, err);
+                });
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            Object.entries(chartSpecs).forEach(([elId, specPath]) => loadChart(elId, specPath));
         });
         
     </script>
