@@ -307,13 +307,14 @@
         
         <section>
             <div class="chart-description">
-                <h5>USA Economic Indicators: GDP Growth & Treasury Yields</h5>
+                <h5>GDP per Capita vs Income Inequality (Gini Coefficient)</h5>
                 <p> 
-                    This chart displays three key USA economic indicators from 2000 to present, all pulled from live APIs:
-                    <strong>GDP Growth Rate</strong> (annual percentage from World Bank),
-                    <strong>10-Year Treasury Yield</strong> (annual average from US Treasury), and
-                    <strong>3-Month Treasury Bill Rate</strong> (annual average from US Treasury).
-                    All data is sourced directly from the World Bank and US Treasury Department APIs and updates automatically. No API keys required!
+                    For this visualisation, since I am working with three data sources (two series from the World Bank API and a country-continent mapping table), I found it difficult to build it with Vega-Lite.
+                    Hence, I worked with Vega. I left the possibility open to select several years into the future in the slider, as the API series should continue updating their data.
+                    The API is not so reliable; I found that sometimes I had to refresh the page in order for the data to be plotted. Therefore, I added code so that if the visualisation is empty it automatically attempts to reload the data.
+                </p>
+                <p>
+                    You can view the Vega spec on my GitHub <a href="graphs/gdp_gini_scatter.json" target="_blank" rel="noopener noreferrer">here</a>.
                 </p>
             </div>
             <figure id="Location10"></figure>
@@ -324,10 +325,12 @@
                 <h5>Interactive Globe: World Taxation Systems and Tax Rates</h5>
                 <p> 
                     This interactive globe visualization displays taxation systems and tax rates for countries worldwide, scraped from Wikipedia using BeautifulSoup.
-                    The data includes <strong>taxation system types</strong> (Citizenship-based, Residential, Territorial, No income tax),
-                    <strong>corporate tax rates</strong>, <strong>individual income tax ranges</strong>, and <strong>VAT/GST/Sales tax rates</strong>.
-                    Use the rotation sliders to explore different regions, and hover over countries to see detailed tax information.
-                    Countries colored in royal blue use citizenship-based taxation (taxing citizens worldwide), while other colors represent different taxation approaches.
+                    The data includes taxation system types (Citizenship-based, Residential, Territorial, No income tax),
+                    corporate tax rates, individual income tax ranges, and VAT/GST/Sales tax rates.
+                    Use the rotation sliders to view different regions, and hover over countries to see detailed tax information.
+                </p>
+                <p>
+                    You can view the Jupyter Notebook on my GitHub: <a href="jupyter_notebooks/world_taxation_scraping.html" target="_blank" rel="noopener noreferrer">html (better for viewing)</a> | <a href="jupyter_notebooks/world_taxation_scraping.ipynb" target="_blank" rel="noopener noreferrer">notebook</a>.
                 </p>
             </div>
             <figure id="Location11"></figure>
@@ -343,10 +346,18 @@
         
         <section>
             <div class="chart-description">
-                <h5>Week 4: TFR API Live Chart</h5>
+                <h5>Migrant arrests by ICE (in thousands)</h5>
                 <p> 
-                    We've organised the page into sections, with each section containing a chart, title and a description. Here, we can describe the chart and give some context.
-                    As a first example, we're using a basic chart from our repo.
+                    The first chart I looked at was published by <a href="https://www.economist.com/graphic-detail/2025/09/23/criminals-make-up-a-shrinking-share-of-ice-arrests" target="_blank" rel="noopener noreferrer">The Economist</a> and can be seen <span class="hover-image-container"><span class="hover-trigger">here</span><img src="images/ice_migrant_arrests_economist.png" alt="Chart" class="hover-image" style="max-width: 400px;"></span>.
+                </p>
+                <p>
+                    The visualisation on the right has a dropdown menu to select between the reproduced chart and the modified chart.
+                    I made the Biden months blue (associated with the U.S. Democratic Party), and the Trump months red (associated with the U.S. Republican Party).
+                    I also added a dashed baseline, which corresponds to the average during the Biden months. The tooltips during the Trump months break down the figures:
+                    Biden's baseline plus the Trump Administration's excess over the baseline.
+                </p>
+                <p>
+                    You can view the Jupyter Notebook on my GitHub: <a href="jupyter_notebooks/ice_arrests.html" target="_blank" rel="noopener noreferrer">html (better for viewing)</a> | <a href="jupyter_notebooks/ice_arrests.ipynb" target="_blank" rel="noopener noreferrer">notebook</a>.
                 </p>
             </div>
             <figure id="Location7"></figure> 
@@ -354,10 +365,13 @@
 
         <section>
             <div class="chart-description">
-                <h5>Week 4: TFR API Live Chart</h5>
+                <h5>Migrant arrests by ICE (in % of total)</h5>
+                <p>
+                    The second chart I looked at was also published by <a href="https://www.economist.com/graphic-detail/2025/09/23/criminals-make-up-a-shrinking-share-of-ice-arrests" target="_blank" rel="noopener noreferrer">The Economist</a> and can be seen <span class="hover-image-container"><span class="hover-trigger">here</span><img src="images/ice_migrant_arrests_by_status_economist.png" alt="Chart" class="hover-image" style="max-width: 400px;"></span>.
+                </p>
                 <p> 
-                    We've organised the page into sections, with each section containing a chart, title and a description. Here, we can describe the chart and give some context.
-                    As a first example, we're using a basic chart from our repo.
+                    Since my modifications to this chart change the graph type, I was not able to combine the reproduced and modified charts into one visualisation through a dropdown menu.
+                    Thus, these are two separate charts. To the right is the reproduced chart. Below is the modified chart, along with my discussion.
                 </p>
             </div>
             <figure id="Location8"></figure>
@@ -365,8 +379,12 @@
         <section>
             <div class="chart-description">
                 <p> 
-                    We've organised the page into sections, with each section containing a chart, title and a description. Here, we can describe the chart and give some context.
-                    As a first example, we're using a basic chart from our repo.
+                    A reader studying the original chart with the breakdown of percentages of the total would need an additional graph showing the totals in order
+                    to fully understand the figures. Otherwise, the reader would not know, for example, if the actual number of arrests concerning convicted criminals
+                    actually increased or decreased during the Trump Administration. A stacked column chart like the one I propose gives all this information in one visualisation. 
+                </p>
+                <p>
+                    You can view the Jupyter Notebook on my GitHub: <a href="jupyter_notebooks/ice_arrests.html" target="_blank" rel="noopener noreferrer">html (better for viewing)</a> | <a href="jupyter_notebooks/ice_arrests.ipynb" target="_blank" rel="noopener noreferrer">notebook</a>.
                 </p>
             </div>
             <figure id="Location9"></figure>
@@ -399,8 +417,11 @@
             <div class="chart-description">
                 <h5>EU-27 CO2 Emissions by Source</h5>
                 <p> 
-                    We've organised the page into sections, with each section containing a chart, title and a description. Here, we can describe the chart and give some context.
-                    As a first example, we're using a basic chart from our repo.
+                    Where should the EU focus its efforts to reduce emissions? This chart breaks down the EU-27's CO2 emissions by source, showing that if present trends continue, the only emissions source that will reach net zero by 2050 is coal, which would reach it by 2041.
+                    Other sources would take much longer, beyond the 2050 target year: cement in 2061, oil in 2085, other industry in 2087, gas in 2118, and flaring in 2125.
+                </p>
+                <p>
+                    You can view the Jupyter Notebook on my GitHub: <a href="jupyter_notebooks/ghg_emissions.html" target="_blank" rel="noopener noreferrer">html (better for viewing)</a> | <a href="jupyter_notebooks/ghg_emissions.ipynb" target="_blank" rel="noopener noreferrer">notebook</a>.
                 </p>
             </div>
             <figure id="Location6"></figure> 

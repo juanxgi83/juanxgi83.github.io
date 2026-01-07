@@ -7,7 +7,10 @@
   
   "title": {
     "text": "GDP per Capita vs Income Inequality",
-    "subtitle": "Comparing GDP per capita and Gini coefficient across countries and continents",
+    "subtitle": [
+      "Comparing GDP per capita (NY.GDP.PCAP.CD) and Gini coefficient (SI.POV.GINI) across territories | Source: World Bank",
+      "Continent mapping table: https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/master/all/all.json"
+    ],
     "fontSize": 18,
     "subtitleFontSize": 14,
     "anchor": "start"
