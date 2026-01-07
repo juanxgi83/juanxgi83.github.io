@@ -135,10 +135,15 @@
         
         <section>
             <div class="chart-description">
-                <h5>Week 3: Python / Altair chart</h5>
+                <h5>Italy Region Fixed Effects vs. Rugged Score, Precipitation & Motorcycles per Capita Scatterplot Matrix</h5>
                 <p> 
-                    We've organised the page into sections, with each section containing a chart, title and a description. Here, we can describe the chart and give some context.
-                    As a first example, we're using a basic chart from our repo.
+                    This scatterplot matrix visualises the relationships between region fixed effects from a multivariate regression in my project against three features: topography rugged score, annual precipitation, and motorcycles per capita.
+                    Each subplot shows the scatterplot between two variables, along with a linear regression line to highlight trends.
+                    Histograms along the diagonal display the distribution of each individual variable.
+                    I chose a scatterplot matrix to effectively visualise potential correlations across multiple variables (more than two) simultaneously.
+                </p>
+                <p>
+                    You can view the Jupyter Notebook on my GitHub: <a href="jupyter_notebooks/italy_road_accidents_region_analyses.html" target="_blank" rel="noopener noreferrer">html (better for viewing)</a> | <a href="jupyter_notebooks/italy_road_accidents_region_analyses.ipynb" target="_blank" rel="noopener noreferrer">notebook</a>.
                 </p>
             </div>
             <figure id="Location18"></figure> 
@@ -146,10 +151,13 @@
 
         <section>
             <div class="chart-description">
-                <h5>Week 3: Python / Altair chart</h5>
+                <h5>Unsupervised Learning - Dendrogram: Hierarchical Clustering (Ward) on % Features</h5>
                 <p> 
-                    We've organised the page into sections, with each section containing a chart, title and a description. Here, we can describe the chart and give some context.
-                    As a first example, we're using a basic chart from our repo.
+                    The dendrogram shows the hierarchical clustering of Italian cities based on various features related to road accidents and vehicle register composition.
+                    The coloured points at the bottom indicate the clusters formed when using KMeans for comparison.
+                </p>
+                <p>
+                    You can view the Jupyter Notebook on my GitHub: <a href="jupyter_notebooks/italy_road_accidents_municipalities_analyses.html" target="_blank" rel="noopener noreferrer">html (better for viewing)</a> | <a href="jupyter_notebooks/italy_road_accidents_municipalities_analyses.ipynb" target="_blank" rel="noopener noreferrer">notebook</a>.
                 </p>
             </div>
             <figure id="Location19"></figure> 
@@ -167,8 +175,9 @@
             <div class="chart-description">
                 <h5>Road Accident Casualties in Italy</h5>
                 <p> 
-                    We've organised the page into sections, with each section containing a chart, title and a description. Here, we can describe the chart and give some context.
-                    As a first example, we're using a basic chart from our repo.
+                    This chart shows the trend of road accident casualties in Italy from 2010 to 2024, in aggregate or broken down by type of person (e.g., drivers, pedestrians).
+                    The user has the choice to select whether to display total counts or the rates per 100,000 inhabitants (which are crucial when comparing across regions).
+                    There is also a dropdown to select which types of casualties to display, and another one for the regions.
                 </p>
                 <p>
                     You can view the Jupyter Notebook on my GitHub: <a href="jupyter_notebooks/italy_road_accidents_analysis.html" target="_blank" rel="noopener noreferrer">html (better for viewing)</a> | <a href="jupyter_notebooks/italy_road_accidents_analysis.ipynb" target="_blank" rel="noopener noreferrer">notebook</a>.
@@ -575,6 +584,8 @@
         let figure_15_spec = "graphs/lrpd_wine_price_history.json";
         let figure_16_spec = "graphs/italy_road_accident_casualties_chart.json";
         let figure_17_spec = "graphs/italy_road_accidents_with_injuries_metrics_map.html";
+        let figure_18_spec = "graphs/italy_region_fe_rugged_precip_moto_scatter_matrix.json";
+        let figure_19_spec = "graphs/italy_road_accidents_cities_dendrogram_clusters.html";
         
         // Array of all 27 EU countries with their chart filenames for CC6
         const allEduCharts = [
@@ -642,7 +653,9 @@
             'Location14': figure_14_spec,
             'Location15': figure_15_spec,
             'Location16': figure_16_spec,
-            'Location17': figure_17_spec
+            'Location17': figure_17_spec,
+            'Location18': figure_18_spec,
+            'Location19': figure_19_spec
         };
         
         // Function to add zoom button to a figure
@@ -819,6 +832,8 @@
         loadChart('Location15', figure_15_spec);
         loadChart('Location16', figure_16_spec);
         loadChart('Location17', figure_17_spec);
+        loadChart('Location18', figure_18_spec);
+        loadChart('Location19', figure_19_spec);
         
         // Use a loop to embed all 27 education charts for CC6
         for (let i = 0; i < selectedEduCharts.length; i++) {
@@ -877,6 +892,8 @@
                     document.getElementById('Location15').innerHTML = '';
                     document.getElementById('Location16').innerHTML = '';
                     document.getElementById('Location17').innerHTML = '';
+                    document.getElementById('Location18').innerHTML = '';
+                    document.getElementById('Location19').innerHTML = '';
                     
                     loadChart('Location1', figure_1_spec);
                     loadChart('Location2', figure_2_spec);
@@ -895,6 +912,8 @@
                     loadChart('Location15', figure_15_spec);
                     loadChart('Location16', figure_16_spec);
                     loadChart('Location17', figure_17_spec);
+                    loadChart('Location18', figure_18_spec);
+                    loadChart('Location19', figure_19_spec);
                 }, 300);
             });
         }
