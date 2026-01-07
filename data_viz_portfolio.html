@@ -566,6 +566,7 @@
         let figure_14_spec = "graphs/autocpi_wine_price_histogram.json";
         let figure_15_spec = "graphs/lrpd_wine_price_history.json";
         let figure_16_spec = "graphs/italy_road_accident_casualties_chart.json";
+        let figure_17_spec = "graphs/italy_road_accidents_with_injuries_map.json";
         
         // Array of all 27 EU countries with their chart filenames for CC6
         const allEduCharts = [
@@ -632,7 +633,8 @@
             'Location13': figure_13_spec,
             'Location14': figure_14_spec,
             'Location15': figure_15_spec,
-            'Location16': figure_16_spec
+            'Location16': figure_16_spec,
+            'Location17': figure_17_spec
         };
         
         // Function to add zoom button to a figure
@@ -808,6 +810,7 @@
         loadChart('Location14', figure_14_spec);
         loadChart('Location15', figure_15_spec);
         loadChart('Location16', figure_16_spec);
+        loadChart('Location17', figure_17_spec);
         
         // Use a loop to embed all 27 education charts for CC6
         for (let i = 0; i < selectedEduCharts.length; i++) {
@@ -865,6 +868,7 @@
                     document.getElementById('Location14').innerHTML = '';
                     document.getElementById('Location15').innerHTML = '';
                     document.getElementById('Location16').innerHTML = '';
+                    document.getElementById('Location17').innerHTML = '';
                     
                     loadChart('Location1', figure_1_spec);
                     loadChart('Location2', figure_2_spec);
@@ -882,6 +886,7 @@
                     loadChart('Location14', figure_14_spec);
                     loadChart('Location15', figure_15_spec);
                     loadChart('Location16', figure_16_spec);
+                    loadChart('Location17', figure_17_spec);
                 }, 300);
             });
         }
