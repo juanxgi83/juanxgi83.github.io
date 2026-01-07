@@ -258,8 +258,14 @@
                 <h5>EU Education Expenditure Dashboard</h5>
                 <p> 
                     This dashboard displays education expenditure as a percentage of GDP for all 27 EU member states.
-                    Data is sourced from the <strong>World Bank API</strong> and shows historical trends from 1995-2023.
-                    The charts are generated using a loop to batch download data from the API and another loop to embed them dynamically.
+                    Data is sourced from the World Bank API and shows historical trends from 1995-2023.
+                    The charts are generated using a <span class="hover-image-container"><span class="hover-trigger">loop to batch download data from the API</span><img src="images/loop_getting_data.png" alt="Loop1" class="hover-image" style="max-width: 400px;"></span>, 
+                    a <span class="hover-image-container"><span class="hover-trigger">loop to generate the graphs</span><img src="images/loop_building_charts.png" alt="Loop2" class="hover-image" style="max-width: 400px;"></span>, 
+                    a <span class="hover-image-container"><span class="hover-trigger">loop to save the graphs</span><img src="images/loop_saving_charts.png" alt="Loop3" class="hover-image" style="max-width: 400px;"></span>, 
+                    and a <span class="hover-image-container"><span class="hover-trigger">loop to embed and display them on the site</span><img src="images/loop_embedding_charts.png" alt="Loop4" class="hover-image" style="max-width: 400px;"></span>.
+                </p>
+                <p>
+                    You can view the Jupyter Notebook on my GitHub: <a href="jupyter_notebooks/eu_education_spend.html" target="_blank" rel="noopener noreferrer">html (better for viewing)</a> | <a href="jupyter_notebooks/eu_education_spend.ipynb" target="_blank" rel="noopener noreferrer">notebook</a>.
                 </p>
             </div>
             
@@ -314,6 +320,9 @@
                     The API is not so reliable; I found that sometimes I had to refresh the page in order for the data to be plotted. Therefore, I added code so that if the visualisation is empty it automatically attempts to reload the data.
                 </p>
                 <p>
+                    I include a functional description of the APIs I used <span class="hover-image-container"><span class="hover-trigger">here</span><img src="images/api_functional_description.png" alt="API_Functional_Description" class="hover-image" style="max-width: 400px;"></span>
+                </p>
+                <p>
                     You can view the Vega spec on my GitHub <a href="graphs/gdp_gini_scatter.json" target="_blank" rel="noopener noreferrer">here</a>.
                 </p>
             </div>
@@ -324,10 +333,11 @@
             <div class="chart-description">
                 <h5>Interactive Globe: World Taxation Systems and Tax Rates</h5>
                 <p> 
-                    This interactive globe visualization displays taxation systems and tax rates for countries worldwide, scraped from Wikipedia using BeautifulSoup.
+                    This interactive globe visualization displays taxation systems and tax rates for countries worldwide (select from the Metric dropdown menu), scraped from Wikipedia using BeautifulSoup.
                     The data includes taxation system types (Citizenship-based, Residential, Territorial, No income tax),
                     corporate tax rates, individual income tax ranges, and VAT/GST/Sales tax rates.
                     Use the rotation sliders to view different regions, and hover over countries to see detailed tax information.
+                    One of the challenges I faced related to differences in country names between the scraped data and the globe.
                 </p>
                 <p>
                     You can view the Jupyter Notebook on my GitHub: <a href="jupyter_notebooks/world_taxation_scraping.html" target="_blank" rel="noopener noreferrer">html (better for viewing)</a> | <a href="jupyter_notebooks/world_taxation_scraping.ipynb" target="_blank" rel="noopener noreferrer">notebook</a>.
