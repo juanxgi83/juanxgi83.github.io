@@ -141,7 +141,7 @@
                     As a first example, we're using a basic chart from our repo.
                 </p>
             </div>
-            <figure id="Location14"></figure> 
+            <figure id="Location18"></figure> 
         </section>
 
         <section>
@@ -152,7 +152,7 @@
                     As a first example, we're using a basic chart from our repo.
                 </p>
             </div>
-            <figure id="Location15"></figure> 
+            <figure id="Location19"></figure> 
         </section>
 
     </div>
@@ -171,7 +171,7 @@
                     As a first example, we're using a basic chart from our repo.
                 </p>
             </div>
-            <figure id="Location14"></figure> 
+            <figure id="Location16"></figure> 
         </section>
 
         <section>
@@ -182,7 +182,7 @@
                     As a first example, we're using a basic chart from our repo.
                 </p>
             </div>
-            <figure id="Location15"></figure> 
+            <figure id="Location17"></figure> 
         </section>
 
     </div>
@@ -195,10 +195,16 @@
         
         <section>
             <div class="chart-description">
-                <h5>Week 3: Python / Altair chart</h5>
+                <h5>Wine Price Distribution by Type: AutoCPI data. Davies and McElvoy (2024).</h5>
                 <p> 
-                    We've organised the page into sections, with each section containing a chart, title and a description. Here, we can describe the chart and give some context.
-                    As a first example, we're using a basic chart from our repo.
+                    I plotted the distribution of wine prices by type using data from the AutoCPI dataset.
+                    Since the distributions had a similar shape and covered similar price ranges, I chose to stack them when plotting them together.
+                    I added drop down menus to allow users to select the wine type (including all types) and the store (including all stores).
+                    To make it easier to visualise, I chose colours that corresponded to the wine types.
+                    Finally, I added a box plot on top, summarising key statistics for each distribution.
+                </p>
+                <p>
+                    You can view the Jupyter Notebook on my GitHub: <a href="jupyter_notebooks/autocpi_price_analysis.html" target="_blank" rel="noopener noreferrer">html (better for viewing)</a> | <a href="jupyter_notebooks/autocpi_price_analysis.ipynb" target="_blank" rel="noopener noreferrer">notebook</a>.
                 </p>
             </div>
             <figure id="Location14"></figure> 
@@ -206,10 +212,16 @@
 
         <section>
             <div class="chart-description">
-                <h5>Week 3: Python / Altair chart</h5>
+                <h5>Wine Price History: Long Run Prices Database (LRPD). Davies (2021)</h5>
                 <p> 
-                    We've organised the page into sections, with each section containing a chart, title and a description. Here, we can describe the chart and give some context.
-                    As a first example, we're using a basic chart from our repo.
+                    I plotted the history of wine prices by type using data from the Long Run Prices Database (LRPD).
+                    I chose to visualise key quantiles of the price distribution over time for each wine type.
+                    I avoided plotting mins and maxs because of the presence of outliers in the data, particularly on the maxs side.
+                    As before, to make it easier to visualise, I chose colours that corresponded to the wine types.
+                    Finally, I added a dropdown menu to allow users to select the wine type.                    
+                </p>
+                <p>
+                    You can view the Jupyter Notebook on my GitHub: <a href="jupyter_notebooks/lrpd_price_analysis.html" target="_blank" rel="noopener noreferrer">html (better for viewing)</a> | <a href="jupyter_notebooks/lrpd_price_analysis.ipynb" target="_blank" rel="noopener noreferrer">notebook</a>.
                 </p>
             </div>
             <figure id="Location15"></figure> 
@@ -225,10 +237,12 @@
         
         <section>
             <div class="chart-description">
-                <h5>Week 3: Python / Altair chart</h5>
+                <h5>Scotland Unemployment Rate By Region - Before & During COVID-19</h5>
                 <p> 
-                    We've organised the page into sections, with each section containing a chart, title and a description. Here, we can describe the chart and give some context.
-                    As a first example, we're using a basic chart from our repo.
+                    A decision I made when building this map was to keep the colour scale constant across the four years, in order to be able to visualise changes over time, and not just the differences across regions.
+                </p>
+                <p>
+                    You can view the Jupyter Notebook on my GitHub: <a href="jupyter_notebooks/scotland_map.html" target="_blank" rel="noopener noreferrer">html (better for viewing)</a> | <a href="jupyter_notebooks/scotland_map.ipynb" target="_blank" rel="noopener noreferrer">notebook</a>.
                 </p>
             </div>
             <figure id="Location12"></figure> 
@@ -236,10 +250,13 @@
 
         <section>
             <div class="chart-description">
-                <h5>Week 3: Python / Altair chart</h5>
+                <h5>Welsh Index of Multiple Deprivation - Community Safety Indicators (2025)</h5>
                 <p> 
-                    We've organised the page into sections, with each section containing a chart, title and a description. Here, we can describe the chart and give some context.
-                    As a first example, we're using a basic chart from our repo.
+                    For this map, I chose to focus on the Community Safety domain of the 2025 Welsh Index of Multiple Deprivation (WIMD).
+                    To switch between the different indicators, I used a dropdown menu that updates the map.
+                </p>
+                <p>
+                    You can view the Jupyter Notebook on my GitHub: <a href="jupyter_notebooks/wales_map.html" target="_blank" rel="noopener noreferrer">html (better for viewing)</a> | <a href="jupyter_notebooks/wales_map.ipynb" target="_blank" rel="noopener noreferrer">notebook</a>.
                 </p>
             </div>
             <figure id="Location13"></figure> 
@@ -548,6 +565,7 @@
         let figure_13_spec = "graphs/wales_community_safety_map.json";
         let figure_14_spec = "graphs/autocpi_wine_price_histogram.json";
         let figure_15_spec = "graphs/lrpd_wine_price_history.json";
+        let figure_16_spec = "graphs/italy_road_accident_casualties_chart.json";
         
         // Array of all 27 EU countries with their chart filenames for CC6
         const allEduCharts = [
@@ -613,7 +631,8 @@
             'Location12': figure_12_spec,
             'Location13': figure_13_spec,
             'Location14': figure_14_spec,
-            'Location15': figure_15_spec
+            'Location15': figure_15_spec,
+            'Location16': figure_16_spec
         };
         
         // Function to add zoom button to a figure
@@ -788,6 +807,7 @@
         loadChart('Location13', figure_13_spec);
         loadChart('Location14', figure_14_spec);
         loadChart('Location15', figure_15_spec);
+        loadChart('Location16', figure_16_spec);
         
         // Use a loop to embed all 27 education charts for CC6
         for (let i = 0; i < selectedEduCharts.length; i++) {
@@ -844,6 +864,7 @@
                     document.getElementById('Location13').innerHTML = '';
                     document.getElementById('Location14').innerHTML = '';
                     document.getElementById('Location15').innerHTML = '';
+                    document.getElementById('Location16').innerHTML = '';
                     
                     loadChart('Location1', figure_1_spec);
                     loadChart('Location2', figure_2_spec);
@@ -860,6 +881,7 @@
                     loadChart('Location13', figure_13_spec);
                     loadChart('Location14', figure_14_spec);
                     loadChart('Location15', figure_15_spec);
+                    loadChart('Location16', figure_16_spec);
                 }, 300);
             });
         }
