@@ -350,17 +350,129 @@
 
             <h2>Data</h2>
             <p>
-                Summarise sources: IstatData road accident series, vehicle fleet registers, and ERA5 weather. Note key preprocessing (per-capita normalisation, harmonised region names, merging weather/topography with accidents) and how missing values or outliers were handled.
+                The main source for the data is IstatData (a service of the Italian National Statistics Institute).
+                Unfortunately, I did not find an API, and I was not able to scrape the data tables. I had to manually
+                download the CSV files I needed. As we will see later, I also worked with topography data (obtained from an online database for elevation tiles) and weather data (obtained through the Open-Meteo API).
+                The Open-Meteo API does not require a key, but it seems to be very "strict" and it appears that it does not permit frequent queries.
             </p>
-
-            <figure id="chart-data-tools"></figure>
 
             <h2>Tools</h2>
             <p>
-                Describe the stack: Python (pandas, geopandas, scikit-learn) for cleaning, feature engineering, clustering, and regression; Altair/Vega-Lite and Plotly for visualisation; GitHub Pages for hosting. Mention any automation (batch fetch of SRTM tiles, ERA5 API with backoff).
+                One of the first tools I used was simple cross-sectional and time-series regressions, in order to
+                discover basic relationships. The chart below permits the selection of regression type and 
+                x-variable. Unfortunately, Altair does not permit blocking user controls when they do not apply for a given regression type.
             </p>
 
-            <figure id="chart-tools-conclusions"></figure>
+            <figure id="chart1-tools"></figure>
+
+            <p>
+                Jupyter Notebook on my GitHub: <a href="jupyter_notebooks/italy_road_accidents_with_injuries_regressions.html" target="_blank" rel="noopener noreferrer">html (better for viewing)</a> | <a href="jupyter_notebooks/italy_road_accidents_with_injuries_regressions.ipynb" target="_blank" rel="noopener noreferrer">notebook</a>.
+            </p>
+
+            <p>
+                Before running a multivariate regression with fixed effects, I ran a quick
+                correlation heatmap in order to eliminate the most extreme cases of correlation between X-variables. 
+            </p>
+
+            <figure id="chart2-tools"></figure>
+
+            <p>
+                Jupyter Notebook on my GitHub: <a href="jupyter_notebooks/italy_road_accidents_correlations_multivariate_regression.html" target="_blank" rel="noopener noreferrer">html (better for viewing)</a> | <a href="jupyter_notebooks/italy_road_accidents_correlations_multivariate_regression.ipynb" target="_blank" rel="noopener noreferrer">notebook</a>.
+            </p>
+
+            <p>
+                The results for the regression I ran are as follows:
+            </p>
+
+            <div class="table-wrapper">
+                <table class="regression-table">
+                    <thead>
+                        <tr>
+                            <th>term</th>
+                            <th>coef</th>
+                            <th>stderr</th>
+                            <th>pval</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>const</td><td>1771.5341451718195</td><td>415.62808692647826</td><td>2.0232800356293635e-05</td></tr>
+                        <tr><td>Parking difficulty (very)</td><td>0.7508649647295158</td><td>1.60292867285645</td><td>0.6394748497696612</td></tr>
+                        <tr><td>Poor public transport (very)</td><td>-0.7599427771375762</td><td>1.3725168489272785</td><td>0.5797940508389128</td></tr>
+                        <tr><td>Poor road conditions (very)</td><td>-2.3562953553319286</td><td>1.0218430762100152</td><td>0.02111472172752062</td></tr>
+                        <tr><td>Poor street lighting (very)</td><td>2.311894951076482</td><td>1.9990420245692964</td><td>0.2474761168259575</td></tr>
+                        <tr><td>Traffic problems (very)</td><td>2.5116086056471714</td><td>1.7388020146685037</td><td>0.14861307565410173</td></tr>
+                        <tr><td>Commute under 15 min (share)</td><td>-1.8809018301641824</td><td>0.6928647018909486</td><td>0.006634102861261329</td></tr>
+                        <tr><td>Commute 31+ min (share)</td><td>0.6776759232448804</td><td>1.482054451960008</td><td>0.647488199447898</td></tr>
+                        <tr><td>Commute by bicycle (share)</td><td>0.8226174555291266</td><td>2.482328172624385</td><td>0.7403503061341161</td></tr>
+                        <tr><td>Commute by tram or city bus (share)</td><td>-1.4739372558536736</td><td>2.301292470773851</td><td>0.5218590472002675</td></tr>
+                        <tr><td>Commute by bus company/charter (share)</td><td>-2.6626218731335136</td><td>5.02900923003179</td><td>0.5964915368398427</td></tr>
+                        <tr><td>Commute by coach (share)</td><td>-4.577189496982989</td><td>2.5327234387930835</td><td>0.07072791950235816</td></tr>
+                        <tr><td>Commute on foot (share)</td><td>-0.6469302502561796</td><td>1.6978576710204702</td><td>0.7031829362479038</td></tr>
+                        <tr><td>Commute by metro (share)</td><td>-6.218425077696409</td><td>7.19851999311354</td><td>0.3876715498522084</td></tr>
+                        <tr><td>Commute by motorcycle or moped (share)</td><td>4.627931966292882</td><td>2.20440531479515</td><td>0.03578151692046119</td></tr>
+                        <tr><td>Commute as car driver (share)</td><td>-0.0662918984746943</td><td>1.1878276875171958</td><td>0.955493681421187</td></tr>
+                        <tr><td>Commute as car passenger (share)</td><td>1.8426369066930934</td><td>2.3245082377839146</td><td>0.42795282420776004</td></tr>
+                        <tr><td>Commute by train (share)</td><td>-0.48970734400334237</td><td>3.8243692021191125</td><td>0.8981100525856125</td></tr>
+                        <tr><td>Buses or trolley-buses per capita (vehicles)</td><td>-28083.85293401542</td><td>32523.453237057685</td><td>0.3878651361369234</td></tr>
+                        <tr><td>Motor cars per capita (vehicles)</td><td>338.237649252149</td><td>68.83280616751345</td><td>8.928148683924431e-07</td></tr>
+                        <tr><td>Motor units per capita (vehicles)</td><td>-21789.535719189276</td><td>32455.851606031294</td><td>0.5019917072650388</td></tr>
+                        <tr><td>Motorcycles per capita (vehicles)</td><td>-1837.6869810669723</td><td>920.1278584575826</td><td>0.04580256155988395</td></tr>
+                        <tr><td>Other vehicles per capita (vehicles)</td><td>421701.4296252355</td><td>2108459.840047313</td><td>0.841477071551452</td></tr>
+                        <tr><td>Three-wheelers or motor-vans per capita (vehicles)</td><td>8426.336351363334</td><td>6034.299155488605</td><td>0.16259202967518216</td></tr>
+                        <tr><td>Trailers per capita (vehicles)</td><td>26977.778838437865</td><td>19202.663498938044</td><td>0.16005168428855154</td></tr>
+                        <tr><td>Trucks per capita (vehicles)</td><td>-235.80496054623336</td><td>218.6483719380386</td><td>0.28082559107878013</td></tr>
+                        <tr><td>GDP per capita (EUR)</td><td>0.012852188925143768</td><td>0.005883457360503452</td><td>0.028928317994771118</td></tr>
+                        <tr><td>Alcohol/tobacco spend per capita (EUR)</td><td>-0.22373949767528845</td><td>0.17092561840625847</td><td>0.1905385854716548</td></tr>
+                        <tr><td>Gov. exp. public order per capita (EUR)</td><td>-1.5465742872269765</td><td>0.7605949227329729</td><td>0.04201470603984627</td></tr>
+                        <tr><td>Gov. exp. economic affairs per capita (EUR)</td><td>-0.06084025033109092</td><td>0.21754329860541258</td><td>0.7797309929694288</td></tr>
+                        <tr><td>Gov. exp. health per capita (EUR)</td><td>0.038541475968726674</td><td>0.0320649151843043</td><td>0.22937019897362365</td></tr>
+                        <tr><td>Gov. exp. education per capita (EUR)</td><td>-0.2962263883593285</td><td>0.13354586857517178</td><td>0.026543779786341204</td></tr>
+                        <tr><td>Gov. exp. social protection per capita (EUR)</td><td>-0.330195384636939</td><td>0.12651520633601018</td><td>0.009056168859702507</td></tr>
+                        <tr><td>T_2010</td><td>170.4671786277855</td><td>31.558941909043387</td><td>6.606779858990359e-08</td></tr>
+                        <tr><td>T_2011</td><td>132.8792314388946</td><td>21.42825573548914</td><td>5.606197640927777e-10</td></tr>
+                        <tr><td>T_2012</td><td>43.76620280438959</td><td>26.08551674648422</td><td>0.0933867272551247</td></tr>
+                        <tr><td>T_2013</td><td>43.890420405813245</td><td>20.30128934061562</td><td>0.03062184844727306</td></tr>
+                        <tr><td>T_2014</td><td>1.8099760021690088</td><td>22.9724904639855</td><td>0.9372005764583109</td></tr>
+                        <tr><td>T_2015</td><td>4.839833906764284</td><td>16.864539363322542</td><td>0.7741254366057747</td></tr>
+                        <tr><td>T_2016</td><td>-0.21606580595266678</td><td>17.864470267944803</td><td>0.9903500431233979</td></tr>
+                        <tr><td>T_2017</td><td>-1.4511022391451576</td><td>12.799262550109946</td><td>0.9097341355998054</td></tr>
+                        <tr><td>T_2018</td><td>4.034780635051618</td><td>8.149613818694753</td><td>0.620537603130829</td></tr>
+                        <tr><td>T_2020</td><td>-194.50476837014946</td><td>21.95119963180726</td><td>7.945595596875855e-19</td></tr>
+                        <tr><td>T_2021</td><td>-79.4931108014076</td><td>19.04546825273549</td><td>2.994823354125525e-05</td></tr>
+                        <tr><td>T_2022</td><td>-22.222493841243107</td><td>24.862292329332437</td><td>0.37141649084931294</td></tr>
+                        <tr><td>T_2023</td><td>10.448469846381073</td><td>28.846937631629118</td><td>0.7171997551742944</td></tr>
+                        <tr><td>R_Abruzzo</td><td>-240.2979351439186</td><td>72.79343284951737</td><td>0.0009630874804097833</td></tr>
+                        <tr><td>R_Basilicata</td><td>-367.18890559525084</td><td>129.5869673265451</td><td>0.004603660187028685</td></tr>
+                        <tr><td>R_Calabria</td><td>-372.73536456949455</td><td>229.1094266222308</td><td>0.10376089844245151</td></tr>
+                        <tr><td>R_Campania</td><td>-359.64803632373946</td><td>90.69004797132614</td><td>7.318589074299268e-05</td></tr>
+                        <tr><td>R_Emilia-Romagna</td><td>-145.42341176582</td><td>91.42932834698496</td><td>0.11170966885544358</td></tr>
+                        <tr><td>R_Friuli-Venezia Giulia</td><td>-247.52868721643745</td><td>84.9380314274884</td><td>0.0035657075764407987</td></tr>
+                        <tr><td>R_Liguria</td><td>507.5814857151877</td><td>156.46444272543673</td><td>0.001178350986541988</td></tr>
+                        <tr><td>R_Lombardia</td><td>-316.1548751111958</td><td>64.17748792471777</td><td>8.381922979347159e-07</td></tr>
+                        <tr><td>R_Marche</td><td>11.909204279056269</td><td>64.54684241287875</td><td>0.8536174372873657</td></tr>
+                        <tr><td>R_Molise</td><td>-360.42160036677865</td><td>129.45254975893445</td><td>0.005366017625093053</td></tr>
+                        <tr><td>R_Piemonte</td><td>-300.43478299090225</td><td>65.89426091438372</td><td>5.131299103792365e-06</td></tr>
+                        <tr><td>R_Puglia</td><td>-216.68768499499038</td><td>94.80226056091459</td><td>0.022272952746485723</td></tr>
+                        <tr><td>R_Sardegna</td><td>-338.91069438914246</td><td>130.98338446204033</td><td>0.009669407758181307</td></tr>
+                        <tr><td>R_Sicilia</td><td>-176.9587217023095</td><td>79.52691317100823</td><td>0.026071667273370354</td></tr>
+                        <tr><td>R_Toscana</td><td>76.02440866740645</td><td>90.4198715599911</td><td>0.4004638250680195</td></tr>
+                        <tr><td>R_Trentino Alto Adige / Südtirol</td><td>-135.54922064319726</td><td>144.2820141168731</td><td>0.34748736506316724</td></tr>
+                        <tr><td>R_Umbria</td><td>-259.7013941962423</td><td>85.73624965964338</td><td>0.0024530506722843302</td></tr>
+                        <tr><td>R_Valle d'Aosta / Vallée d'Aoste</td><td>-367.7866654373172</td><td>416.5494301319252</td><td>0.37727062088568397</td></tr>
+                        <tr><td>R_Veneto</td><td>-408.72680934160917</td><td>97.92994988665164</td><td>2.9973833216862804e-05</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+            <figure id="chart3-tools"></figure>
+
+            <p>
+                Jupyter Notebook on my GitHub: <a href="jupyter_notebooks/italy_road_accidents_correlations_multivariate_regression.html" target="_blank" rel="noopener noreferrer">html (better for viewing)</a> | <a href="jupyter_notebooks/italy_road_accidents_correlations_multivariate_regression.ipynb" target="_blank" rel="noopener noreferrer">notebook</a>.
+            </p>
+
+
+            
 
             <h2>Conclusions</h2>
             <p>
@@ -447,7 +559,9 @@
             'chart1-aims': 'graphs/italy_road_accident_casualties_chart.json',
             'chart2-aims': 'graphs/italy_road_accidents_with_injuries_metrics_map.html',
             'chart3-aims': 'graphs/italy_road_accidents_with_injuries_time_analysis.json',
-            'chart-data-tools': 'graphs/italy_region_fe_rugged_precip_moto_scatter_matrix.json'
+            'chart1-tools': 'graphs/italy_regressions_interactive.json',
+            'chart2-tools': 'graphs/italy_corr_matrix.json',
+            'chart3-tools': 'graphs/italy_pred_resid.json'
         };
 
         function loadChart(elId, specPath) {
