@@ -471,8 +471,40 @@
                 Jupyter Notebook on my GitHub: <a href="jupyter_notebooks/italy_road_accidents_correlations_multivariate_regression.html" target="_blank" rel="noopener noreferrer">html (better for viewing)</a> | <a href="jupyter_notebooks/italy_road_accidents_correlations_multivariate_regression.ipynb" target="_blank" rel="noopener noreferrer">notebook</a>.
             </p>
 
-
+            <p>
+                We clearly see that variables such as commutes shorter than 15 minutes, government expenditure in public order,
+                government expenditure in education, government expenditure in social protection have a significant negative effect on the number of accidents per 100,000 inhabitants.
+                On the other hand, variables such as the proportion of people who commute by motorcycle or moped and GDP per capita have a significant positive effect on the number of accidents per 100,000 inhabitants.
+            </p>
             
+            <p>
+                Let's turn now to the fixed effects:
+            </p>
+
+            <figure id="chart4-tools"></figure>
+
+            <p>
+                Jupyter Notebook on my GitHub: <a href="jupyter_notebooks/italy_road_accidents_correlations_multivariate_regression.html" target="_blank" rel="noopener noreferrer">html (better for viewing)</a> | <a href="jupyter_notebooks/italy_road_accidents_correlations_multivariate_regression.ipynb" target="_blank" rel="noopener noreferrer">notebook</a>.
+            </p>
+
+            <p>
+                We clearly see that Liguria, for example, has a considerable, significant positive fixed effect.
+                This suggests that there are structural factors in Liguria that lead to a higher number of accidents with injuries per 100,000 inhabitants.
+                I thus looked at topography (rugged index), weather (precipitation), and vehicle register (in particular, motorcycles).
+                These variables likely do not vary much over time within regions.
+                The scatterplot matrix below shows the relationships between these variables and the fixed effects:
+            </p>
+
+            <figure id="chart5-tools"></figure>
+
+            <p>
+                Jupyter Notebook on my GitHub: <a href="jupyter_notebooks/italy_road_accidents_region_analyses.html" target="_blank" rel="noopener noreferrer">html (better for viewing)</a> | <a href="jupyter_notebooks/italy_road_accidents_region_analyses.ipynb" target="_blank" rel="noopener noreferrer">notebook</a>.
+            </p>
+
+            <p>
+                In the third plot in the final row, we can see a clear positive relationship between motorcycle density and fixed effects.
+                This explains part of the high fixed effect in Liguria, which has a high motorcycle density.
+            </p>
 
             <h2>Conclusions</h2>
             <p>
@@ -498,10 +530,8 @@
             const scrolled = window.pageYOffset;
             const parallaxBg = document.getElementById('parallaxBg');
             
-            // Start higher in the image (-30%) and move upward extremely slowly (0.01x speed)
-            // This shows more of the upper portion initially and moves very slowly
-            // The extremely slow speed ensures the background never scrolls away from view
-            const yPos = -30 - (scrolled * 0.01); // Start at -30%, move upward at 1% of scroll speed
+            // Start higher in the image and move upward at a much slower rate
+            const yPos = -30 - (scrolled * 0.002);
             parallaxBg.style.transform = `translateY(${yPos}%)`;
             
             ticking = false;
@@ -561,7 +591,9 @@
             'chart3-aims': 'graphs/italy_road_accidents_with_injuries_time_analysis.json',
             'chart1-tools': 'graphs/italy_regressions_interactive.json',
             'chart2-tools': 'graphs/italy_corr_matrix.json',
-            'chart3-tools': 'graphs/italy_pred_resid.json'
+            'chart3-tools': 'graphs/italy_pred_resid.json',
+            'chart4-tools': 'graphs/italy_fixed_effects.json',
+            'chart5-tools': 'graphs/italy_region_fe_rugged_precip_moto_scatter_matrix.json'
         };
 
         function loadChart(elId, specPath) {
